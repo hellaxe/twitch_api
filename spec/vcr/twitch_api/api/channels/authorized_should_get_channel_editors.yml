@@ -1,0 +1,81 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/channels/dodgello/editors
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.twitchtv.v3+json
+      Authorization:
+      - OAuth ip8tlw1i2i3r80dm5902f6q2werfcf
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VGh1LCAxMCBKdWwgMjAxNCAyMDoyNDoyMyBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "U3RhdHVz":
+      - !binary |-
+        MjAwIE9L
+      !binary "WC1BcGktVmVyc2lvbg==":
+      - !binary |-
+        Mw==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "WC1VYS1Db21wYXRpYmxl":
+      - !binary |-
+        SUU9RWRnZSxjaHJvbWU9MQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IjM5N2U3ODFmM2U4M2I1NTcxODFkMDU3YjQzMTY3OGNlIg==
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        YzY0MzAwNzRhNGY2MmM5MWIxNWQ1YmQyODY4YmVjOTU=
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MC4wODAzMjM=
+      !binary "WC1WYXJuaXNo":
+      - !binary |-
+        Njk4NTg3NTE=
+      !binary "QWdl":
+      - !binary |-
+        MA==
+      !binary "Vmlh":
+      - !binary |-
+        MS4xIHZhcm5pc2g=
+      !binary "WC1NaC1DYWNoZQ==":
+      - !binary |-
+        YXBwY2FjaGUxOyBN
+      !binary "RnJvbnQtRW5kLUh0dHBz":
+      - !binary |-
+        b24=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJfbGlua3MiOnsic2VsZiI6Imh0dHBzOi8vYXBpLnR3aXRjaC50di9rcmFr
+        ZW4vY2hhbm5lbHMvZG9kZ2VsbG8vZWRpdG9ycyJ9LCJ1c2VycyI6W119
+    http_version: 
+  recorded_at: Thu, 10 Jul 2014 20:24:28 GMT
+recorded_with: VCR 2.9.2
