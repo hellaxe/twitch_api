@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/channel
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth ip8tlw1i2i3r80dm5902f6q2werfcf
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Sat, 12 Jul 2014 17:29:32 GMT
+      Content-Type: application/json; charset=utf-8
+      Transfer-Encoding: chunked
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: ! '"d120cf3b821b0c814a0d2642f7bf225c"'
+      X-Request-Id: 28de560a5f93f596aa6168ef1e777c99
+      X-Runtime: '0.076266'
+      X-Varnish: '3560122092'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache2; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "mature": null,
+          "abuse_reported": null,
+          "status": null,
+          "display_name": "Dodgello",
+          "game": null,
+          "delay": 0,
+          "_id": 54057928,
+          "name": "dodgello",
+          "created_at": "2013-12-29T17:09:16Z",
+          "updated_at": "2014-07-08T13:48:37Z",
+          "logo": null,
+          "banner": null,
+          "video_banner": null,
+          "background": null,
+          "profile_banner": null,
+          "profile_banner_background_color": null,
+          "url": "http://www.twitch.tv/dodgello",
+          "views": 0,
+          "followers": 0,
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/channels/dodgello",
+            "follows": "https://api.twitch.tv/kraken/channels/dodgello/follows",
+            "commercial": "https://api.twitch.tv/kraken/channels/dodgello/commercial",
+            "stream_key": "https://api.twitch.tv/kraken/channels/dodgello/stream_key",
+            "chat": "https://api.twitch.tv/kraken/chat/dodgello",
+            "features": "https://api.twitch.tv/kraken/channels/dodgello/features",
+            "subscriptions": "https://api.twitch.tv/kraken/channels/dodgello/subscriptions",
+            "editors": "https://api.twitch.tv/kraken/channels/dodgello/editors",
+            "teams": "https://api.twitch.tv/kraken/channels/dodgello/teams",
+            "videos": "https://api.twitch.tv/kraken/channels/dodgello/videos"
+          },
+          "email": "helaxe@gmail.com",
+          "stream_key": "live_54057928_nrUSgwkT1jzB6nfiAIOEpFQqzdmLme"
+        }
+    http_version: 
+  recorded_at: Sat, 12 Jul 2014 17:29:36 GMT
+recorded_with: VCR 2.9.2

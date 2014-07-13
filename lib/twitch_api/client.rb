@@ -5,6 +5,7 @@ module TwitchApi
     include Api::RequestHelper
     include Api::Channels
     include Api::Games
+    include Api::Search
 
     attr_reader :secret_key, :client_id, :connected, :access_token
     # TODO: make options hash in params

@@ -5,5 +5,6 @@ module TwitchApi
     require 'twitch_api/api/request_helper'
     require 'twitch_api/api/channels'
     require 'twitch_api/api/games'
+    require 'twitch_api/api/search'
   end
 end

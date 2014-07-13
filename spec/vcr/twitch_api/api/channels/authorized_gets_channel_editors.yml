@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/channels/dodgello/editors
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth ip8tlw1i2i3r80dm5902f6q2werfcf
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Sat, 12 Jul 2014 17:29:32 GMT
+      Content-Type: application/json; charset=utf-8
+      Transfer-Encoding: chunked
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: ! '"53af375b6aa3bafd2e7d4091ba36e110"'
+      X-Request-Id: 55801f28608feb970a611e37cce6caad
+      X-Runtime: '0.075782'
+      X-Varnish: '798045216'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache4; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/channels/dodgello/editors"
+          },
+          "users": [
+
+          ]
+        }
+    http_version: 
+  recorded_at: Sat, 12 Jul 2014 17:29:37 GMT
+recorded_with: VCR 2.9.2

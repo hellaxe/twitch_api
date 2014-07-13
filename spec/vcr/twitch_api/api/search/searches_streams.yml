@@ -1,0 +1,328 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/search/streams?limit=10&q=test
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Sat, 12 Jul 2014 17:29:36 GMT
+      Content-Type: application/json; charset=utf-8
+      Transfer-Encoding: chunked
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=60, public
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: ! '"77f34950482b969c89c0d841e4468580"'
+      X-Request-Id: 10e5b6884b9f3978ff3dcd13a40da3f9
+      X-Runtime: '0.358532'
+      X-Varnish: '3587084173'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache3; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "_total": 235,
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/search/streams?limit=10&offset=0&q=test",
+            "next": "https://api.twitch.tv/kraken/search/streams?limit=10&offset=10&q=test"
+          },
+          "streams": [
+            {
+              "_id": 10229828672,
+              "game": "The Testament of Sherlock Holmes",
+              "viewers": 70,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rikytan-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rikytan-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rikytan-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rikytan-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/rikytan"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "eSuba Rikytan playing The Testament of Sherlock Holmes. (Czech commentary)",
+                "display_name": "Rikytan",
+                "game": "The Testament of Sherlock Holmes",
+                "delay": 0,
+                "_id": 20503076,
+                "name": "rikytan",
+                "created_at": "2011-02-16T20:25:18Z",
+                "updated_at": "2014-07-12T15:04:19Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/rikytan-profile_image-5f7b55dfebfce39e-300x300.png",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/rikytan-channel_offline_image-97033f3f714b8436-640x360.jpeg",
+                "background": null,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/rikytan",
+                "views": 710031,
+                "followers": 3612,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/rikytan",
+                  "follows": "https://api.twitch.tv/kraken/channels/rikytan/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/rikytan/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/rikytan/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/rikytan",
+                  "features": "https://api.twitch.tv/kraken/channels/rikytan/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/rikytan/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/rikytan/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/rikytan/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/rikytan/videos"
+                }
+              }
+            },
+            {
+              "_id": 10231056672,
+              "game": "Team Fortress 2",
+              "viewers": 21,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_powah-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_powah-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_powah-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_powah-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/powah"
+              },
+              "channel": {
+                "mature": null,
+                "abuse_reported": null,
+                "status": "aw ye",
+                "display_name": "powah",
+                "game": "Team Fortress 2",
+                "delay": 0,
+                "_id": 35820361,
+                "name": "powah",
+                "created_at": "2012-08-29T22:35:34Z",
+                "updated_at": "2014-07-12T17:26:04Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/powah-profile_image-8d12af885d758d8e-300x300.jpeg",
+                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/powah-channel_header_image-16866ecb92ca1246-640x125.png",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/powah-channel_offline_image-319f7bca8675b5aa-640x360.png",
+                "background": null,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/powah",
+                "views": 185116,
+                "followers": 2928,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/powah",
+                  "follows": "https://api.twitch.tv/kraken/channels/powah/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/powah/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/powah/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/powah",
+                  "features": "https://api.twitch.tv/kraken/channels/powah/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/powah/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/powah/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/powah/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/powah/videos"
+                }
+              }
+            },
+            {
+              "_id": 10228576960,
+              "game": "Hearthstone: Heroes of Warcraft",
+              "viewers": 7,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testvaipmachine-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testvaipmachine-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testvaipmachine-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testvaipmachine-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/testvaipmachine"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "[RU] Play Topdeck EU #29 tournament",
+                "display_name": "TestVaipmachine",
+                "game": "Hearthstone: Heroes of Warcraft",
+                "delay": 0,
+                "_id": 53650706,
+                "name": "testvaipmachine",
+                "created_at": "2013-12-22T08:49:25Z",
+                "updated_at": "2014-07-12T16:56:01Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/testvaipmachine-profile_image-54ab2f6d55dd1424-300x300.jpeg",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testvaipmachine-channel_offline_image-0cc327d15337853a-640x360.jpeg",
+                "background": null,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testvaipmachine-profile_banner-c55ee62f91296450-480.jpeg",
+                "profile_banner_background_color": "#2b2926",
+                "url": "http://www.twitch.tv/testvaipmachine",
+                "views": 12727,
+                "followers": 132,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/testvaipmachine",
+                  "follows": "https://api.twitch.tv/kraken/channels/testvaipmachine/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/testvaipmachine/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/testvaipmachine/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/testvaipmachine",
+                  "features": "https://api.twitch.tv/kraken/channels/testvaipmachine/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/testvaipmachine/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/testvaipmachine/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/testvaipmachine/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/testvaipmachine/videos"
+                }
+              }
+            },
+            {
+              "_id": 10230165856,
+              "game": "The Elder Scrolls V: Skyrim",
+              "viewers": 2,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tester120-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tester120-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tester120-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tester120-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/tester120"
+              },
+              "channel": {
+                "mature": true,
+                "abuse_reported": null,
+                "status": "Skyrim 上古卷軸 lore friendly,no",
+                "display_name": "tester120",
+                "game": "The Elder Scrolls V: Skyrim",
+                "delay": 0,
+                "_id": 24469714,
+                "name": "tester120",
+                "created_at": "2011-08-30T07:14:36Z",
+                "updated_at": "2014-07-12T15:40:38Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/tester120-profile_image-5eabc17210417795-300x300.jpeg",
+                "banner": null,
+                "video_banner": null,
+                "background": null,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/tester120",
+                "views": 58956,
+                "followers": 421,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/tester120",
+                  "follows": "https://api.twitch.tv/kraken/channels/tester120/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/tester120/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/tester120/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/tester120",
+                  "features": "https://api.twitch.tv/kraken/channels/tester120/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/tester120/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/tester120/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/tester120/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/tester120/videos"
+                }
+              }
+            },
+            {
+              "_id": 10231186496,
+              "game": "Testing",
+              "viewers": 1,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_zom_15th-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_zom_15th-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_zom_15th-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_zom_15th-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/zom_15th"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "ZoMGaming's Livestream\n",
+                "display_name": "ZoM_15Th",
+                "game": "Testing",
+                "delay": 0,
+                "_id": 55446427,
+                "name": "zom_15th",
+                "created_at": "2014-01-23T06:58:56Z",
+                "updated_at": "2014-07-12T17:25:21Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/zom_15th-profile_image-4366d4535c06ed08-300x300.jpeg",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/zom_15th-channel_offline_image-3dac0c0408cd7e9d-640x360.jpeg",
+                "background": null,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/zom_15th-profile_banner-35387945a7240516-480.jpeg",
+                "profile_banner_background_color": "#ffffff",
+                "url": "http://www.twitch.tv/zom_15th",
+                "views": 577,
+                "followers": 9,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/zom_15th",
+                  "follows": "https://api.twitch.tv/kraken/channels/zom_15th/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/zom_15th/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/zom_15th/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/zom_15th",
+                  "features": "https://api.twitch.tv/kraken/channels/zom_15th/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/zom_15th/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/zom_15th/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/zom_15th/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/zom_15th/videos"
+                }
+              }
+            },
+            {
+              "_id": 10231059008,
+              "game": "Final Fantasy VII",
+              "viewers": 1,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testifius-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testifius-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testifius-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testifius-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/testifius"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "Final Fantasy VII - Segmented Speedrun. Segs #13, Zolom Skip practice & #14!",
+                "display_name": "Testifius",
+                "game": "Final Fantasy VII",
+                "delay": 0,
+                "_id": 31332941,
+                "name": "testifius",
+                "created_at": "2012-06-15T00:49:26Z",
+                "updated_at": "2014-07-12T17:12:40Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/testifius-profile_image-0dc199ec0af184c1-300x300.jpeg",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testifius-channel_offline_image-287b8976ad81a2b0-640x360.png",
+                "background": null,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testifius-profile_banner-7332d3b7a364f9b9-480.png",
+                "profile_banner_background_color": "null",
+                "url": "http://www.twitch.tv/testifius",
+                "views": 985,
+                "followers": 20,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/testifius",
+                  "follows": "https://api.twitch.tv/kraken/channels/testifius/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/testifius/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/testifius/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/testifius",
+                  "features": "https://api.twitch.tv/kraken/channels/testifius/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/testifius/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/testifius/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/testifius/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/testifius/videos"
+                }
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Sat, 12 Jul 2014 17:29:40 GMT
+recorded_with: VCR 2.9.2

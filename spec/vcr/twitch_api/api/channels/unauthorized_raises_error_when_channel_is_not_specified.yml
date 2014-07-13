@@ -1,0 +1,41 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/channel
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+  response:
+    status: {code: 401, message: Unauthorized}
+    headers:
+      Server: nginx
+      Date: Sat, 12 Jul 2014 17:29:33 GMT
+      Content-Type: application/json; charset=utf-8
+      Transfer-Encoding: chunked
+      Connection: keep-alive
+      Status: 401 Unauthorized
+      X-Api-Version: '3'
+      Www-Authenticate: OAuth realm='TwitchTV'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      X-Request-Id: 5be3bbd85a815e614703cb683ad6c58c
+      X-Runtime: '0.005503'
+      X-Varnish: '837768495'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache1; M
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "error": "Unauthorized",
+          "status": 401,
+          "message": "Token invalid or missing required scope"
+        }
+    http_version: 
+  recorded_at: Sat, 12 Jul 2014 17:29:37 GMT
+recorded_with: VCR 2.9.2
