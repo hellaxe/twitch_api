@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "curb"
   spec.add_dependency "json"
+  spec.add_development_dependency 'dotenv'
   spec.add_development_dependency 'psych'
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
