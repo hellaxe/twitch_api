@@ -1,7 +1,7 @@
 language: ruby
 rvm:
   - 2.0.0
-ENV:
+env:
   TWITCH_CLIENT_ID:
     secure: "K4S+FYkTneKs4WucRJRhzb4x6cSoxVVYoL3PNrfS1lxWQSGQm/1FgmDVyoZjVBkMfm8CXkcc4Qm/5Zx8txTupJID1BDrMd90RyLBHiHfZ8TBuT+ZCWmJCMKkZnUGbHwuIb2pnX8GK3QQUJxfnDyg5vibl6jrRHtyOYIYQd4gqmY="
   TWITCH_SECRET_KEY:
