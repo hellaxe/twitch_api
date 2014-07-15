@@ -12,7 +12,19 @@ describe TwitchApi::Api::Channels do
     end
 
     it "gets channel editors", vcr: true do
-      expect(@client.get_channel_editors({channel: 'dodgello'})[:status_code]).to eq(200)
+      expect(@client.get_channel_editors('Dodgello')[:status_code]).to eq(200)
+    end
+
+    it "updates channel", vcr: true do
+      expect(@client.update_channel('dodgello', {data: {channel: {status: 'test'} } } )[:status_code]).to eq(200)
+    end
+
+    it "resets channel stream key", vcr: true do
+      expect(@client.reset_channel_stream_key('dodgello')[:status_code]).to eq(200)
+    end
+
+    it "starts commercial", vcr: true do
+      expect(@client.start_commercial('dodgello')[:status_code]).to eq(204)
     end
 
   end
@@ -27,11 +39,11 @@ describe TwitchApi::Api::Channels do
     end
 
     it "gets specified channel", vcr: true  do
-        expect(@client.get_channel({channel: 'dodgello'})[:status_code]).to eq(200)
+        expect(@client.get_channel('Dodgello')[:status_code]).to eq(200)
     end
 
     it "raises error on getting channel editors", vcr: true do
-      expect( @client.get_channel_editors({channel: 'dodgello'})[:status_code] ).to eq(401)
+      expect( @client.get_channel_editors('Dodgello')[:status_code] ).to eq(401)
     end
   end
 end

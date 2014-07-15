@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 14:22:16 GMT
+      Date: Tue, 15 Jul 2014 15:42:56 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,13 +22,13 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"2bbba16fdeb533dd23189f181a1b7b2e"'
-      X-Request-Id: 6a2d88d6ba7a466f39a26bea7b1af9d2
-      X-Runtime: '0.038333'
-      X-Varnish: '2014412851'
+      Etag: '"f68190c82ecedd93a6efd69046fdfbe3"'
+      X-Request-Id: 66e040244828c8f29032f50b99e10cdd
+      X-Runtime: '0.026805'
+      X-Varnish: '498362619'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache4; M
+      X-Mh-Cache: appcache2; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
@@ -57,7 +57,7 @@ http_interactions:
             "profile_banner_background_color": null,
             "url": "http://www.twitch.tv/hashinshin",
             "views": 1101531,
-            "followers": 12598,
+            "followers": 12602,
             "_links": {
               "self": "https://api.twitch.tv/kraken/channels/hashinshin",
               "follows": "https://api.twitch.tv/kraken/channels/hashinshin/follows",
@@ -73,5 +73,5 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 14:22:21 GMT
+  recorded_at: Tue, 15 Jul 2014 15:43:00 GMT
 recorded_with: VCR 2.9.2

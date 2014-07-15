@@ -13,23 +13,23 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 14:22:18 GMT
+      Date: Tue, 15 Jul 2014 15:42:57 GMT
       Content-Type: application/json; charset=utf-8
-      Content-Length: '4932'
+      Content-Length: '4933'
       Connection: keep-alive
       Status: 200 OK
       X-Api-Version: '3'
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"c8f7b6c0d418f3d6896a0d73e3a08377"'
-      X-Request-Id: e47c0b11812a585bc2f1aa861b8897ed
-      X-Runtime: '0.073318'
+      Etag: '"10014562d34f9c0687ddd7057c850b08"'
+      X-Request-Id: b8b89880c2abc4e7dbaea9f5ced4453c
+      X-Runtime: '0.086626'
       Accept-Ranges: bytes
-      X-Varnish: '2014419117'
+      X-Varnish: '2070568214'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache4; M
+      X-Mh-Cache: appcache1; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
@@ -44,7 +44,7 @@ http_interactions:
             {
               "_id": 10264655248,
               "game": "League of Legends",
-              "viewers": 9890,
+              "viewers": 10307,
               "preview": {
                 "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sp4zie-80x50.jpg",
                 "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sp4zie-320x200.jpg",
@@ -73,7 +73,7 @@ http_interactions:
                 "profile_banner_background_color": "#0c395e",
                 "url": "http://www.twitch.tv/sp4zie",
                 "views": 8875235,
-                "followers": 132861,
+                "followers": 134707,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/sp4zie",
                   "follows": "https://api.twitch.tv/kraken/channels/sp4zie/follows",
@@ -91,7 +91,7 @@ http_interactions:
             {
               "_id": 10264437168,
               "game": "League of Legends",
-              "viewers": 139,
+              "viewers": 161,
               "preview": {
                 "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-80x50.jpg",
                 "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-320x200.jpg",
@@ -120,7 +120,7 @@ http_interactions:
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/hashinshin",
                 "views": 1101531,
-                "followers": 12598,
+                "followers": 12604,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/hashinshin",
                   "follows": "https://api.twitch.tv/kraken/channels/hashinshin/follows",
@@ -138,5 +138,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 14:22:22 GMT
+  recorded_at: Tue, 15 Jul 2014 15:43:02 GMT
 recorded_with: VCR 2.9.2

@@ -28,8 +28,9 @@ module TwitchApi
       def put(path, options = {})
         headers = prepare_headers(options[:headers])
         data = options.delete :data
-        c = Curl.put(path, data) do |curl|
+        c = Curl.put(path, data.to_json) do |curl|
           curl.headers.merge!(headers)
+          curl.headers["content-type"] = "application/json"
         end
         response = build_response_hash(c)
         raise_error(response) if TwitchApi.throw_errors

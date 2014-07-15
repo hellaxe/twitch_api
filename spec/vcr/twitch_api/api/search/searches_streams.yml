@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 14:22:20 GMT
+      Date: Tue, 15 Jul 2014 15:43:00 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -21,19 +21,19 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"787d8b56065765a257854afd54606ab4"'
-      X-Request-Id: 046aaaf46a1e7649d14a3334045b1b55
-      X-Runtime: '0.304207'
-      X-Varnish: '2014427831'
+      Etag: '"05e40ee60d1d917e0921475a73bdd65b"'
+      X-Request-Id: 16f54f7da27d4b083201a1430740df99
+      X-Runtime: '0.293782'
+      X-Varnish: '498380077'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache4; M
+      X-Mh-Cache: appcache2; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 139,
+          "_total": 174,
           "_links": {
             "self": "https://api.twitch.tv/kraken/search/streams?limit=10&offset=0&q=test",
             "next": "https://api.twitch.tv/kraken/search/streams?limit=10&offset=10&q=test"
@@ -42,7 +42,7 @@ http_interactions:
             {
               "_id": 10264297216,
               "game": "World of Warcraft: Mists of Pandaria",
-              "viewers": 1742,
+              "viewers": 1671,
               "preview": {
                 "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_fatbosstv-80x50.jpg",
                 "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_fatbosstv-320x200.jpg",
@@ -55,14 +55,14 @@ http_interactions:
               "channel": {
                 "mature": false,
                 "abuse_reported": null,
-                "status": "Quick Live Flex then Warlords Beta Level 100 Dungeon Testing! - FatbossTV",
+                "status": "Warlords Beta Level 100 Dungeon Testing! - FatbossTV",
                 "display_name": "FatbossTV",
                 "game": "World of Warcraft: Mists of Pandaria",
                 "delay": 0,
                 "_id": 24270443,
                 "name": "fatbosstv",
                 "created_at": "2011-08-21T23:43:44Z",
-                "updated_at": "2014-07-15T12:11:40Z",
+                "updated_at": "2014-07-15T15:17:12Z",
                 "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/fatbosstv-profile_image-ccaef7ccd4f73e3d-300x300.png",
                 "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/fatbosstv-channel_header_image-209f0b113a55d439-640x125.png",
                 "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/fatbosstv-channel_offline_image-72a36ab0a2cad21c-640x360.png",
@@ -71,7 +71,7 @@ http_interactions:
                 "profile_banner_background_color": "null",
                 "url": "http://www.twitch.tv/fatbosstv",
                 "views": 1566078,
-                "followers": 26983,
+                "followers": 27088,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/fatbosstv",
                   "follows": "https://api.twitch.tv/kraken/channels/fatbosstv/follows",
@@ -83,241 +83,6 @@ http_interactions:
                   "editors": "https://api.twitch.tv/kraken/channels/fatbosstv/editors",
                   "teams": "https://api.twitch.tv/kraken/channels/fatbosstv/teams",
                   "videos": "https://api.twitch.tv/kraken/channels/fatbosstv/videos"
-                }
-              }
-            },
-            {
-              "_id": 10264774656,
-              "game": "World of Warcraft: Mists of Pandaria",
-              "viewers": 1759,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_towelliee-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_towelliee-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_towelliee-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_towelliee-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/towelliee"
-              },
-              "channel": {
-                "mature": true,
-                "abuse_reported": null,
-                "status": "Rogue Legendary Inc! | WOD Beta Tanking Blood DK Testing | Game Time Giveaways! | ",
-                "display_name": "Towelliee",
-                "game": "World of Warcraft: Mists of Pandaria",
-                "delay": 0,
-                "_id": 20694610,
-                "name": "towelliee",
-                "created_at": "2011-02-24T01:38:43Z",
-                "updated_at": "2014-07-15T13:55:05Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-profile_image-132b0a9ee44a5185-300x300.png",
-                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-channel_header_image-e41789206229fb08-640x125.png",
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-channel_offline_image-aba04f01f0c33470-640x360.png",
-                "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-profile_banner-8515d281c544c845-480.png",
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/towelliee",
-                "views": 64434376,
-                "followers": 252549,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/towelliee",
-                  "follows": "https://api.twitch.tv/kraken/channels/towelliee/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/towelliee/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/towelliee/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/towelliee",
-                  "features": "https://api.twitch.tv/kraken/channels/towelliee/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/towelliee/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/towelliee/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/towelliee/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/towelliee/videos"
-                }
-              }
-            },
-            {
-              "_id": 10265226992,
-              "game": "The Legend of Zelda: Ocarina of Time",
-              "viewers": 20,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_skater82297-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_skater82297-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_skater82297-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_skater82297-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/skater82297"
-              },
-              "channel": {
-                "mature": false,
-                "abuse_reported": false,
-                "status": "Zelda OoT: Testing Stuff",
-                "display_name": "skater82297",
-                "game": "The Legend of Zelda: Ocarina of Time",
-                "delay": 0,
-                "_id": 41576475,
-                "name": "skater82297",
-                "created_at": "2013-03-22T02:34:44Z",
-                "updated_at": "2014-07-15T14:14:58Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/skater82297-profile_image-50a0f8249a22f775-300x300.jpeg",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/skater82297-channel_offline_image-c8b39d04961d726d-640x360.jpeg",
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/skater82297",
-                "views": 491621,
-                "followers": 5391,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/skater82297",
-                  "follows": "https://api.twitch.tv/kraken/channels/skater82297/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/skater82297/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/skater82297/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/skater82297",
-                  "features": "https://api.twitch.tv/kraken/channels/skater82297/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/skater82297/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/skater82297/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/skater82297/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/skater82297/videos"
-                }
-              }
-            },
-            {
-              "_id": 10265239696,
-              "game": "Pac-Man",
-              "viewers": 6,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mramixem-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mramixem-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mramixem-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mramixem-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/mramixem"
-              },
-              "channel": {
-                "mature": null,
-                "abuse_reported": null,
-                "status": "Chaîne Test CoopGameplays",
-                "display_name": "MrAmixem",
-                "game": "Pac-Man",
-                "delay": 0,
-                "_id": 60529360,
-                "name": "mramixem",
-                "created_at": "2014-04-09T19:43:24Z",
-                "updated_at": "2014-07-15T14:16:17Z",
-                "logo": null,
-                "banner": null,
-                "video_banner": null,
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/mramixem",
-                "views": 1265,
-                "followers": 115,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/mramixem",
-                  "follows": "https://api.twitch.tv/kraken/channels/mramixem/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/mramixem/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/mramixem/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/mramixem",
-                  "features": "https://api.twitch.tv/kraken/channels/mramixem/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/mramixem/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/mramixem/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/mramixem/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/mramixem/videos"
-                }
-              }
-            },
-            {
-              "_id": 10264964560,
-              "game": "Call of Duty 4: Modern Warfare",
-              "viewers": 4,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_spidermanman-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_spidermanman-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_spidermanman-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_spidermanman-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/spidermanman"
-              },
-              "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "SpiderManMan test stream\n",
-                "display_name": "Spidermanman",
-                "game": "Call of Duty 4: Modern Warfare",
-                "delay": 0,
-                "_id": 41261164,
-                "name": "spidermanman",
-                "created_at": "2013-03-12T15:31:07Z",
-                "updated_at": "2014-07-15T13:43:40Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/spidermanman-profile_image-51df7e9bac2efd0a-300x300.png",
-                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/spidermanman-channel_header_image-bd79b9fe31f373a9-640x125.png",
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/spidermanman-channel_offline_image-92ff84a6f04ee263-640x360.png",
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/spidermanman",
-                "views": 3897,
-                "followers": 139,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/spidermanman",
-                  "follows": "https://api.twitch.tv/kraken/channels/spidermanman/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/spidermanman/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/spidermanman/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/spidermanman",
-                  "features": "https://api.twitch.tv/kraken/channels/spidermanman/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/spidermanman/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/spidermanman/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/spidermanman/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/spidermanman/videos"
-                }
-              }
-            },
-            {
-              "_id": 10265267568,
-              "game": "World of Warcraft: Mists of Pandaria",
-              "viewers": 1,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_aubreebree-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_aubreebree-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_aubreebree-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_aubreebree-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/aubreebree"
-              },
-              "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "sad pet battling",
-                "display_name": "Aubreebree",
-                "game": "World of Warcraft: Mists of Pandaria",
-                "delay": 0,
-                "_id": 23140081,
-                "name": "aubreebree",
-                "created_at": "2011-06-26T12:55:39Z",
-                "updated_at": "2014-07-15T14:20:14Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/aubreebree-profile_image-71c9e95c9e78dc8a-300x300.jpeg",
-                "banner": null,
-                "video_banner": null,
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/aubreebree",
-                "views": 6063,
-                "followers": 142,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/aubreebree",
-                  "follows": "https://api.twitch.tv/kraken/channels/aubreebree/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/aubreebree/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/aubreebree/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/aubreebree",
-                  "features": "https://api.twitch.tv/kraken/channels/aubreebree/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/aubreebree/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/aubreebree/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/aubreebree/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/aubreebree/videos"
                 }
               }
             },
@@ -367,9 +132,150 @@ http_interactions:
                   "videos": "https://api.twitch.tv/kraken/channels/sevenonemedia/videos"
                 }
               }
+            },
+            {
+              "_id": 10265983088,
+              "game": "GoldenEye 007",
+              "viewers": 0,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_n64test-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_n64test-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_n64test-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_n64test-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/n64test"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "ffffffff test",
+                "display_name": "n64test",
+                "game": "GoldenEye 007",
+                "delay": 0,
+                "_id": 37584601,
+                "name": "n64test",
+                "created_at": "2012-11-10T19:39:53Z",
+                "updated_at": "2014-07-15T15:42:59Z",
+                "logo": null,
+                "banner": null,
+                "video_banner": null,
+                "background": null,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/n64test",
+                "views": 1026,
+                "followers": 25,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/n64test",
+                  "follows": "https://api.twitch.tv/kraken/channels/n64test/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/n64test/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/n64test/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/n64test",
+                  "features": "https://api.twitch.tv/kraken/channels/n64test/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/n64test/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/n64test/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/n64test/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/n64test/videos"
+                }
+              }
+            },
+            {
+              "_id": 10265981152,
+              "game": "Halo 3",
+              "viewers": 0,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_kaneonnos-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_kaneonnos-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_kaneonnos-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_kaneonnos-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/kaneonnos"
+              },
+              "channel": {
+                "mature": true,
+                "abuse_reported": null,
+                "status": "Test...",
+                "display_name": "KANEonNOS",
+                "game": "Halo 3",
+                "delay": 0,
+                "_id": 48575533,
+                "name": "kaneonnos",
+                "created_at": "2013-09-05T07:06:14Z",
+                "updated_at": "2014-07-15T15:42:01Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaneonnos-profile_image-ce8a3607b10a044c-300x300.jpeg",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaneonnos-channel_offline_image-9ab516cdd9877c99-640x360.jpeg",
+                "background": null,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaneonnos-profile_banner-4472eed696473845-480.jpeg",
+                "profile_banner_background_color": "null",
+                "url": "http://www.twitch.tv/kaneonnos",
+                "views": 1539,
+                "followers": 54,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/kaneonnos",
+                  "follows": "https://api.twitch.tv/kraken/channels/kaneonnos/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/kaneonnos/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/kaneonnos/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/kaneonnos",
+                  "features": "https://api.twitch.tv/kraken/channels/kaneonnos/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/kaneonnos/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/kaneonnos/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/kaneonnos/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/kaneonnos/videos"
+                }
+              }
+            },
+            {
+              "_id": 10265980768,
+              "game": null,
+              "viewers": 0,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bigtgamer-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bigtgamer-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bigtgamer-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bigtgamer-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/bigtgamer"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "TEST STREAM - Better Internet I Hope",
+                "display_name": "BigTGamer",
+                "game": null,
+                "delay": 0,
+                "_id": 26649188,
+                "name": "bigtgamer",
+                "created_at": "2011-12-08T18:41:06Z",
+                "updated_at": "2014-07-15T15:42:00Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/bigtgamer-profile_image-cda20163bd81ad1e-300x300.jpeg",
+                "banner": null,
+                "video_banner": null,
+                "background": null,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/bigtgamer",
+                "views": 12416,
+                "followers": 584,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/bigtgamer",
+                  "follows": "https://api.twitch.tv/kraken/channels/bigtgamer/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/bigtgamer/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/bigtgamer/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/bigtgamer",
+                  "features": "https://api.twitch.tv/kraken/channels/bigtgamer/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/bigtgamer/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/bigtgamer/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/bigtgamer/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/bigtgamer/videos"
+                }
+              }
             }
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 14:22:25 GMT
+  recorded_at: Tue, 15 Jul 2014 15:43:05 GMT
 recorded_with: VCR 2.9.2

@@ -1,100 +1,77 @@
 ---
 http_interactions:
 - request:
-    method: get
+    method: put
     uri: https://api.twitch.tv/kraken/channels/dodgello
     body:
       encoding: US-ASCII
-      string: ''
+      string: channel=%7B%3Astatus%3D%3E%22test%22%7D
     headers:
       Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth <ACCESS_TOKEN>
+      Expect: ''
   response:
-    status: {code: 200, message: OK}
+    status: {code: 400, message: Bad Request}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 14:22:14 GMT
+      Date: Tue, 15 Jul 2014 15:09:57 GMT
       Content-Type: application/json; charset=utf-8
-      Transfer-Encoding: chunked
+      Content-Length: '96'
       Connection: keep-alive
-      Status: 200 OK
+      Status: 400 Bad Request
       X-Api-Version: '3'
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"21aa5991c0faf03e39404b080459062b"'
-      X-Request-Id: 48383154def891779d7aadca13f6eadf
-      X-Runtime: '0.020240'
-      X-Varnish: '2049862924'
+      X-Request-Id: 6f61c61d2a1d24ea018f1f85a60062bb
+      X-Runtime: '0.030858'
+      Accept-Ranges: bytes
+      X-Varnish: '521110354'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache1; M
-      Front-End-Https: 'on'
+      X-Mh-Cache: appcache3; M
     body:
       encoding: UTF-8
       string: |-
         {
-          "mature": null,
-          "abuse_reported": null,
-          "status": null,
-          "display_name": "Dodgello",
-          "game": null,
-          "delay": 0,
-          "_id": 54057928,
-          "name": "dodgello",
-          "created_at": "2013-12-29T17:09:16Z",
-          "updated_at": "2014-07-08T13:48:37Z",
-          "logo": null,
-          "banner": null,
-          "video_banner": null,
-          "background": null,
-          "profile_banner": null,
-          "profile_banner_background_color": null,
-          "url": "http://www.twitch.tv/dodgello",
-          "views": 0,
-          "followers": 0,
-          "_links": {
-            "self": "https://api.twitch.tv/kraken/channels/dodgello",
-            "follows": "https://api.twitch.tv/kraken/channels/dodgello/follows",
-            "commercial": "https://api.twitch.tv/kraken/channels/dodgello/commercial",
-            "stream_key": "https://api.twitch.tv/kraken/channels/dodgello/stream_key",
-            "chat": "https://api.twitch.tv/kraken/chat/dodgello",
-            "features": "https://api.twitch.tv/kraken/channels/dodgello/features",
-            "subscriptions": "https://api.twitch.tv/kraken/channels/dodgello/subscriptions",
-            "editors": "https://api.twitch.tv/kraken/channels/dodgello/editors",
-            "teams": "https://api.twitch.tv/kraken/channels/dodgello/teams",
-            "videos": "https://api.twitch.tv/kraken/channels/dodgello/videos"
-          }
+          "error": "Bad Request",
+          "status": 400,
+          "message": "Missing required parameter channel"
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 14:22:19 GMT
+  recorded_at: Tue, 15 Jul 2014 15:10:01 GMT
 - request:
-    method: get
-    uri: https://api.twitch.tv/kraken/channels/Dodgello
+    method: put
+    uri: https://api.twitch.tv/kraken/channels/dodgello
     body:
-      encoding: US-ASCII
-      string: ''
+      encoding: UTF-8
+      string: '{"channel":{"status":"test"}}'
     headers:
       Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth <ACCESS_TOKEN>
+      Content-Type: application/json
+      Expect: ''
   response:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 15:42:54 GMT
+      Date: Tue, 15 Jul 2014 15:31:45 GMT
       Content-Type: application/json; charset=utf-8
-      Transfer-Encoding: chunked
+      Content-Length: '1216'
       Connection: keep-alive
       Status: 200 OK
       X-Api-Version: '3'
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"b05ff368c5503cfad0d5e0a54102a975"'
-      X-Request-Id: a87db5348fd46377897d9eaeda0a7f12
-      X-Runtime: '0.018488'
-      X-Varnish: '2035154485'
+      Etag: '"8eed9c972a8eea4497c9ee67df60ee95"'
+      X-Request-Id: d9add1006161f62eb873f89bd8e7e646
+      X-Runtime: '0.929819'
+      Accept-Ranges: bytes
+      X-Varnish: '526613639'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache4; M
+      X-Mh-Cache: appcache3; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
@@ -109,7 +86,7 @@ http_interactions:
           "_id": 54057928,
           "name": "dodgello",
           "created_at": "2013-12-29T17:09:16Z",
-          "updated_at": "2014-07-15T15:42:51Z",
+          "updated_at": "2014-07-15T15:31:44Z",
           "logo": null,
           "banner": null,
           "video_banner": null,
@@ -133,5 +110,76 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 15:42:58 GMT
+  recorded_at: Tue, 15 Jul 2014 15:31:50 GMT
+- request:
+    method: put
+    uri: https://api.twitch.tv/kraken/channels/dodgello
+    body:
+      encoding: UTF-8
+      string: '{"channel":{"status":"test"}}'
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth <ACCESS_TOKEN>
+      Content-Type: application/json
+      Expect: ''
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Tue, 15 Jul 2014 15:42:51 GMT
+      Content-Type: application/json; charset=utf-8
+      Content-Length: '1216'
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: '"e9f336159e8e619ff7e44d5b6df7664f"'
+      X-Request-Id: d34d63576ad40fcbf7639f40c64020db
+      X-Runtime: '0.803498'
+      Accept-Ranges: bytes
+      X-Varnish: '498340517'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache2; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "mature": null,
+          "abuse_reported": null,
+          "status": "test",
+          "display_name": "Dodgello",
+          "game": "diablo",
+          "delay": 0,
+          "_id": 54057928,
+          "name": "dodgello",
+          "created_at": "2013-12-29T17:09:16Z",
+          "updated_at": "2014-07-15T15:38:31Z",
+          "logo": null,
+          "banner": null,
+          "video_banner": null,
+          "background": null,
+          "profile_banner": null,
+          "profile_banner_background_color": null,
+          "url": "http://www.twitch.tv/dodgello",
+          "views": 0,
+          "followers": 0,
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/channels/dodgello",
+            "follows": "https://api.twitch.tv/kraken/channels/dodgello/follows",
+            "commercial": "https://api.twitch.tv/kraken/channels/dodgello/commercial",
+            "stream_key": "https://api.twitch.tv/kraken/channels/dodgello/stream_key",
+            "chat": "https://api.twitch.tv/kraken/chat/dodgello",
+            "features": "https://api.twitch.tv/kraken/channels/dodgello/features",
+            "subscriptions": "https://api.twitch.tv/kraken/channels/dodgello/subscriptions",
+            "editors": "https://api.twitch.tv/kraken/channels/dodgello/editors",
+            "teams": "https://api.twitch.tv/kraken/channels/dodgello/teams",
+            "videos": "https://api.twitch.tv/kraken/channels/dodgello/videos"
+          }
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jul 2014 15:42:55 GMT
 recorded_with: VCR 2.9.2

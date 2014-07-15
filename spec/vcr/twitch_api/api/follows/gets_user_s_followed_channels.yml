@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 14:22:16 GMT
+      Date: Tue, 15 Jul 2014 15:42:55 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,13 +22,13 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"62512e6044ba126a6552b80d7ef3fa4b"'
-      X-Request-Id: 600825999ee555a3c820e15d84aecfda
-      X-Runtime: '0.100374'
-      X-Varnish: '477663052'
+      Etag: '"aca0c8922e481d97945b07bbf42ea4e1"'
+      X-Request-Id: 284b48ffcb219e401faa9c96b61bb6e0
+      X-Runtime: '0.103127'
+      X-Varnish: '529178337'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache2; M
+      X-Mh-Cache: appcache3; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
@@ -64,7 +64,7 @@ http_interactions:
                 "profile_banner_background_color": "#000000",
                 "url": "http://www.twitch.tv/mannercookie",
                 "views": 1410144,
-                "followers": 12448,
+                "followers": 12447,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/mannercookie",
                   "follows": "https://api.twitch.tv/kraken/channels/mannercookie/follows",
@@ -133,7 +133,7 @@ http_interactions:
                 "_id": 29693067,
                 "name": "machinegunnerusmc",
                 "created_at": "2012-04-11T01:57:27Z",
-                "updated_at": "2014-07-15T04:26:11Z",
+                "updated_at": "2014-07-15T14:24:23Z",
                 "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/machinegunnerusmc-profile_image-a18e172e8b59b3a7-300x300.png",
                 "banner": null,
                 "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/machinegunnerusmc-channel_offline_image-a194985e31577e4d-640x360.jpeg",
@@ -141,8 +141,8 @@ http_interactions:
                 "profile_banner": null,
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/machinegunnerusmc",
-                "views": 942049,
-                "followers": 23099,
+                "views": 942773,
+                "followers": 23098,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/machinegunnerusmc",
                   "follows": "https://api.twitch.tv/kraken/channels/machinegunnerusmc/follows",
@@ -220,7 +220,7 @@ http_interactions:
                 "profile_banner_background_color": "#423342",
                 "url": "http://www.twitch.tv/sllverlady1",
                 "views": 5156127,
-                "followers": 92049,
+                "followers": 92048,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/sllverlady1",
                   "follows": "https://api.twitch.tv/kraken/channels/sllverlady1/follows",
@@ -259,7 +259,7 @@ http_interactions:
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/sky_mp3",
                 "views": 8688926,
-                "followers": 167500,
+                "followers": 167502,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/sky_mp3",
                   "follows": "https://api.twitch.tv/kraken/channels/sky_mp3/follows",
@@ -337,7 +337,7 @@ http_interactions:
                 "profile_banner_background_color": "#0c395e",
                 "url": "http://www.twitch.tv/sp4zie",
                 "views": 8875235,
-                "followers": 132861,
+                "followers": 132857,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/sp4zie",
                   "follows": "https://api.twitch.tv/kraken/channels/sp4zie/follows",
@@ -376,7 +376,7 @@ http_interactions:
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/hashinshin",
                 "views": 1101531,
-                "followers": 12598,
+                "followers": 12604,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/hashinshin",
                   "follows": "https://api.twitch.tv/kraken/channels/hashinshin/follows",
@@ -511,5 +511,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 14:22:20 GMT
+  recorded_at: Tue, 15 Jul 2014 15:43:00 GMT
 recorded_with: VCR 2.9.2

@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 14:22:19 GMT
+      Date: Tue, 15 Jul 2014 15:42:59 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -21,19 +21,19 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"98d9e895f96c0ab23bedb5c30f0ae865"'
-      X-Request-Id: e0870ccc8f2423b7928394e16eeea34a
-      X-Runtime: '0.793332'
-      X-Varnish: '477675501'
+      Etag: '"3ff13124da14f4e43a96354f1487e628"'
+      X-Request-Id: adef7129250d553c1e25cc020ec468c5
+      X-Runtime: '0.765042'
+      X-Varnish: '2035174278'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache2; M
+      X-Mh-Cache: appcache4; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 169097,
+          "_total": 199552,
           "_links": {
             "self": "https://api.twitch.tv/kraken/search/channels?limit=10&offset=0&q=test",
             "next": "https://api.twitch.tv/kraken/search/channels?limit=10&offset=10&q=test"
@@ -108,6 +108,39 @@ http_interactions:
             {
               "mature": null,
               "abuse_reported": null,
+              "status": "testy mctest",
+              "display_name": "whooPsBoB",
+              "game": "test",
+              "delay": 0,
+              "_id": 28701594,
+              "name": "whoopsbob",
+              "created_at": "2012-03-04T05:33:33Z",
+              "updated_at": "2014-07-11T20:51:36Z",
+              "logo": null,
+              "banner": null,
+              "video_banner": null,
+              "background": null,
+              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/whoopsbob-profile_banner-15ad7c838d5318bd-480.jpeg",
+              "profile_banner_background_color": null,
+              "url": "http://www.twitch.tv/whoopsbob",
+              "views": 1129,
+              "followers": 58,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/whoopsbob",
+                "follows": "https://api.twitch.tv/kraken/channels/whoopsbob/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/whoopsbob/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/whoopsbob/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/whoopsbob",
+                "features": "https://api.twitch.tv/kraken/channels/whoopsbob/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/whoopsbob/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/whoopsbob/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/whoopsbob/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/whoopsbob/videos"
+              }
+            },
+            {
+              "mature": null,
+              "abuse_reported": null,
               "status": "TEST",
               "display_name": "LeGingeDylan",
               "game": "TEST",
@@ -136,6 +169,72 @@ http_interactions:
                 "editors": "https://api.twitch.tv/kraken/channels/legingedylan/editors",
                 "teams": "https://api.twitch.tv/kraken/channels/legingedylan/teams",
                 "videos": "https://api.twitch.tv/kraken/channels/legingedylan/videos"
+              }
+            },
+            {
+              "mature": null,
+              "abuse_reported": null,
+              "status": "NHL 14 EASHL ",
+              "display_name": "KryptoniteCANADA",
+              "game": "test",
+              "delay": 0,
+              "_id": 60667055,
+              "name": "kryptonitecanada",
+              "created_at": "2014-04-11T22:42:40Z",
+              "updated_at": "2014-07-15T08:55:19Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/kryptonitecanada-profile_image-b3be6053c2ed1a5c-300x300.jpeg",
+              "banner": null,
+              "video_banner": null,
+              "background": null,
+              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kryptonitecanada-profile_banner-626da69df4301923-480.jpeg",
+              "profile_banner_background_color": "#ff0000",
+              "url": "http://www.twitch.tv/kryptonitecanada",
+              "views": 437,
+              "followers": 46,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/kryptonitecanada",
+                "follows": "https://api.twitch.tv/kraken/channels/kryptonitecanada/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/kryptonitecanada/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/kryptonitecanada/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/kryptonitecanada",
+                "features": "https://api.twitch.tv/kraken/channels/kryptonitecanada/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/kryptonitecanada/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/kryptonitecanada/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/kryptonitecanada/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/kryptonitecanada/videos"
+              }
+            },
+            {
+              "mature": null,
+              "abuse_reported": null,
+              "status": "Test",
+              "display_name": "Neednorespect",
+              "game": "testgamewithquotes",
+              "delay": 0,
+              "_id": 19574243,
+              "name": "neednorespect",
+              "created_at": "2011-01-16T07:34:13Z",
+              "updated_at": "2014-07-12T14:32:03Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/neednorespect-profile_image-eb02fce6409aab93-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/neednorespect-channel_header_image-2fdc71be530df44a-640x125.png",
+              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/neednorespect-channel_offline_image-c82fbcdf211fdb5b-640x360.png",
+              "background": null,
+              "profile_banner": null,
+              "profile_banner_background_color": null,
+              "url": "http://www.twitch.tv/neednorespect",
+              "views": 5222,
+              "followers": 202,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/neednorespect",
+                "follows": "https://api.twitch.tv/kraken/channels/neednorespect/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/neednorespect/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/neednorespect/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/neednorespect",
+                "features": "https://api.twitch.tv/kraken/channels/neednorespect/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/neednorespect/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/neednorespect/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/neednorespect/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/neednorespect/videos"
               }
             },
             {
@@ -172,6 +271,72 @@ http_interactions:
               }
             },
             {
+              "mature": false,
+              "abuse_reported": null,
+              "status": "[FR #ATL] Dusty Games sur http://live.amentonlive.fr",
+              "display_name": "AmenTonLive",
+              "game": "TestAlnoix",
+              "delay": 0,
+              "_id": 29724808,
+              "name": "amentonlive",
+              "created_at": "2012-04-12T10:42:09Z",
+              "updated_at": "2014-07-09T21:09:20Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/amentonlive-profile_image-456f84439a59d17f-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/amentonlive-channel_header_image-71ea0062ab8ff50e-640x125.png",
+              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/amentonlive-channel_offline_image-866ae03629c1b3b9-640x360.png",
+              "background": null,
+              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/amentonlive-profile_banner-e7e4e544154a2f38-480.png",
+              "profile_banner_background_color": null,
+              "url": "http://www.twitch.tv/amentonlive",
+              "views": 16483,
+              "followers": 158,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/amentonlive",
+                "follows": "https://api.twitch.tv/kraken/channels/amentonlive/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/amentonlive/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/amentonlive/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/amentonlive",
+                "features": "https://api.twitch.tv/kraken/channels/amentonlive/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/amentonlive/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/amentonlive/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/amentonlive/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/amentonlive/videos"
+              }
+            },
+            {
+              "mature": false,
+              "abuse_reported": null,
+              "status": "Testing",
+              "display_name": "HassanChop",
+              "game": "testgamewithquotes",
+              "delay": 0,
+              "_id": 55056943,
+              "name": "hassanchop",
+              "created_at": "2014-01-15T22:25:00Z",
+              "updated_at": "2014-07-12T00:29:42Z",
+              "logo": null,
+              "banner": null,
+              "video_banner": null,
+              "background": null,
+              "profile_banner": null,
+              "profile_banner_background_color": "null",
+              "url": "http://www.twitch.tv/hassanchop",
+              "views": 660,
+              "followers": 148,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/hassanchop",
+                "follows": "https://api.twitch.tv/kraken/channels/hassanchop/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/hassanchop/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/hassanchop/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/hassanchop",
+                "features": "https://api.twitch.tv/kraken/channels/hassanchop/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/hassanchop/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/hassanchop/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/hassanchop/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/hassanchop/videos"
+              }
+            },
+            {
               "mature": null,
               "abuse_reported": null,
               "status": "Halvard1983",
@@ -203,174 +368,9 @@ http_interactions:
                 "teams": "https://api.twitch.tv/kraken/channels/halvard1983/teams",
                 "videos": "https://api.twitch.tv/kraken/channels/halvard1983/videos"
               }
-            },
-            {
-              "mature": null,
-              "abuse_reported": null,
-              "status": "Testing",
-              "display_name": "CSheehan",
-              "game": "testgamewithquotes",
-              "delay": 0,
-              "_id": 28504616,
-              "name": "csheehan",
-              "created_at": "2012-02-25T19:21:00Z",
-              "updated_at": "2014-07-03T18:48:36Z",
-              "logo": null,
-              "banner": null,
-              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/csheehan-channel_offline_image-3f9fe52b1f88f2d1-640x360.jpeg",
-              "background": null,
-              "profile_banner": null,
-              "profile_banner_background_color": null,
-              "url": "http://www.twitch.tv/csheehan",
-              "views": 8690,
-              "followers": 120,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/csheehan",
-                "follows": "https://api.twitch.tv/kraken/channels/csheehan/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/csheehan/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/csheehan/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/csheehan",
-                "features": "https://api.twitch.tv/kraken/channels/csheehan/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/csheehan/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/csheehan/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/csheehan/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/csheehan/videos"
-              }
-            },
-            {
-              "mature": null,
-              "abuse_reported": null,
-              "status": "Test",
-              "display_name": "KaccuaH",
-              "game": "Test",
-              "delay": 0,
-              "_id": 25276830,
-              "name": "kaccuah",
-              "created_at": "2011-10-06T05:10:30Z",
-              "updated_at": "2014-06-27T08:49:44Z",
-              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaccuah-profile_image-7cb05114b70dd529-300x300.jpeg",
-              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaccuah-channel_header_image-9b19bc08f3dd7e59-640x125.jpeg",
-              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaccuah-channel_offline_image-e905f87ca44c5c97-640x360.jpeg",
-              "background": null,
-              "profile_banner": null,
-              "profile_banner_background_color": null,
-              "url": "http://www.twitch.tv/kaccuah",
-              "views": 4177,
-              "followers": 28,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/kaccuah",
-                "follows": "https://api.twitch.tv/kraken/channels/kaccuah/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/kaccuah/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/kaccuah/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/kaccuah",
-                "features": "https://api.twitch.tv/kraken/channels/kaccuah/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/kaccuah/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/kaccuah/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/kaccuah/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/kaccuah/videos"
-              }
-            },
-            {
-              "mature": null,
-              "abuse_reported": null,
-              "status": "Pre Stream Set up",
-              "display_name": "JBLHD",
-              "game": "Test",
-              "delay": 0,
-              "_id": 44384117,
-              "name": "jblhd",
-              "created_at": "2013-06-05T18:28:12Z",
-              "updated_at": "2014-07-11T20:15:01Z",
-              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/jblhd-profile_image-0d255a534d266554-300x300.jpeg",
-              "banner": null,
-              "video_banner": null,
-              "background": null,
-              "profile_banner": null,
-              "profile_banner_background_color": null,
-              "url": "http://www.twitch.tv/jblhd",
-              "views": 145,
-              "followers": 27,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/jblhd",
-                "follows": "https://api.twitch.tv/kraken/channels/jblhd/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/jblhd/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/jblhd/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/jblhd",
-                "features": "https://api.twitch.tv/kraken/channels/jblhd/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/jblhd/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/jblhd/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/jblhd/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/jblhd/videos"
-              }
-            },
-            {
-              "mature": false,
-              "abuse_reported": null,
-              "status": "testando placa",
-              "display_name": "CalangaoTV",
-              "game": "TESTE",
-              "delay": 0,
-              "_id": 52068976,
-              "name": "calangaotv",
-              "created_at": "2013-11-23T23:02:47Z",
-              "updated_at": "2014-07-10T09:24:56Z",
-              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/calangaotv-profile_image-f2db1ac9e51343bb-300x300.png",
-              "banner": null,
-              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/calangaotv-channel_offline_image-9e8f3a907c269268-640x360.png",
-              "background": null,
-              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/calangaotv-profile_banner-06a5b8fe257daf7d-480.jpeg",
-              "profile_banner_background_color": "#000000",
-              "url": "http://www.twitch.tv/calangaotv",
-              "views": 9458,
-              "followers": 87,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/calangaotv",
-                "follows": "https://api.twitch.tv/kraken/channels/calangaotv/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/calangaotv/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/calangaotv/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/calangaotv",
-                "features": "https://api.twitch.tv/kraken/channels/calangaotv/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/calangaotv/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/calangaotv/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/calangaotv/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/calangaotv/videos"
-              }
-            },
-            {
-              "mature": false,
-              "abuse_reported": null,
-              "status": "Testing Elgato",
-              "display_name": "RagerLive",
-              "game": "Testing",
-              "delay": 0,
-              "_id": 53913778,
-              "name": "ragerlive",
-              "created_at": "2013-12-27T09:29:53Z",
-              "updated_at": "2014-06-20T23:46:41Z",
-              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/ragerlive-profile_image-9d1c31929313587f-300x300.png",
-              "banner": null,
-              "video_banner": null,
-              "background": null,
-              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/ragerlive-profile_banner-943f3bf1ba55e213-480.jpeg",
-              "profile_banner_background_color": null,
-              "url": "http://www.twitch.tv/ragerlive",
-              "views": 1070,
-              "followers": 67,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/ragerlive",
-                "follows": "https://api.twitch.tv/kraken/channels/ragerlive/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/ragerlive/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/ragerlive/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/ragerlive",
-                "features": "https://api.twitch.tv/kraken/channels/ragerlive/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/ragerlive/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/ragerlive/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/ragerlive/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/ragerlive/videos"
-              }
             }
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 14:22:24 GMT
+  recorded_at: Tue, 15 Jul 2014 15:43:04 GMT
 recorded_with: VCR 2.9.2

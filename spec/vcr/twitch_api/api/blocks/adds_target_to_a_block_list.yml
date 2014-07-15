@@ -4,17 +4,18 @@ http_interactions:
     method: put
     uri: https://api.twitch.tv/kraken/users/Dodgello/blocks/SomeUser
     body:
-      encoding: US-ASCII
-      string: ''
+      encoding: UTF-8
+      string: 'null'
     headers:
       Accept: application/vnd.twitchtv.v3+json
       Authorization: OAuth <ACCESS_TOKEN>
+      Content-Type: application/json
       Expect: ''
   response:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 14:22:12 GMT
+      Date: Tue, 15 Jul 2014 15:42:48 GMT
       Content-Type: application/json; charset=utf-8
       Content-Length: '451'
       Connection: keep-alive
@@ -23,21 +24,21 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"9b821a707a116cfe7434e97a4f5cee67"'
-      X-Request-Id: d90084e5e6b3e1953ec2ffe82f8e2ad1
-      X-Runtime: '0.073277'
+      Etag: '"344c5f97ce0f2d527ea3019758385594"'
+      X-Request-Id: f8590df66b808aff63230e16213acd59
+      X-Runtime: '0.058695'
       Accept-Ranges: bytes
-      X-Varnish: '508421115'
+      X-Varnish: '2070530191'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache3; M
+      X-Mh-Cache: appcache1; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_id": 8398384,
-          "updated_at": "2014-07-15T14:22:12Z",
+          "_id": 8398972,
+          "updated_at": "2014-07-15T15:42:48Z",
           "_links": {
             "self": "https://api.twitch.tv/kraken/users/Dodgello/blocks/someuser"
           },
@@ -55,5 +56,5 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 14:22:17 GMT
+  recorded_at: Tue, 15 Jul 2014 15:42:52 GMT
 recorded_with: VCR 2.9.2
