@@ -6,5 +6,6 @@ module TwitchApi
     require 'twitch_api/api/channels'
     require 'twitch_api/api/games'
     require 'twitch_api/api/search'
+    require 'twitch_api/api/blocks'
   end
 end

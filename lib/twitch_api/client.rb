@@ -6,18 +6,20 @@ module TwitchApi
     include Api::Channels
     include Api::Games
     include Api::Search
+    include Api::Blocks
 
-    attr_reader :secret_key, :client_id, :connected, :access_token
+    attr_reader :secret_key, :client_id, :connected, :access_token, :scopes
     # TODO: make options hash in params
-    def initialize(access_token = nil, secret_key = TwitchApi.secret_key, 
-                   client_id = TwitchApi.client_id)
-      @secret_key, @client_id = secret_key, client_id
-      @access_token = access_token
+    def initialize(options = {})
+      @client_id = options.delete(:client_id) || TwitchApi.client_id
+      @secret_key = options.delete(:secret_key) || TwitchApi.secret_key 
+      @access_token = options.delete(:access_token) || nil
+      @scopes = options.delete(:scopes) || %w(user_read channel_read)
     end
 
     # TODO: refactor
     def auth_url()
-      scope = ["user_read", "channel_read"].join('+')
+      scope = @scopes.join '+'
       "https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&client_id=#{@client_id}&redirect_uri=http://localhost:3000&scope=#{scope}"
     end
 
@@ -30,9 +32,8 @@ module TwitchApi
         grant_type: "authorization_code",
         redirect_uri: 'http://localhost:3000',
         code: code
-
       }
-      response = post(path, data)
+      response = post(path, {data: data})
       @access_token = response[:access_token]
       response
     end

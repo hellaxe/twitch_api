@@ -14,9 +14,31 @@ module TwitchApi
         response
       end
 
-      def post(path, data = {}, options ={})
+      def post(path, options ={})
         headers = prepare_headers(options[:headers])
-        c = Curl.post(path + build_query_string(options[:query]), data) do |curl|
+        data = options.delete :data
+        c = Curl.post(path, data) do |curl|
+          curl.headers.merge!(headers)
+        end
+        response = JSON.parse(c.body_str, symbolize_names: true)
+        raise_error(response)
+        response
+      end
+
+      def put(path, options = {})
+        headers = prepare_headers(options[:headers])
+        data = options.delete :data
+        c = Curl.put(path, data) do |curl|
+          curl.headers.merge!(headers)
+        end
+        response = JSON.parse(c.body_str, symbolize_names: true)
+        raise_error(response)
+        response
+      end
+
+      def delete(path, options = {})
+        headers = prepare_headers(options[:headers])
+        c = Curl.delete(path) do |curl|
           curl.headers.merge!(headers)
         end
         response = JSON.parse(c.body_str, symbolize_names: true)

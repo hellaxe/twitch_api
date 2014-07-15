@@ -4,7 +4,7 @@ describe TwitchApi::Api::Channels do
   
   describe "Authorized" do
     before :each do
-      @client = TwitchApi::Client.new('ip8tlw1i2i3r80dm5902f6q2werfcf')
+      @client = TwitchApi::Client.new({ access_token: 'ip8tlw1i2i3r80dm5902f6q2werfcf'})
     end
 
     it "gets your channel", vcr: true do
