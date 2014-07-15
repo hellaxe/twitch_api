@@ -8,11 +8,11 @@ describe TwitchApi::Api::Channels do
     end
 
     it "gets your channel", vcr: true do
-        @client.get_channel.should be_instance_of(Hash)
+        expect(@client.get_channel[:status_code]).to eq(200)
     end
 
     it "gets channel editors", vcr: true do
-      @client.get_channel_editors({channel: 'dodgello'}).should be_instance_of(Hash)
+      expect(@client.get_channel_editors({channel: 'dodgello'})[:status_code]).to eq(200)
     end
 
   end
@@ -23,15 +23,15 @@ describe TwitchApi::Api::Channels do
     end
 
     it "raises error when channel is not specified", vcr: true do
-        expect{@client.get_channel}.to raise_error(TwitchApi::Errors::UnauthorizedError)
+        expect(@client.get_channel[:status_code]).to eq(401)
     end
 
     it "gets specified channel", vcr: true  do
-        @client.get_channel({channel: 'dodgello'}).should be_instance_of(Hash)
+        expect(@client.get_channel({channel: 'dodgello'})[:status_code]).to eq(200)
     end
 
     it "raises error on getting channel editors", vcr: true do
-      expect{@client.get_channel_editors({channel: 'dodgello'})}.to raise_error(TwitchApi::Errors::UnauthorizedError)
+      expect( @client.get_channel_editors({channel: 'dodgello'})[:status_code] ).to eq(401)
     end
   end
 end

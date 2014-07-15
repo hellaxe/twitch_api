@@ -12,23 +12,22 @@ http_interactions:
     status: {code: 401, message: Unauthorized}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 11:26:44 GMT
+      Date: Tue, 15 Jul 2014 14:22:15 GMT
       Content-Type: application/json; charset=utf-8
-      Content-Length: '102'
-      Connection: close
+      Transfer-Encoding: chunked
+      Connection: keep-alive
       Status: 401 Unauthorized
       X-Api-Version: '3'
       Www-Authenticate: OAuth realm='TwitchTV'
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      X-Request-Id: 57347ee519ea8971c23e13eadf9da9e4
-      X-Runtime: '0.008174'
-      Accept-Ranges: bytes
-      X-Varnish: '437195847'
+      X-Request-Id: 7c95f051f8af0e11382b9d5edf1c0649
+      X-Runtime: '0.007392'
+      X-Varnish: '2049864111'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache2; M
+      X-Mh-Cache: appcache1; M
     body:
       encoding: UTF-8
       string: |-
@@ -38,5 +37,5 @@ http_interactions:
           "message": "Token invalid or missing required scope"
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 11:26:48 GMT
+  recorded_at: Tue, 15 Jul 2014 14:22:19 GMT
 recorded_with: VCR 2.9.2

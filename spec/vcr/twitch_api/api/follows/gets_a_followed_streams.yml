@@ -1,0 +1,142 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/streams/followed
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth <ACCESS_TOKEN>
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Tue, 15 Jul 2014 14:22:18 GMT
+      Content-Type: application/json; charset=utf-8
+      Content-Length: '4932'
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: '"c8f7b6c0d418f3d6896a0d73e3a08377"'
+      X-Request-Id: e47c0b11812a585bc2f1aa861b8897ed
+      X-Runtime: '0.073318'
+      Accept-Ranges: bytes
+      X-Varnish: '2014419117'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache4; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "_total": 2,
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/streams/followed?limit=25&offset=0",
+            "next": "https://api.twitch.tv/kraken/streams/followed?limit=25&offset=25"
+          },
+          "streams": [
+            {
+              "_id": 10264655248,
+              "game": "League of Legends",
+              "viewers": 9890,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sp4zie-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sp4zie-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sp4zie-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sp4zie-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/sp4zie"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "♥  Sp4zie - Fun Games + Skin Giveaways on Twitter! ",
+                "display_name": "Sp4zie",
+                "game": "League of Legends",
+                "delay": 0,
+                "_id": 28565473,
+                "name": "sp4zie",
+                "created_at": "2012-02-27T12:26:41Z",
+                "updated_at": "2014-07-15T13:29:52Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-profile_image-94c7d70156561e7a-300x300.png",
+                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-channel_header_image-26e6e281bf3cab1e-640x125.jpeg",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-channel_offline_image-56949f32a4ba299d-640x360.png",
+                "background": null,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-profile_banner-44884bde791809a4-480.png",
+                "profile_banner_background_color": "#0c395e",
+                "url": "http://www.twitch.tv/sp4zie",
+                "views": 8875235,
+                "followers": 132861,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/sp4zie",
+                  "follows": "https://api.twitch.tv/kraken/channels/sp4zie/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/sp4zie/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/sp4zie/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/sp4zie",
+                  "features": "https://api.twitch.tv/kraken/channels/sp4zie/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/sp4zie/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/sp4zie/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/sp4zie/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/sp4zie/videos"
+                }
+              }
+            },
+            {
+              "_id": 10264437168,
+              "game": "League of Legends",
+              "viewers": 139,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/hashinshin"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "The challenger top lane stream where we try but never quite get challenger because man top lane, man. ",
+                "display_name": "hashinshin",
+                "game": "League of Legends",
+                "delay": 0,
+                "_id": 29289159,
+                "name": "hashinshin",
+                "created_at": "2012-03-26T04:43:45Z",
+                "updated_at": "2014-07-15T14:13:54Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/hashinshin-profile_image-e0b81ec8015bb733-300x300.jpeg",
+                "banner": null,
+                "video_banner": null,
+                "background": null,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/hashinshin",
+                "views": 1101531,
+                "followers": 12598,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/hashinshin",
+                  "follows": "https://api.twitch.tv/kraken/channels/hashinshin/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/hashinshin/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/hashinshin/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/hashinshin",
+                  "features": "https://api.twitch.tv/kraken/channels/hashinshin/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/hashinshin/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/hashinshin/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/hashinshin/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/hashinshin/videos"
+                }
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jul 2014 14:22:22 GMT
+recorded_with: VCR 2.9.2

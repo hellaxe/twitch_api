@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 11:26:45 GMT
+      Date: Tue, 15 Jul 2014 14:22:18 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -21,27 +21,27 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"ced65ffae4718d13712c95b32b66b88b"'
-      X-Request-Id: 8d614cdfb92de4f92a7a0560055c5433
-      X-Runtime: '0.040436'
-      X-Varnish: '437200636'
+      Etag: '"903ed2a568b8ec82d3708225744eff38"'
+      X-Request-Id: fe116dd25ebbb6a8094e88bee9f6dd2e
+      X-Runtime: '0.031138'
+      X-Varnish: '508446583'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache2; M
+      X-Mh-Cache: appcache3; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 553,
+          "_total": 673,
           "_links": {
             "self": "https://api.twitch.tv/kraken/games/top?limit=10&offset=0",
             "next": "https://api.twitch.tv/kraken/games/top?limit=10&offset=10"
           },
           "top": [
             {
-              "viewers": 62552,
-              "channels": 773,
+              "viewers": 91615,
+              "channels": 1044,
               "game": {
                 "name": "League of Legends",
                 "_id": 21779,
@@ -63,8 +63,8 @@ http_interactions:
               }
             },
             {
-              "viewers": 21446,
-              "channels": 157,
+              "viewers": 20875,
+              "channels": 201,
               "game": {
                 "name": "Hearthstone: Heroes of Warcraft",
                 "_id": 138585,
@@ -86,8 +86,8 @@ http_interactions:
               }
             },
             {
-              "viewers": 16017,
-              "channels": 176,
+              "viewers": 20861,
+              "channels": 232,
               "game": {
                 "name": "Dota 2",
                 "_id": 29595,
@@ -109,8 +109,8 @@ http_interactions:
               }
             },
             {
-              "viewers": 9877,
-              "channels": 230,
+              "viewers": 14998,
+              "channels": 312,
               "game": {
                 "name": "Counter-Strike: Global Offensive",
                 "_id": 32399,
@@ -132,31 +132,8 @@ http_interactions:
               }
             },
             {
-              "viewers": 7658,
-              "channels": 230,
-              "game": {
-                "name": "Minecraft",
-                "_id": 27471,
-                "giantbomb_id": 30475,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 7230,
-              "channels": 162,
+              "viewers": 11736,
+              "channels": 253,
               "game": {
                 "name": "World of Warcraft: Mists of Pandaria",
                 "_id": 32954,
@@ -178,31 +155,77 @@ http_interactions:
               }
             },
             {
-              "viewers": 5916,
-              "channels": 38,
+              "viewers": 9096,
+              "channels": 382,
               "game": {
-                "name": "Dark Souls II",
-                "_id": 91423,
-                "giantbomb_id": 40798,
+                "name": "Minecraft",
+                "_id": 27471,
+                "giantbomb_id": 30475,
                 "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-272x380.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-272x380.jpg"
                 },
                 "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-240x144.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-240x144.jpg"
                 },
                 "_links": {
                 }
               }
             },
             {
-              "viewers": 5570,
-              "channels": 129,
+              "viewers": 7299,
+              "channels": 22,
+              "game": {
+                "name": "Watch_Dogs",
+                "_id": 65953,
+                "giantbomb_id": 38538,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Watch_Dogs-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Watch_Dogs-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Watch_Dogs-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Watch_Dogs-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Watch_Dogs-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Watch_Dogs-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Watch_Dogs-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Watch_Dogs-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 7177,
+              "channels": 64,
+              "game": {
+                "name": "RuneScape",
+                "_id": 2083,
+                "giantbomb_id": 2268,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/RuneScape-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/RuneScape-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/RuneScape-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/RuneScape-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/RuneScape-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/RuneScape-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/RuneScape-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/RuneScape-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 6571,
+              "channels": 215,
               "game": {
                 "name": "FIFA 14",
                 "_id": 369095,
@@ -224,8 +247,8 @@ http_interactions:
               }
             },
             {
-              "viewers": 5171,
-              "channels": 56,
+              "viewers": 6094,
+              "channels": 78,
               "game": {
                 "name": "StarCraft II: Heart of the Swarm",
                 "_id": 21818,
@@ -245,32 +268,9 @@ http_interactions:
                 "_links": {
                 }
               }
-            },
-            {
-              "viewers": 5100,
-              "channels": 201,
-              "game": {
-                "name": "Battlefield 4",
-                "_id": 66402,
-                "giantbomb_id": 39035,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Battlefield%204-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Battlefield%204-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Battlefield%204-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Battlefield%204-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Battlefield%204-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Battlefield%204-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Battlefield%204-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Battlefield%204-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
             }
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 11:26:50 GMT
+  recorded_at: Tue, 15 Jul 2014 14:22:23 GMT
 recorded_with: VCR 2.9.2

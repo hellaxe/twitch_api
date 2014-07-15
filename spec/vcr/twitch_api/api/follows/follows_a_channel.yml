@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://api.twitch.tv/kraken/users/Dodgello/follows/channels/Czaru
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth <ACCESS_TOKEN>
+      Expect: ''
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Tue, 15 Jul 2014 14:22:17 GMT
+      Content-Type: application/json; charset=utf-8
+      Content-Length: '1653'
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: '"e9e014fc300499b7299812c6d0d7de8b"'
+      X-Request-Id: c1a3e836ab14baf6582cb41ee8c8bfb3
+      X-Runtime: '0.310791'
+      Accept-Ranges: bytes
+      X-Varnish: '477666418'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache2; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "created_at": "2014-07-15T14:22:16Z",
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/czaru"
+          },
+          "channel": {
+            "mature": false,
+            "abuse_reported": null,
+            "status": "Czaru - A - Z Challenge Mid ! D1 -  ChoGath\r\n",
+            "display_name": "Czaru",
+            "game": "League of Legends",
+            "delay": 0,
+            "_id": 27577887,
+            "name": "czaru",
+            "created_at": "2012-01-19T15:54:48Z",
+            "updated_at": "2014-07-15T13:40:18Z",
+            "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/czaru-profile_image-dd33cf3bb4e0cf54-300x300.png",
+            "banner": null,
+            "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/czaru-channel_offline_image-d0f77dcd92063d3b-640x360.png",
+            "background": null,
+            "profile_banner": null,
+            "profile_banner_background_color": null,
+            "url": "http://www.twitch.tv/czaru",
+            "views": 552466,
+            "followers": 6626,
+            "_links": {
+              "self": "https://api.twitch.tv/kraken/channels/czaru",
+              "follows": "https://api.twitch.tv/kraken/channels/czaru/follows",
+              "commercial": "https://api.twitch.tv/kraken/channels/czaru/commercial",
+              "stream_key": "https://api.twitch.tv/kraken/channels/czaru/stream_key",
+              "chat": "https://api.twitch.tv/kraken/chat/czaru",
+              "features": "https://api.twitch.tv/kraken/channels/czaru/features",
+              "subscriptions": "https://api.twitch.tv/kraken/channels/czaru/subscriptions",
+              "editors": "https://api.twitch.tv/kraken/channels/czaru/editors",
+              "teams": "https://api.twitch.tv/kraken/channels/czaru/teams",
+              "videos": "https://api.twitch.tv/kraken/channels/czaru/videos"
+            }
+          }
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jul 2014 14:22:21 GMT
+recorded_with: VCR 2.9.2

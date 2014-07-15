@@ -17,4 +17,8 @@ module TwitchApi
   def self.client_id
     ENV['TWITCH_CLIENT_ID']
   end
+
+  def self.throw_errors
+    ENV['TWITCH_THROW_ERRORS'] || false
+  end
 end

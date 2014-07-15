@@ -9,8 +9,8 @@ module TwitchApi
         c = Curl.get(path + build_query_string(options[:query])) do |curl|
           curl.headers.merge!(headers)
         end
-        response = JSON.parse(c.body_str, symbolize_names: true)
-        raise_error(response)
+        response = build_response_hash(c)
+        raise_error(response) if TwitchApi.throw_errors
         response
       end
 
@@ -20,8 +20,8 @@ module TwitchApi
         c = Curl.post(path, data) do |curl|
           curl.headers.merge!(headers)
         end
-        response = JSON.parse(c.body_str, symbolize_names: true)
-        raise_error(response)
+        response = build_response_hash(c)
+        raise_error(response) if TwitchApi.throw_errors
         response
       end
 
@@ -31,8 +31,8 @@ module TwitchApi
         c = Curl.put(path, data) do |curl|
           curl.headers.merge!(headers)
         end
-        response = JSON.parse(c.body_str, symbolize_names: true)
-        raise_error(response)
+        response = build_response_hash(c)
+        raise_error(response) if TwitchApi.throw_errors
         response
       end
 
@@ -41,10 +41,8 @@ module TwitchApi
         c = Curl.delete(path) do |curl|
           curl.headers.merge!(headers)
         end
-        unless c.response_code == 204
-          response = JSON.parse(c.body_str, symbolize_names: true)
-          raise_error(response)
-        end
+        response = build_response_hash(c)
+        raise_error(response) if TwitchApi.throw_errors
         response
       end
 
@@ -56,12 +54,22 @@ module TwitchApi
         headers
       end
 
+      def build_response_hash(curl)
+        response = { status_code: curl.response_code }
+        unless curl.body_str.empty?
+          response.merge!(JSON.parse(curl.body_str, symbolize_names: true))
+        end
+        response 
+      end
+
       def raise_error(data)
-        case data[:status]
+        case data[:status_code]
+        when [200..204]
+          return
         when 401
           raise TwitchApi::Errors::UnauthorizedError.new, "#{data[:error]}: #{data[:message]}"
         end
-        if data[:status]
+        if data[:status_code]
           raise TwitchApi::Errors::TwitchApiError.new, "#{data[:error]}: #{data[:message]}"
         end
       end

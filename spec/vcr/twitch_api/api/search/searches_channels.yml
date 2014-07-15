@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 11:26:46 GMT
+      Date: Tue, 15 Jul 2014 14:22:19 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -21,57 +21,24 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"cd44c094f9497b0e3019b9e582ea3cae"'
-      X-Request-Id: b6dd85df3aa4fe30c3b1d37796238b80
-      X-Runtime: '0.274647'
-      X-Varnish: '1973861489'
+      Etag: '"98d9e895f96c0ab23bedb5c30f0ae865"'
+      X-Request-Id: e0870ccc8f2423b7928394e16eeea34a
+      X-Runtime: '0.793332'
+      X-Varnish: '477675501'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache4; M
+      X-Mh-Cache: appcache2; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 215227,
+          "_total": 169097,
           "_links": {
             "self": "https://api.twitch.tv/kraken/search/channels?limit=10&offset=0&q=test",
             "next": "https://api.twitch.tv/kraken/search/channels?limit=10&offset=10&q=test"
           },
           "channels": [
-            {
-              "mature": false,
-              "abuse_reported": null,
-              "status": "I'm done!",
-              "display_name": "MonotoneTim",
-              "game": "testgamewithquotes",
-              "delay": 0,
-              "_id": 21931814,
-              "name": "monotonetim",
-              "created_at": "2011-04-22T18:38:25Z",
-              "updated_at": "2014-07-15T01:04:35Z",
-              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/monotonetim-profile_image-e2633f0d45fda0fe-300x300.png",
-              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/monotonetim-channel_header_image-1a06bd343b88ad4b-640x125.png",
-              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/monotonetim-channel_offline_image-03493b1c1e0bdf9b-640x360.png",
-              "background": null,
-              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/monotonetim-profile_banner-b54166a3e075eb73-480.png",
-              "profile_banner_background_color": "#007cc9",
-              "url": "http://www.twitch.tv/monotonetim",
-              "views": 1577368,
-              "followers": 16013,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/monotonetim",
-                "follows": "https://api.twitch.tv/kraken/channels/monotonetim/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/monotonetim/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/monotonetim/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/monotonetim",
-                "features": "https://api.twitch.tv/kraken/channels/monotonetim/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/monotonetim/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/monotonetim/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/monotonetim/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/monotonetim/videos"
-              }
-            },
             {
               "mature": true,
               "abuse_reported": null,
@@ -103,105 +70,6 @@ http_interactions:
                 "editors": "https://api.twitch.tv/kraken/channels/archonbao/editors",
                 "teams": "https://api.twitch.tv/kraken/channels/archonbao/teams",
                 "videos": "https://api.twitch.tv/kraken/channels/archonbao/videos"
-              }
-            },
-            {
-              "mature": false,
-              "abuse_reported": null,
-              "status": "Testing OBS/Elgato on the new rig",
-              "display_name": "milgoheha",
-              "game": "Test",
-              "delay": 0,
-              "_id": 59399521,
-              "name": "milgoheha",
-              "created_at": "2014-03-22T12:51:24Z",
-              "updated_at": "2014-07-15T10:08:10Z",
-              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/milgoheha-profile_image-ba914b9ae5c961c1-300x300.png",
-              "banner": null,
-              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/milgoheha-channel_offline_image-7bf5eb871c8223e4-640x360.jpeg",
-              "background": null,
-              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/milgoheha-profile_banner-2a4f2e693b2b8278-480.jpeg",
-              "profile_banner_background_color": "#ffe30f",
-              "url": "http://www.twitch.tv/milgoheha",
-              "views": 3998,
-              "followers": 208,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/milgoheha",
-                "follows": "https://api.twitch.tv/kraken/channels/milgoheha/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/milgoheha/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/milgoheha/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/milgoheha",
-                "features": "https://api.twitch.tv/kraken/channels/milgoheha/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/milgoheha/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/milgoheha/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/milgoheha/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/milgoheha/videos"
-              }
-            },
-            {
-              "mature": null,
-              "abuse_reported": null,
-              "status": "diamond league any game % WR attempts (no reset) [666p] ",
-              "display_name": "Not_Tim",
-              "game": "testgamewithquotes",
-              "delay": 0,
-              "_id": 28791960,
-              "name": "not_tim",
-              "created_at": "2012-03-07T19:45:56Z",
-              "updated_at": "2014-07-15T06:14:16Z",
-              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/not_tim-profile_image-e56fe98277fbf910-300x300.jpeg",
-              "banner": null,
-              "video_banner": null,
-              "background": null,
-              "profile_banner": null,
-              "profile_banner_background_color": null,
-              "url": "http://www.twitch.tv/not_tim",
-              "views": 141497,
-              "followers": 1436,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/not_tim",
-                "follows": "https://api.twitch.tv/kraken/channels/not_tim/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/not_tim/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/not_tim/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/not_tim",
-                "features": "https://api.twitch.tv/kraken/channels/not_tim/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/not_tim/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/not_tim/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/not_tim/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/not_tim/videos"
-              }
-            },
-            {
-              "mature": false,
-              "abuse_reported": null,
-              "status": "Zelda: Skyward Sword - Damageless",
-              "display_name": "TestRunner",
-              "game": "The Legend of Zelda: Skyward Sword",
-              "delay": 0,
-              "_id": 24350238,
-              "name": "testrunner",
-              "created_at": "2011-08-25T14:00:33Z",
-              "updated_at": "2014-07-15T09:22:59Z",
-              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/testrunner-profile_image-9e03cf8ac48357f3-300x300.png",
-              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testrunner-channel_header_image-39c228d6d590be90-640x125.jpeg",
-              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testrunner-channel_offline_image-47a7481064f1e276-640x360.png",
-              "background": null,
-              "profile_banner": null,
-              "profile_banner_background_color": null,
-              "url": "http://www.twitch.tv/testrunner",
-              "views": 1661502,
-              "followers": 11964,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/testrunner",
-                "follows": "https://api.twitch.tv/kraken/channels/testrunner/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/testrunner/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/testrunner/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/testrunner",
-                "features": "https://api.twitch.tv/kraken/channels/testrunner/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/testrunner/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/testrunner/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/testrunner/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/testrunner/videos"
               }
             },
             {
@@ -238,72 +106,6 @@ http_interactions:
               }
             },
             {
-              "mature": true,
-              "abuse_reported": null,
-              "status": "Test",
-              "display_name": "overkillernl",
-              "game": "test",
-              "delay": 0,
-              "_id": 37670642,
-              "name": "overkillernl",
-              "created_at": "2012-11-13T20:27:17Z",
-              "updated_at": "2014-07-14T15:59:19Z",
-              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/overkillernl-profile_image-ee44ad26ce4bebca-300x300.jpeg",
-              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/overkillernl-channel_header_image-572e2ee4091ac68e-640x125.jpeg",
-              "video_banner": null,
-              "background": null,
-              "profile_banner": null,
-              "profile_banner_background_color": null,
-              "url": "http://www.twitch.tv/overkillernl",
-              "views": 2544,
-              "followers": 78,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/overkillernl",
-                "follows": "https://api.twitch.tv/kraken/channels/overkillernl/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/overkillernl/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/overkillernl/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/overkillernl",
-                "features": "https://api.twitch.tv/kraken/channels/overkillernl/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/overkillernl/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/overkillernl/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/overkillernl/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/overkillernl/videos"
-              }
-            },
-            {
-              "mature": null,
-              "abuse_reported": null,
-              "status": "testy mctest",
-              "display_name": "whooPsBoB",
-              "game": "test",
-              "delay": 0,
-              "_id": 28701594,
-              "name": "whoopsbob",
-              "created_at": "2012-03-04T05:33:33Z",
-              "updated_at": "2014-07-11T20:51:36Z",
-              "logo": null,
-              "banner": null,
-              "video_banner": null,
-              "background": null,
-              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/whoopsbob-profile_banner-15ad7c838d5318bd-480.jpeg",
-              "profile_banner_background_color": null,
-              "url": "http://www.twitch.tv/whoopsbob",
-              "views": 1129,
-              "followers": 58,
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/whoopsbob",
-                "follows": "https://api.twitch.tv/kraken/channels/whoopsbob/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/whoopsbob/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/whoopsbob/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/whoopsbob",
-                "features": "https://api.twitch.tv/kraken/channels/whoopsbob/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/whoopsbob/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/whoopsbob/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/whoopsbob/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/whoopsbob/videos"
-              }
-            },
-            {
               "mature": null,
               "abuse_reported": null,
               "status": "TEST",
@@ -337,40 +139,238 @@ http_interactions:
               }
             },
             {
+              "mature": true,
+              "abuse_reported": null,
+              "status": "test",
+              "display_name": "Superfreddie64",
+              "game": null,
+              "delay": 0,
+              "_id": 23702589,
+              "name": "superfreddie64",
+              "created_at": "2011-07-28T00:05:00Z",
+              "updated_at": "2014-06-08T10:20:04Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/superfreddie64-profile_image-dc78e44b10465c98-300x300.jpeg",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/superfreddie64-channel_header_image-42a2ed0658e20048-640x125.jpeg",
+              "video_banner": null,
+              "background": null,
+              "profile_banner": null,
+              "profile_banner_background_color": null,
+              "url": "http://www.twitch.tv/superfreddie64",
+              "views": 0,
+              "followers": 38,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/superfreddie64",
+                "follows": "https://api.twitch.tv/kraken/channels/superfreddie64/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/superfreddie64/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/superfreddie64/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/superfreddie64",
+                "features": "https://api.twitch.tv/kraken/channels/superfreddie64/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/superfreddie64/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/superfreddie64/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/superfreddie64/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/superfreddie64/videos"
+              }
+            },
+            {
               "mature": null,
               "abuse_reported": null,
-              "status": "NHL 14 EASHL ",
-              "display_name": "KryptoniteCANADA",
-              "game": "test",
+              "status": "Halvard1983",
+              "display_name": "halvard1983",
+              "game": "test ",
               "delay": 0,
-              "_id": 60667055,
-              "name": "kryptonitecanada",
-              "created_at": "2014-04-11T22:42:40Z",
-              "updated_at": "2014-07-15T08:55:19Z",
-              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/kryptonitecanada-profile_image-b3be6053c2ed1a5c-300x300.jpeg",
+              "_id": 55824711,
+              "name": "halvard1983",
+              "created_at": "2014-01-30T16:08:19Z",
+              "updated_at": "2014-07-01T18:47:19Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/halvard1983-profile_image-60584c52f5acc7f4-300x300.png",
               "banner": null,
               "video_banner": null,
               "background": null,
-              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kryptonitecanada-profile_banner-626da69df4301923-480.jpeg",
-              "profile_banner_background_color": "#ff0000",
-              "url": "http://www.twitch.tv/kryptonitecanada",
-              "views": 437,
-              "followers": 46,
+              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/halvard1983-profile_banner-71ec9c6844f57759-480.jpeg",
+              "profile_banner_background_color": null,
+              "url": "http://www.twitch.tv/halvard1983",
+              "views": 273,
+              "followers": 34,
               "_links": {
-                "self": "https://api.twitch.tv/kraken/channels/kryptonitecanada",
-                "follows": "https://api.twitch.tv/kraken/channels/kryptonitecanada/follows",
-                "commercial": "https://api.twitch.tv/kraken/channels/kryptonitecanada/commercial",
-                "stream_key": "https://api.twitch.tv/kraken/channels/kryptonitecanada/stream_key",
-                "chat": "https://api.twitch.tv/kraken/chat/kryptonitecanada",
-                "features": "https://api.twitch.tv/kraken/channels/kryptonitecanada/features",
-                "subscriptions": "https://api.twitch.tv/kraken/channels/kryptonitecanada/subscriptions",
-                "editors": "https://api.twitch.tv/kraken/channels/kryptonitecanada/editors",
-                "teams": "https://api.twitch.tv/kraken/channels/kryptonitecanada/teams",
-                "videos": "https://api.twitch.tv/kraken/channels/kryptonitecanada/videos"
+                "self": "https://api.twitch.tv/kraken/channels/halvard1983",
+                "follows": "https://api.twitch.tv/kraken/channels/halvard1983/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/halvard1983/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/halvard1983/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/halvard1983",
+                "features": "https://api.twitch.tv/kraken/channels/halvard1983/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/halvard1983/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/halvard1983/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/halvard1983/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/halvard1983/videos"
+              }
+            },
+            {
+              "mature": null,
+              "abuse_reported": null,
+              "status": "Testing",
+              "display_name": "CSheehan",
+              "game": "testgamewithquotes",
+              "delay": 0,
+              "_id": 28504616,
+              "name": "csheehan",
+              "created_at": "2012-02-25T19:21:00Z",
+              "updated_at": "2014-07-03T18:48:36Z",
+              "logo": null,
+              "banner": null,
+              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/csheehan-channel_offline_image-3f9fe52b1f88f2d1-640x360.jpeg",
+              "background": null,
+              "profile_banner": null,
+              "profile_banner_background_color": null,
+              "url": "http://www.twitch.tv/csheehan",
+              "views": 8690,
+              "followers": 120,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/csheehan",
+                "follows": "https://api.twitch.tv/kraken/channels/csheehan/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/csheehan/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/csheehan/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/csheehan",
+                "features": "https://api.twitch.tv/kraken/channels/csheehan/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/csheehan/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/csheehan/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/csheehan/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/csheehan/videos"
+              }
+            },
+            {
+              "mature": null,
+              "abuse_reported": null,
+              "status": "Test",
+              "display_name": "KaccuaH",
+              "game": "Test",
+              "delay": 0,
+              "_id": 25276830,
+              "name": "kaccuah",
+              "created_at": "2011-10-06T05:10:30Z",
+              "updated_at": "2014-06-27T08:49:44Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaccuah-profile_image-7cb05114b70dd529-300x300.jpeg",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaccuah-channel_header_image-9b19bc08f3dd7e59-640x125.jpeg",
+              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaccuah-channel_offline_image-e905f87ca44c5c97-640x360.jpeg",
+              "background": null,
+              "profile_banner": null,
+              "profile_banner_background_color": null,
+              "url": "http://www.twitch.tv/kaccuah",
+              "views": 4177,
+              "followers": 28,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/kaccuah",
+                "follows": "https://api.twitch.tv/kraken/channels/kaccuah/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/kaccuah/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/kaccuah/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/kaccuah",
+                "features": "https://api.twitch.tv/kraken/channels/kaccuah/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/kaccuah/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/kaccuah/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/kaccuah/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/kaccuah/videos"
+              }
+            },
+            {
+              "mature": null,
+              "abuse_reported": null,
+              "status": "Pre Stream Set up",
+              "display_name": "JBLHD",
+              "game": "Test",
+              "delay": 0,
+              "_id": 44384117,
+              "name": "jblhd",
+              "created_at": "2013-06-05T18:28:12Z",
+              "updated_at": "2014-07-11T20:15:01Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/jblhd-profile_image-0d255a534d266554-300x300.jpeg",
+              "banner": null,
+              "video_banner": null,
+              "background": null,
+              "profile_banner": null,
+              "profile_banner_background_color": null,
+              "url": "http://www.twitch.tv/jblhd",
+              "views": 145,
+              "followers": 27,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/jblhd",
+                "follows": "https://api.twitch.tv/kraken/channels/jblhd/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/jblhd/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/jblhd/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/jblhd",
+                "features": "https://api.twitch.tv/kraken/channels/jblhd/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/jblhd/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/jblhd/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/jblhd/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/jblhd/videos"
+              }
+            },
+            {
+              "mature": false,
+              "abuse_reported": null,
+              "status": "testando placa",
+              "display_name": "CalangaoTV",
+              "game": "TESTE",
+              "delay": 0,
+              "_id": 52068976,
+              "name": "calangaotv",
+              "created_at": "2013-11-23T23:02:47Z",
+              "updated_at": "2014-07-10T09:24:56Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/calangaotv-profile_image-f2db1ac9e51343bb-300x300.png",
+              "banner": null,
+              "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/calangaotv-channel_offline_image-9e8f3a907c269268-640x360.png",
+              "background": null,
+              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/calangaotv-profile_banner-06a5b8fe257daf7d-480.jpeg",
+              "profile_banner_background_color": "#000000",
+              "url": "http://www.twitch.tv/calangaotv",
+              "views": 9458,
+              "followers": 87,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/calangaotv",
+                "follows": "https://api.twitch.tv/kraken/channels/calangaotv/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/calangaotv/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/calangaotv/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/calangaotv",
+                "features": "https://api.twitch.tv/kraken/channels/calangaotv/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/calangaotv/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/calangaotv/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/calangaotv/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/calangaotv/videos"
+              }
+            },
+            {
+              "mature": false,
+              "abuse_reported": null,
+              "status": "Testing Elgato",
+              "display_name": "RagerLive",
+              "game": "Testing",
+              "delay": 0,
+              "_id": 53913778,
+              "name": "ragerlive",
+              "created_at": "2013-12-27T09:29:53Z",
+              "updated_at": "2014-06-20T23:46:41Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/ragerlive-profile_image-9d1c31929313587f-300x300.png",
+              "banner": null,
+              "video_banner": null,
+              "background": null,
+              "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/ragerlive-profile_banner-943f3bf1ba55e213-480.jpeg",
+              "profile_banner_background_color": null,
+              "url": "http://www.twitch.tv/ragerlive",
+              "views": 1070,
+              "followers": 67,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/ragerlive",
+                "follows": "https://api.twitch.tv/kraken/channels/ragerlive/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/ragerlive/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/ragerlive/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/ragerlive",
+                "features": "https://api.twitch.tv/kraken/channels/ragerlive/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/ragerlive/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/ragerlive/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/ragerlive/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/ragerlive/videos"
               }
             }
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 11:26:51 GMT
+  recorded_at: Tue, 15 Jul 2014 14:22:24 GMT
 recorded_with: VCR 2.9.2

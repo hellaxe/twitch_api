@@ -7,16 +7,16 @@ describe TwitchApi::Api::Blocks do
 
   it 'gets block list', vcr: true do
     result = @client.get_block_list('Dodgello')
-    result.should be_instance_of(Hash)
+    expect(result[:status_code]).to eq(200)
   end
 
   it 'adds target to a block list', vcr: true do
     result = @client.add_block('Dodgello', 'SomeUser')
-    result.should be_instance_of(Hash)
+    expect(result[:status_code]).to eq(200)
   end
 
   it 'deletes target from a block list', vcr: true do
     result = @client.remove_block('Dodgello', 'SomeUser')
-    expect(result).to eq(nil)
+    expect(result[:status_code]).to eq(204)
   end
 end
