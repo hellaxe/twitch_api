@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 15:42:55 GMT
+      Date: Tue, 15 Jul 2014 19:24:19 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,10 +22,10 @@ http_interactions:
       Cache-Control: max-age=300, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"2b63e06d55d532a2ad5c1c10639d68f6"'
-      X-Request-Id: 6c9610b39a1468b57a75d7197b5de8bc
-      X-Runtime: '0.086696'
-      X-Varnish: '498358864'
+      Etag: '"7ddd6367d1123c38565d01d1d799f7fc"'
+      X-Request-Id: 3394d13d055744d9b9ac473de3c4e64d
+      X-Runtime: '0.089688'
+      X-Varnish: '565885545'
       Age: '0'
       Via: 1.1 varnish
       X-Mh-Cache: appcache2; M
@@ -63,7 +63,7 @@ http_interactions:
                 "_id": 45510223,
                 "name": "kanolilol",
                 "created_at": "2013-07-02T11:34:10Z",
-                "updated_at": "2014-06-07T14:59:02Z",
+                "updated_at": "2014-07-15T17:03:03Z",
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/users/kanolilol"
                 },
@@ -518,5 +518,5 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 15:42:59 GMT
+  recorded_at: Tue, 15 Jul 2014 19:24:23 GMT
 recorded_with: VCR 2.9.2

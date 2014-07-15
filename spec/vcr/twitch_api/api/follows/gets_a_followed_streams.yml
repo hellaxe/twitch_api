@@ -13,23 +13,23 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 15:42:57 GMT
+      Date: Tue, 15 Jul 2014 19:24:21 GMT
       Content-Type: application/json; charset=utf-8
-      Content-Length: '4933'
+      Content-Length: '4926'
       Connection: keep-alive
       Status: 200 OK
       X-Api-Version: '3'
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"10014562d34f9c0687ddd7057c850b08"'
-      X-Request-Id: b8b89880c2abc4e7dbaea9f5ced4453c
-      X-Runtime: '0.086626'
+      Etag: '"c3dee49e11ed0a675ba84ea828e03df8"'
+      X-Request-Id: b1e9ec4028364cf488feeb3b7fbd518f
+      X-Runtime: '0.069552'
       Accept-Ranges: bytes
-      X-Varnish: '2070568214'
+      X-Varnish: '2102913735'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache1; M
+      X-Mh-Cache: appcache4; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
@@ -42,56 +42,56 @@ http_interactions:
           },
           "streams": [
             {
-              "_id": 10264655248,
+              "_id": 10266001344,
               "game": "League of Legends",
-              "viewers": 10307,
+              "viewers": 343,
               "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sp4zie-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sp4zie-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sp4zie-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sp4zie-{width}x{height}.jpg"
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mosttoxiceu-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mosttoxiceu-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mosttoxiceu-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mosttoxiceu-{width}x{height}.jpg"
               },
               "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/sp4zie"
+                "self": "https://api.twitch.tv/kraken/streams/mosttoxiceu"
               },
               "channel": {
                 "mature": false,
                 "abuse_reported": null,
-                "status": "♥  Sp4zie - Fun Games + Skin Giveaways on Twitter! ",
-                "display_name": "Sp4zie",
+                "status": "BEST JAX EU d1 80lp+ high elo stream, grinding th lp",
+                "display_name": "MOSTTOXICEU",
                 "game": "League of Legends",
                 "delay": 0,
-                "_id": 28565473,
-                "name": "sp4zie",
-                "created_at": "2012-02-27T12:26:41Z",
-                "updated_at": "2014-07-15T13:29:52Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-profile_image-94c7d70156561e7a-300x300.png",
-                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-channel_header_image-26e6e281bf3cab1e-640x125.jpeg",
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-channel_offline_image-56949f32a4ba299d-640x360.png",
+                "_id": 42778079,
+                "name": "mosttoxiceu",
+                "created_at": "2013-04-23T11:54:31Z",
+                "updated_at": "2014-07-15T15:44:28Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-profile_image-c18ce29bff14127c-300x300.png",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-channel_offline_image-456b3cef1ad58c22-640x360.png",
                 "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-profile_banner-44884bde791809a4-480.png",
-                "profile_banner_background_color": "#0c395e",
-                "url": "http://www.twitch.tv/sp4zie",
-                "views": 8875235,
-                "followers": 134707,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-profile_banner-0a625d4fd5e35f96-480.png",
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/mosttoxiceu",
+                "views": 168413,
+                "followers": 3163,
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/sp4zie",
-                  "follows": "https://api.twitch.tv/kraken/channels/sp4zie/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/sp4zie/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/sp4zie/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/sp4zie",
-                  "features": "https://api.twitch.tv/kraken/channels/sp4zie/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/sp4zie/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/sp4zie/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/sp4zie/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/sp4zie/videos"
+                  "self": "https://api.twitch.tv/kraken/channels/mosttoxiceu",
+                  "follows": "https://api.twitch.tv/kraken/channels/mosttoxiceu/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/mosttoxiceu/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/mosttoxiceu/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/mosttoxiceu",
+                  "features": "https://api.twitch.tv/kraken/channels/mosttoxiceu/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/mosttoxiceu/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/mosttoxiceu/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/mosttoxiceu/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/mosttoxiceu/videos"
                 }
               }
             },
             {
               "_id": 10264437168,
               "game": "League of Legends",
-              "viewers": 161,
+              "viewers": 173,
               "preview": {
                 "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-80x50.jpg",
                 "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-320x200.jpg",
@@ -120,7 +120,7 @@ http_interactions:
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/hashinshin",
                 "views": 1101531,
-                "followers": 12604,
+                "followers": 12598,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/hashinshin",
                   "follows": "https://api.twitch.tv/kraken/channels/hashinshin/follows",
@@ -138,5 +138,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 15:43:02 GMT
+  recorded_at: Tue, 15 Jul 2014 19:24:26 GMT
 recorded_with: VCR 2.9.2

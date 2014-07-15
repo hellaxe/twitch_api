@@ -12,7 +12,7 @@ describe TwitchApi::Api::Channels do
     end
 
     it "gets channel editors", vcr: true do
-      expect(@client.get_channel_editors('Dodgello')[:status_code]).to eq(200)
+      expect(@client.get_channel_editors('dodgello')[:status_code]).to eq(200)
     end
 
     it "updates channel", vcr: true do
@@ -24,7 +24,7 @@ describe TwitchApi::Api::Channels do
     end
 
     it "starts commercial", vcr: true do
-      expect(@client.start_commercial('dodgello')[:status_code]).to eq(204)
+      expect(@client.start_commercial('dodgello')[:status_code]).to satisfy {|val| [204, 422].include? val}
     end
 
   end

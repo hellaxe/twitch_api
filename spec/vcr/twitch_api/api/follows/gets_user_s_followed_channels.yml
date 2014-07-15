@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 15:42:55 GMT
+      Date: Tue, 15 Jul 2014 19:24:19 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,13 +22,13 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"aca0c8922e481d97945b07bbf42ea4e1"'
-      X-Request-Id: 284b48ffcb219e401faa9c96b61bb6e0
-      X-Runtime: '0.103127'
-      X-Varnish: '529178337'
+      Etag: '"4b68312624842431e7c84ded9533095a"'
+      X-Request-Id: bfd2915e41b024265994886624b0824a
+      X-Runtime: '0.115718'
+      X-Varnish: '2138061728'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache3; M
+      X-Mh-Cache: appcache1; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
@@ -64,7 +64,7 @@ http_interactions:
                 "profile_banner_background_color": "#000000",
                 "url": "http://www.twitch.tv/mannercookie",
                 "views": 1410144,
-                "followers": 12447,
+                "followers": 12448,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/mannercookie",
                   "follows": "https://api.twitch.tv/kraken/channels/mannercookie/follows",
@@ -103,7 +103,7 @@ http_interactions:
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/mushisgosu",
                 "views": 17181297,
-                "followers": 199466,
+                "followers": 199494,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/mushisgosu",
                   "follows": "https://api.twitch.tv/kraken/channels/mushisgosu/follows",
@@ -142,7 +142,7 @@ http_interactions:
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/machinegunnerusmc",
                 "views": 942773,
-                "followers": 23098,
+                "followers": 23097,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/machinegunnerusmc",
                   "follows": "https://api.twitch.tv/kraken/channels/machinegunnerusmc/follows",
@@ -172,7 +172,7 @@ http_interactions:
                 "_id": 53141417,
                 "name": "kingofham",
                 "created_at": "2013-12-13T14:03:30Z",
-                "updated_at": "2014-07-14T17:41:00Z",
+                "updated_at": "2014-07-15T17:29:41Z",
                 "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/kingofham-profile_image-538837c7229660f1-300x300.png",
                 "banner": null,
                 "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kingofham-channel_offline_image-a48e81cc46ce1d92-640x360.jpeg",
@@ -180,7 +180,7 @@ http_interactions:
                 "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kingofham-profile_banner-e924c0dd33b1c207-480.jpeg",
                 "profile_banner_background_color": "#20364f",
                 "url": "http://www.twitch.tv/kingofham",
-                "views": 306650,
+                "views": 306666,
                 "followers": 8720,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/kingofham",
@@ -259,7 +259,7 @@ http_interactions:
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/sky_mp3",
                 "views": 8688926,
-                "followers": 167502,
+                "followers": 167499,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/sky_mp3",
                   "follows": "https://api.twitch.tv/kraken/channels/sky_mp3/follows",
@@ -289,7 +289,7 @@ http_interactions:
                 "_id": 42778079,
                 "name": "mosttoxiceu",
                 "created_at": "2013-04-23T11:54:31Z",
-                "updated_at": "2014-07-15T11:05:28Z",
+                "updated_at": "2014-07-15T15:44:28Z",
                 "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-profile_image-c18ce29bff14127c-300x300.png",
                 "banner": null,
                 "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-channel_offline_image-456b3cef1ad58c22-640x360.png",
@@ -298,7 +298,7 @@ http_interactions:
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/mosttoxiceu",
                 "views": 168413,
-                "followers": 3137,
+                "followers": 3167,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/mosttoxiceu",
                   "follows": "https://api.twitch.tv/kraken/channels/mosttoxiceu/follows",
@@ -328,7 +328,7 @@ http_interactions:
                 "_id": 28565473,
                 "name": "sp4zie",
                 "created_at": "2012-02-27T12:26:41Z",
-                "updated_at": "2014-07-15T13:29:52Z",
+                "updated_at": "2014-07-15T17:49:08Z",
                 "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-profile_image-94c7d70156561e7a-300x300.png",
                 "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-channel_header_image-26e6e281bf3cab1e-640x125.jpeg",
                 "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-channel_offline_image-56949f32a4ba299d-640x360.png",
@@ -337,7 +337,7 @@ http_interactions:
                 "profile_banner_background_color": "#0c395e",
                 "url": "http://www.twitch.tv/sp4zie",
                 "views": 8875235,
-                "followers": 132857,
+                "followers": 136202,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/sp4zie",
                   "follows": "https://api.twitch.tv/kraken/channels/sp4zie/follows",
@@ -376,7 +376,7 @@ http_interactions:
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/hashinshin",
                 "views": 1101531,
-                "followers": 12604,
+                "followers": 12602,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/hashinshin",
                   "follows": "https://api.twitch.tv/kraken/channels/hashinshin/follows",
@@ -445,7 +445,7 @@ http_interactions:
                 "_id": 25104208,
                 "name": "gamezet_show",
                 "created_at": "2011-09-27T08:29:19Z",
-                "updated_at": "2014-07-15T12:51:01Z",
+                "updated_at": "2014-07-15T18:38:49Z",
                 "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/gamezet_show-profile_image-cb40cb5d043a11f4-300x300.png",
                 "banner": null,
                 "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/gamezet_show-channel_offline_image-27d8b5c0f4dbff02-640x360.png",
@@ -453,7 +453,7 @@ http_interactions:
                 "profile_banner": null,
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/gamezet_show",
-                "views": 8670838,
+                "views": 8674154,
                 "followers": 6154,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/gamezet_show",
@@ -484,7 +484,7 @@ http_interactions:
                 "_id": 39217843,
                 "name": "tyraelise",
                 "created_at": "2013-01-10T22:52:22Z",
-                "updated_at": "2014-07-14T17:13:40Z",
+                "updated_at": "2014-07-15T17:01:51Z",
                 "logo": null,
                 "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/tyraelise-channel_header_image-9c7258e04028568a-640x125.jpeg",
                 "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/tyraelise-channel_offline_image-64ffafd4bc0fb1aa-640x360.png",
@@ -492,8 +492,8 @@ http_interactions:
                 "profile_banner": null,
                 "profile_banner_background_color": null,
                 "url": "http://www.twitch.tv/tyraelise",
-                "views": 309011,
-                "followers": 2080,
+                "views": 309083,
+                "followers": 2079,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/tyraelise",
                   "follows": "https://api.twitch.tv/kraken/channels/tyraelise/follows",
@@ -511,5 +511,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 15:43:00 GMT
+  recorded_at: Tue, 15 Jul 2014 19:24:24 GMT
 recorded_with: VCR 2.9.2

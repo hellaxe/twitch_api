@@ -2,44 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.twitch.tv/kraken/channels/dodgello/editors
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept: application/vnd.twitchtv.v3+json
-  response:
-    status: {code: 401, message: Unauthorized}
-    headers:
-      Server: nginx
-      Date: Tue, 15 Jul 2014 14:22:15 GMT
-      Content-Type: application/json; charset=utf-8
-      Transfer-Encoding: chunked
-      Connection: keep-alive
-      Status: 401 Unauthorized
-      X-Api-Version: '3'
-      Www-Authenticate: OAuth realm='TwitchTV'
-      Cache-Control: max-age=0, private, must-revalidate
-      Vary: Accept-Encoding
-      X-Ua-Compatible: IE=Edge,chrome=1
-      X-Request-Id: 7c95f051f8af0e11382b9d5edf1c0649
-      X-Runtime: '0.007392'
-      X-Varnish: '2049864111'
-      Age: '0'
-      Via: 1.1 varnish
-      X-Mh-Cache: appcache1; M
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "error": "Unauthorized",
-          "status": 401,
-          "message": "Token invalid or missing required scope"
-        }
-    http_version: 
-  recorded_at: Tue, 15 Jul 2014 14:22:19 GMT
-- request:
-    method: get
     uri: https://api.twitch.tv/kraken/channels/Dodgello/editors
     body:
       encoding: US-ASCII
@@ -50,7 +12,7 @@ http_interactions:
     status: {code: 401, message: Unauthorized}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 15:42:54 GMT
+      Date: Tue, 15 Jul 2014 19:24:18 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -60,12 +22,12 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      X-Request-Id: ad6a753931ddc6e96d10e9b7aea62b88
-      X-Runtime: '0.011045'
-      X-Varnish: '529174975'
+      X-Request-Id: 5f315d0aa055bfdc65e685e388ac35f1
+      X-Runtime: '0.007277'
+      X-Varnish: '2102897374'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache3; M
+      X-Mh-Cache: appcache4; M
     body:
       encoding: UTF-8
       string: |-
@@ -75,5 +37,5 @@ http_interactions:
           "message": "Token invalid or missing required scope"
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 15:42:59 GMT
+  recorded_at: Tue, 15 Jul 2014 19:24:23 GMT
 recorded_with: VCR 2.9.2

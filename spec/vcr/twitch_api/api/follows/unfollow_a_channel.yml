@@ -13,23 +13,23 @@ http_interactions:
     status: {code: 204, message: No Content}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 15:42:57 GMT
+      Date: Tue, 15 Jul 2014 19:24:21 GMT
       Connection: keep-alive
       Status: 204 No Content
       X-Api-Version: '3'
       Cache-Control: max-age=0, private, must-revalidate
       X-Ua-Compatible: IE=Edge,chrome=1
-      X-Request-Id: 9258a6c4897fca5a45be53ff3e1ab867
-      X-Runtime: '0.132376'
+      X-Request-Id: 6410467fa6cf248870e23c7cbd804255
+      X-Runtime: '0.156799'
       Accept-Ranges: bytes
-      X-Varnish: '2035166871'
+      X-Varnish: '2138070831'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache4; M
+      X-Mh-Cache: appcache1; M
       Front-End-Https: 'on'
     body:
       encoding: ASCII-8BIT
       string: ''
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 15:43:02 GMT
+  recorded_at: Tue, 15 Jul 2014 19:24:26 GMT
 recorded_with: VCR 2.9.2

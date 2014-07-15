@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 15:42:58 GMT
+      Date: Tue, 15 Jul 2014 19:24:22 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -21,27 +21,27 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"44a6424c33fd0c49f42fc5ca361e094e"'
-      X-Request-Id: 679a4932d24663a286d9788310d29500
-      X-Runtime: '0.025129'
-      X-Varnish: '2035170720'
+      Etag: '"b4d7556db2469d2428e2e62f2a2d7d6c"'
+      X-Request-Id: 49c799e43a828bc6ef9d36a429e5b111
+      X-Runtime: '0.033604'
+      X-Varnish: '596909269'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache4; M
+      X-Mh-Cache: appcache3; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 706,
+          "_total": 842,
           "_links": {
             "self": "https://api.twitch.tv/kraken/games/top?limit=10&offset=0",
             "next": "https://api.twitch.tv/kraken/games/top?limit=10&offset=10"
           },
           "top": [
             {
-              "viewers": 104454,
-              "channels": 1137,
+              "viewers": 102110,
+              "channels": 1523,
               "game": {
                 "name": "League of Legends",
                 "_id": 21779,
@@ -63,31 +63,8 @@ http_interactions:
               }
             },
             {
-              "viewers": 25104,
-              "channels": 204,
-              "game": {
-                "name": "Hearthstone: Heroes of Warcraft",
-                "_id": 138585,
-                "giantbomb_id": 42033,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 22110,
-              "channels": 343,
+              "viewers": 55511,
+              "channels": 457,
               "game": {
                 "name": "Counter-Strike: Global Offensive",
                 "_id": 32399,
@@ -109,54 +86,8 @@ http_interactions:
               }
             },
             {
-              "viewers": 20884,
-              "channels": 241,
-              "game": {
-                "name": "Dota 2",
-                "_id": 29595,
-                "giantbomb_id": 32887,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 13765,
-              "channels": 277,
-              "game": {
-                "name": "World of Warcraft: Mists of Pandaria",
-                "_id": 32954,
-                "giantbomb_id": 36734,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 12283,
-              "channels": 449,
+              "viewers": 47624,
+              "channels": 606,
               "game": {
                 "name": "Minecraft",
                 "_id": 27471,
@@ -178,8 +109,100 @@ http_interactions:
               }
             },
             {
-              "viewers": 11932,
-              "channels": 92,
+              "viewers": 38288,
+              "channels": 276,
+              "game": {
+                "name": "Hearthstone: Heroes of Warcraft",
+                "_id": 138585,
+                "giantbomb_id": 42033,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 20852,
+              "channels": 97,
+              "game": {
+                "name": "Unturned",
+                "_id": 417932,
+                "giantbomb_id": null,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Unturned-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Unturned-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Unturned-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Unturned-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Unturned-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Unturned-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Unturned-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Unturned-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 16212,
+              "channels": 310,
+              "game": {
+                "name": "Dota 2",
+                "_id": 29595,
+                "giantbomb_id": 32887,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 15127,
+              "channels": 464,
+              "game": {
+                "name": "World of Warcraft: Mists of Pandaria",
+                "_id": 32954,
+                "giantbomb_id": 36734,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/World%20of%20Warcraft%3A%20Mists%20of%20Pandaria-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 14036,
+              "channels": 130,
               "game": {
                 "name": "StarCraft II: Heart of the Swarm",
                 "_id": 21818,
@@ -201,69 +224,46 @@ http_interactions:
               }
             },
             {
-              "viewers": 8028,
-              "channels": 27,
+              "viewers": 13389,
+              "channels": 5,
               "game": {
-                "name": "Watch_Dogs",
-                "_id": 65953,
-                "giantbomb_id": 38538,
+                "name": "The Bridge Project",
+                "_id": 126212,
+                "giantbomb_id": 41558,
                 "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Watch_Dogs-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Watch_Dogs-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Watch_Dogs-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Watch_Dogs-272x380.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Bridge%20Project-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Bridge%20Project-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Bridge%20Project-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Bridge%20Project-272x380.jpg"
                 },
                 "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Watch_Dogs-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Watch_Dogs-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Watch_Dogs-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Watch_Dogs-240x144.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Bridge%20Project-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Bridge%20Project-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Bridge%20Project-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Bridge%20Project-240x144.jpg"
                 },
                 "_links": {
                 }
               }
             },
             {
-              "viewers": 7948,
-              "channels": 75,
+              "viewers": 13175,
+              "channels": 344,
               "game": {
-                "name": "RuneScape",
-                "_id": 2083,
-                "giantbomb_id": 2268,
+                "name": "Call of Duty: Ghosts",
+                "_id": 118200,
+                "giantbomb_id": 41520,
                 "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/RuneScape-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/RuneScape-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/RuneScape-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/RuneScape-272x380.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty%3A%20Ghosts-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty%3A%20Ghosts-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty%3A%20Ghosts-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty%3A%20Ghosts-272x380.jpg"
                 },
                 "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/RuneScape-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/RuneScape-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/RuneScape-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/RuneScape-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 7558,
-              "channels": 260,
-              "game": {
-                "name": "FIFA 14",
-                "_id": 369095,
-                "giantbomb_id": 42410,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-240x144.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Call%20of%20Duty%3A%20Ghosts-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Call%20of%20Duty%3A%20Ghosts-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Call%20of%20Duty%3A%20Ghosts-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Call%20of%20Duty%3A%20Ghosts-240x144.jpg"
                 },
                 "_links": {
                 }
@@ -272,5 +272,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 15:43:03 GMT
+  recorded_at: Tue, 15 Jul 2014 19:24:26 GMT
 recorded_with: VCR 2.9.2

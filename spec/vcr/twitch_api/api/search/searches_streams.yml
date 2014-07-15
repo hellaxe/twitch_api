@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 15:43:00 GMT
+      Date: Tue, 15 Jul 2014 19:24:24 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -21,68 +21,162 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"05e40ee60d1d917e0921475a73bdd65b"'
-      X-Request-Id: 16f54f7da27d4b083201a1430740df99
-      X-Runtime: '0.293782'
-      X-Varnish: '498380077'
+      Etag: '"e419e7e0c39b4d06cd287f09783ddefa"'
+      X-Request-Id: 660ecb3fb320cc5fc293e04050f17873
+      X-Runtime: '0.358721'
+      X-Varnish: '2138086496'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache2; M
+      X-Mh-Cache: appcache1; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 174,
+          "_total": 248,
           "_links": {
             "self": "https://api.twitch.tv/kraken/search/streams?limit=10&offset=0&q=test",
             "next": "https://api.twitch.tv/kraken/search/streams?limit=10&offset=10&q=test"
           },
           "streams": [
             {
-              "_id": 10264297216,
-              "game": "World of Warcraft: Mists of Pandaria",
-              "viewers": 1671,
+              "_id": 10267815216,
+              "game": "Aperture Tag: The Paint Gun Testing Initiative",
+              "viewers": 5,
               "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_fatbosstv-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_fatbosstv-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_fatbosstv-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_fatbosstv-{width}x{height}.jpg"
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_pophead2-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_pophead2-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_pophead2-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_pophead2-{width}x{height}.jpg"
               },
               "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/fatbosstv"
+                "self": "https://api.twitch.tv/kraken/streams/pophead2"
               },
               "channel": {
                 "mature": false,
                 "abuse_reported": null,
-                "status": "Warlords Beta Level 100 Dungeon Testing! - FatbossTV",
-                "display_name": "FatbossTV",
-                "game": "World of Warcraft: Mists of Pandaria",
+                "status": " [Eng/Suomi] It's Finally Here! Closest thing to a Portal 3. Day 1",
+                "display_name": "pophead2",
+                "game": "Aperture Tag: The Paint Gun Testing Initiative",
                 "delay": 0,
-                "_id": 24270443,
-                "name": "fatbosstv",
-                "created_at": "2011-08-21T23:43:44Z",
-                "updated_at": "2014-07-15T15:17:12Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/fatbosstv-profile_image-ccaef7ccd4f73e3d-300x300.png",
-                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/fatbosstv-channel_header_image-209f0b113a55d439-640x125.png",
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/fatbosstv-channel_offline_image-72a36ab0a2cad21c-640x360.png",
+                "_id": 44502181,
+                "name": "pophead2",
+                "created_at": "2013-06-08T18:55:41Z",
+                "updated_at": "2014-07-15T18:41:50Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/pophead2-profile_image-8e50f26f1e1c3287-300x300.jpeg",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/pophead2-channel_offline_image-f1f774c760732401-640x360.png",
                 "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/fatbosstv-profile_banner-04519f3cf3bc3120-480.png",
-                "profile_banner_background_color": "null",
-                "url": "http://www.twitch.tv/fatbosstv",
-                "views": 1566078,
-                "followers": 27088,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/pophead2-profile_banner-97c06ca83d3b013c-480.jpeg",
+                "profile_banner_background_color": "#5c071a",
+                "url": "http://www.twitch.tv/pophead2",
+                "views": 1471,
+                "followers": 50,
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/fatbosstv",
-                  "follows": "https://api.twitch.tv/kraken/channels/fatbosstv/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/fatbosstv/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/fatbosstv/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/fatbosstv",
-                  "features": "https://api.twitch.tv/kraken/channels/fatbosstv/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/fatbosstv/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/fatbosstv/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/fatbosstv/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/fatbosstv/videos"
+                  "self": "https://api.twitch.tv/kraken/channels/pophead2",
+                  "follows": "https://api.twitch.tv/kraken/channels/pophead2/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/pophead2/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/pophead2/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/pophead2",
+                  "features": "https://api.twitch.tv/kraken/channels/pophead2/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/pophead2/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/pophead2/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/pophead2/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/pophead2/videos"
+                }
+              }
+            },
+            {
+              "_id": 10268155520,
+              "game": "League of Legends",
+              "viewers": 1,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_royalskullz-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_royalskullz-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_royalskullz-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_royalskullz-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/royalskullz"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "Test Test Test Test Test",
+                "display_name": "Royalskullz",
+                "game": "League of Legends",
+                "delay": 0,
+                "_id": 37168324,
+                "name": "royalskullz",
+                "created_at": "2012-10-25T18:55:39Z",
+                "updated_at": "2014-07-15T19:10:04Z",
+                "logo": null,
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/royalskullz-channel_offline_image-731d985e5b747369-640x360.jpeg",
+                "background": null,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/royalskullz-profile_banner-1304ac555c702870-480.jpeg",
+                "profile_banner_background_color": "#a8abab",
+                "url": "http://www.twitch.tv/royalskullz",
+                "views": 1536,
+                "followers": 61,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/royalskullz",
+                  "follows": "https://api.twitch.tv/kraken/channels/royalskullz/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/royalskullz/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/royalskullz/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/royalskullz",
+                  "features": "https://api.twitch.tv/kraken/channels/royalskullz/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/royalskullz/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/royalskullz/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/royalskullz/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/royalskullz/videos"
+                }
+              }
+            },
+            {
+              "_id": 10266916976,
+              "game": null,
+              "viewers": 1,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testfx-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testfx-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testfx-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testfx-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/testfx"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "[GER] CS:GO // Follower games // Live Strip ab 100 Subs // Follower Sound // INTRO Giveaways\n",
+                "display_name": "TestFX",
+                "game": null,
+                "delay": 0,
+                "_id": 65546286,
+                "name": "testfx",
+                "created_at": "2014-07-03T14:03:10Z",
+                "updated_at": "2014-07-15T19:07:27Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/testfx-profile_image-a05563a0f4970369-300x300.jpeg",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testfx-channel_offline_image-675d077f9a8fb934-640x360.jpeg",
+                "background": null,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testfx-profile_banner-bd11b3b60462141d-480.jpeg",
+                "profile_banner_background_color": "null",
+                "url": "http://www.twitch.tv/testfx",
+                "views": 172,
+                "followers": 21,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/testfx",
+                  "follows": "https://api.twitch.tv/kraken/channels/testfx/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/testfx/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/testfx/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/testfx",
+                  "features": "https://api.twitch.tv/kraken/channels/testfx/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/testfx/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/testfx/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/testfx/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/testfx/videos"
                 }
               }
             },
@@ -134,148 +228,148 @@ http_interactions:
               }
             },
             {
-              "_id": 10265983088,
-              "game": "GoldenEye 007",
+              "_id": 10268319504,
+              "game": null,
               "viewers": 0,
               "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_n64test-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_n64test-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_n64test-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_n64test-{width}x{height}.jpg"
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_ninjiz-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_ninjiz-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_ninjiz-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_ninjiz-{width}x{height}.jpg"
               },
               "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/n64test"
-              },
-              "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "ffffffff test",
-                "display_name": "n64test",
-                "game": "GoldenEye 007",
-                "delay": 0,
-                "_id": 37584601,
-                "name": "n64test",
-                "created_at": "2012-11-10T19:39:53Z",
-                "updated_at": "2014-07-15T15:42:59Z",
-                "logo": null,
-                "banner": null,
-                "video_banner": null,
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/n64test",
-                "views": 1026,
-                "followers": 25,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/n64test",
-                  "follows": "https://api.twitch.tv/kraken/channels/n64test/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/n64test/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/n64test/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/n64test",
-                  "features": "https://api.twitch.tv/kraken/channels/n64test/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/n64test/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/n64test/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/n64test/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/n64test/videos"
-                }
-              }
-            },
-            {
-              "_id": 10265981152,
-              "game": "Halo 3",
-              "viewers": 0,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_kaneonnos-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_kaneonnos-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_kaneonnos-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_kaneonnos-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/kaneonnos"
+                "self": "https://api.twitch.tv/kraken/streams/ninjiz"
               },
               "channel": {
                 "mature": true,
                 "abuse_reported": null,
-                "status": "Test...",
-                "display_name": "KANEonNOS",
-                "game": "Halo 3",
+                "status": "test",
+                "display_name": "Ninjiz",
+                "game": null,
                 "delay": 0,
-                "_id": 48575533,
-                "name": "kaneonnos",
-                "created_at": "2013-09-05T07:06:14Z",
-                "updated_at": "2014-07-15T15:42:01Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaneonnos-profile_image-ce8a3607b10a044c-300x300.jpeg",
+                "_id": 38637797,
+                "name": "ninjiz",
+                "created_at": "2012-12-21T01:21:38Z",
+                "updated_at": "2014-07-15T19:23:55Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/ninjiz-profile_image-5af4a8ca92754c93-300x300.jpeg",
                 "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaneonnos-channel_offline_image-9ab516cdd9877c99-640x360.jpeg",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/ninjiz-channel_offline_image-e12b97e0dc9cfa62-640x360.jpeg",
                 "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kaneonnos-profile_banner-4472eed696473845-480.jpeg",
-                "profile_banner_background_color": "null",
-                "url": "http://www.twitch.tv/kaneonnos",
-                "views": 1539,
-                "followers": 54,
+                "profile_banner": null,
+                "profile_banner_background_color": "#ffffff",
+                "url": "http://www.twitch.tv/ninjiz",
+                "views": 2838,
+                "followers": 40,
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/kaneonnos",
-                  "follows": "https://api.twitch.tv/kraken/channels/kaneonnos/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/kaneonnos/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/kaneonnos/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/kaneonnos",
-                  "features": "https://api.twitch.tv/kraken/channels/kaneonnos/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/kaneonnos/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/kaneonnos/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/kaneonnos/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/kaneonnos/videos"
+                  "self": "https://api.twitch.tv/kraken/channels/ninjiz",
+                  "follows": "https://api.twitch.tv/kraken/channels/ninjiz/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/ninjiz/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/ninjiz/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/ninjiz",
+                  "features": "https://api.twitch.tv/kraken/channels/ninjiz/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/ninjiz/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/ninjiz/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/ninjiz/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/ninjiz/videos"
                 }
               }
             },
             {
-              "_id": 10265980768,
-              "game": null,
+              "_id": 10268310912,
+              "game": "World of Warcraft: Mists of Pandaria",
               "viewers": 0,
               "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bigtgamer-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bigtgamer-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bigtgamer-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bigtgamer-{width}x{height}.jpg"
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_poqt-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_poqt-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_poqt-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_poqt-{width}x{height}.jpg"
               },
               "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/bigtgamer"
+                "self": "https://api.twitch.tv/kraken/streams/poqt"
               },
               "channel": {
-                "mature": false,
+                "mature": true,
                 "abuse_reported": null,
-                "status": "TEST STREAM - Better Internet I Hope",
-                "display_name": "BigTGamer",
-                "game": null,
+                "status": "Test",
+                "display_name": "PoQT",
+                "game": "World of Warcraft: Mists of Pandaria",
                 "delay": 0,
-                "_id": 26649188,
-                "name": "bigtgamer",
-                "created_at": "2011-12-08T18:41:06Z",
-                "updated_at": "2014-07-15T15:42:00Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/bigtgamer-profile_image-cda20163bd81ad1e-300x300.jpeg",
+                "_id": 39230696,
+                "name": "poqt",
+                "created_at": "2013-01-11T13:23:28Z",
+                "updated_at": "2014-07-15T19:24:22Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/poqt-profile_image-a3fed78088a980bd-300x300.png",
                 "banner": null,
                 "video_banner": null,
                 "background": null,
                 "profile_banner": null,
                 "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/bigtgamer",
-                "views": 12416,
-                "followers": 584,
+                "url": "http://www.twitch.tv/poqt",
+                "views": 2313,
+                "followers": 34,
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/bigtgamer",
-                  "follows": "https://api.twitch.tv/kraken/channels/bigtgamer/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/bigtgamer/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/bigtgamer/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/bigtgamer",
-                  "features": "https://api.twitch.tv/kraken/channels/bigtgamer/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/bigtgamer/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/bigtgamer/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/bigtgamer/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/bigtgamer/videos"
+                  "self": "https://api.twitch.tv/kraken/channels/poqt",
+                  "follows": "https://api.twitch.tv/kraken/channels/poqt/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/poqt/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/poqt/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/poqt",
+                  "features": "https://api.twitch.tv/kraken/channels/poqt/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/poqt/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/poqt/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/poqt/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/poqt/videos"
+                }
+              }
+            },
+            {
+              "_id": 10268297936,
+              "game": "RuneScape",
+              "viewers": 0,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rsbutterflies-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rsbutterflies-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rsbutterflies-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rsbutterflies-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/rsbutterflies"
+              },
+              "channel": {
+                "mature": true,
+                "abuse_reported": null,
+                "status": "test test not streaming ignore this test test",
+                "display_name": "RSButterflies",
+                "game": "RuneScape",
+                "delay": 0,
+                "_id": 41717260,
+                "name": "rsbutterflies",
+                "created_at": "2013-03-25T22:30:14Z",
+                "updated_at": "2014-07-15T19:24:23Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/rsbutterflies-profile_image-910594f473091501-300x300.jpeg",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/rsbutterflies-channel_offline_image-9637cb144e927659-640x360.jpeg",
+                "background": null,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/rsbutterflies-profile_banner-04064cd933dd6d15-480.jpeg",
+                "profile_banner_background_color": "#ffffff",
+                "url": "http://www.twitch.tv/rsbutterflies",
+                "views": 5443,
+                "followers": 337,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/rsbutterflies",
+                  "follows": "https://api.twitch.tv/kraken/channels/rsbutterflies/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/rsbutterflies/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/rsbutterflies/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/rsbutterflies",
+                  "features": "https://api.twitch.tv/kraken/channels/rsbutterflies/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/rsbutterflies/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/rsbutterflies/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/rsbutterflies/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/rsbutterflies/videos"
                 }
               }
             }
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 15:43:05 GMT
+  recorded_at: Tue, 15 Jul 2014 19:24:28 GMT
 recorded_with: VCR 2.9.2

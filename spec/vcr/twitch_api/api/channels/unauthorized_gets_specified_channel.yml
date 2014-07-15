@@ -2,73 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.twitch.tv/kraken/channels/dodgello
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept: application/vnd.twitchtv.v3+json
-  response:
-    status: {code: 200, message: OK}
-    headers:
-      Server: nginx
-      Date: Tue, 15 Jul 2014 14:22:14 GMT
-      Content-Type: application/json; charset=utf-8
-      Transfer-Encoding: chunked
-      Connection: keep-alive
-      Status: 200 OK
-      X-Api-Version: '3'
-      Cache-Control: max-age=0, private, must-revalidate
-      Vary: Accept-Encoding
-      X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"21aa5991c0faf03e39404b080459062b"'
-      X-Request-Id: 48383154def891779d7aadca13f6eadf
-      X-Runtime: '0.020240'
-      X-Varnish: '2049862924'
-      Age: '0'
-      Via: 1.1 varnish
-      X-Mh-Cache: appcache1; M
-      Front-End-Https: 'on'
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "mature": null,
-          "abuse_reported": null,
-          "status": null,
-          "display_name": "Dodgello",
-          "game": null,
-          "delay": 0,
-          "_id": 54057928,
-          "name": "dodgello",
-          "created_at": "2013-12-29T17:09:16Z",
-          "updated_at": "2014-07-08T13:48:37Z",
-          "logo": null,
-          "banner": null,
-          "video_banner": null,
-          "background": null,
-          "profile_banner": null,
-          "profile_banner_background_color": null,
-          "url": "http://www.twitch.tv/dodgello",
-          "views": 0,
-          "followers": 0,
-          "_links": {
-            "self": "https://api.twitch.tv/kraken/channels/dodgello",
-            "follows": "https://api.twitch.tv/kraken/channels/dodgello/follows",
-            "commercial": "https://api.twitch.tv/kraken/channels/dodgello/commercial",
-            "stream_key": "https://api.twitch.tv/kraken/channels/dodgello/stream_key",
-            "chat": "https://api.twitch.tv/kraken/chat/dodgello",
-            "features": "https://api.twitch.tv/kraken/channels/dodgello/features",
-            "subscriptions": "https://api.twitch.tv/kraken/channels/dodgello/subscriptions",
-            "editors": "https://api.twitch.tv/kraken/channels/dodgello/editors",
-            "teams": "https://api.twitch.tv/kraken/channels/dodgello/teams",
-            "videos": "https://api.twitch.tv/kraken/channels/dodgello/videos"
-          }
-        }
-    http_version: 
-  recorded_at: Tue, 15 Jul 2014 14:22:19 GMT
-- request:
-    method: get
     uri: https://api.twitch.tv/kraken/channels/Dodgello
     body:
       encoding: US-ASCII
@@ -79,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 15:42:54 GMT
+      Date: Tue, 15 Jul 2014 19:24:18 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -88,13 +21,13 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"b05ff368c5503cfad0d5e0a54102a975"'
-      X-Request-Id: a87db5348fd46377897d9eaeda0a7f12
-      X-Runtime: '0.018488'
-      X-Varnish: '2035154485'
+      Etag: '"dca69bb565ac0c84f99befe35d1b6188"'
+      X-Request-Id: 882db1fd4adc4bee45459baa68a00f77
+      X-Runtime: '0.019579'
+      X-Varnish: '2138055620'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache4; M
+      X-Mh-Cache: appcache1; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
@@ -109,7 +42,7 @@ http_interactions:
           "_id": 54057928,
           "name": "dodgello",
           "created_at": "2013-12-29T17:09:16Z",
-          "updated_at": "2014-07-15T15:42:51Z",
+          "updated_at": "2014-07-15T19:24:17Z",
           "logo": null,
           "banner": null,
           "video_banner": null,
@@ -133,5 +66,5 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 15:42:58 GMT
+  recorded_at: Tue, 15 Jul 2014 19:24:23 GMT
 recorded_with: VCR 2.9.2

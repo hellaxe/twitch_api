@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 14:22:14 GMT
+      Date: Tue, 15 Jul 2014 19:24:15 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,53 +22,10 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"0ebfe2201134b662dadb543623224c99"'
-      X-Request-Id: 177fb2309a57ea3649fc1b846ce66b89
-      X-Runtime: '0.069968'
-      X-Varnish: '477656217'
-      Age: '0'
-      Via: 1.1 varnish
-      X-Mh-Cache: appcache2; M
-      Front-End-Https: 'on'
-    body:
-      encoding: UTF-8
-      string: |-
-        {
-          "_links": {
-            "self": "https://api.twitch.tv/kraken/channels/dodgello/editors"
-          },
-          "users": [
-
-          ]
-        }
-    http_version: 
-  recorded_at: Tue, 15 Jul 2014 14:22:18 GMT
-- request:
-    method: get
-    uri: https://api.twitch.tv/kraken/channels/Dodgello/editors
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept: application/vnd.twitchtv.v3+json
-      Authorization: OAuth <ACCESS_TOKEN>
-  response:
-    status: {code: 200, message: OK}
-    headers:
-      Server: nginx
-      Date: Tue, 15 Jul 2014 15:42:49 GMT
-      Content-Type: application/json; charset=utf-8
-      Transfer-Encoding: chunked
-      Connection: keep-alive
-      Status: 200 OK
-      X-Api-Version: '3'
-      Cache-Control: max-age=0, private, must-revalidate
-      Vary: Accept-Encoding
-      X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"45e6a841fa57679d95d4a52486d363d0"'
-      X-Request-Id: 5109592f0e78c0f22187474fa756910b
-      X-Runtime: '0.061010'
-      X-Varnish: '2035136272'
+      Etag: '"e808ddb7a9242f860300a0c5d82a9eca"'
+      X-Request-Id: 2bb7361545267e12490c21fc3c6940f3
+      X-Runtime: '0.068896'
+      X-Varnish: '2102876286'
       Age: '0'
       Via: 1.1 varnish
       X-Mh-Cache: appcache4; M
@@ -85,5 +42,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 15:42:54 GMT
+  recorded_at: Tue, 15 Jul 2014 19:24:20 GMT
 recorded_with: VCR 2.9.2

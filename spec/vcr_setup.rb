@@ -128,12 +128,17 @@ end
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/vcr'
   c.cassette_serializers[:styled_yaml] = StyledYAML
-  c.default_cassette_options = { serialize_with: :styled_yaml, record: :all }
+  c.default_cassette_options = { serialize_with: :styled_yaml, record: :once }
   c.hook_into :webmock
-  c.allow_http_connections_when_no_cassette = true
+  c.default_cassette_options = {
+    match_requests_on: [:uri, :headers, :method],
+    allow_unused_http_interactions: false
+  }
+  c.allow_http_connections_when_no_cassette = false
   c.filter_sensitive_data('<CLIENT_ID>') { ENV['TWITCH_CLIENT_ID'] }
   c.filter_sensitive_data('<SECRET_KEY>') { ENV['TWITCH_SECRET_KEY'] }
   c.filter_sensitive_data('<ACCESS_TOKEN>') { ENV['TWITCH_ACCESS_TOKEN'] }
+  c.debug_logger = File.open("logs/vcr.log", 'w')
 
   bin2ascii = ->(value) {
     if value && 'ASCII-8BIT' == value.encoding.name
@@ -182,7 +187,6 @@ VCR.configure do |c|
         i.response.update_content_length_header
       end
     end
-
     normalize_headers.(i.request.headers)
     normalize_headers.(i.response.headers)
   end
