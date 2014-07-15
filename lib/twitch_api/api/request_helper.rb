@@ -41,8 +41,10 @@ module TwitchApi
         c = Curl.delete(path) do |curl|
           curl.headers.merge!(headers)
         end
-        response = JSON.parse(c.body_str, symbolize_names: true)
-        raise_error(response)
+        unless c.response_code == 204
+          response = JSON.parse(c.body_str, symbolize_names: true)
+          raise_error(response)
+        end
         response
       end
 

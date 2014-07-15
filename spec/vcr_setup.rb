@@ -128,9 +128,12 @@ end
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/vcr'
   c.cassette_serializers[:styled_yaml] = StyledYAML
-  c.default_cassette_options = { serialize_with: :styled_yaml, record: :new_episodes }
+  c.default_cassette_options = { serialize_with: :styled_yaml, record: :all }
   c.hook_into :webmock
   c.allow_http_connections_when_no_cassette = true
+  c.filter_sensitive_data('<CLIENT_ID>') { ENV['TWITCH_CLIENT_ID'] }
+  c.filter_sensitive_data('<SECRET_KEY>') { ENV['TWITCH_SECRET_KEY'] }
+  c.filter_sensitive_data('<ACCESS_TOKEN>') { ENV['TWITCH_ACCESS_TOKEN'] }
 
   bin2ascii = ->(value) {
     if value && 'ASCII-8BIT' == value.encoding.name

@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Sat, 12 Jul 2014 17:29:36 GMT
+      Date: Tue, 15 Jul 2014 11:26:47 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -21,308 +21,355 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: ! '"77f34950482b969c89c0d841e4468580"'
-      X-Request-Id: 10e5b6884b9f3978ff3dcd13a40da3f9
-      X-Runtime: '0.358532'
-      X-Varnish: '3587084173'
+      Etag: '"7993c0281810b84fa73d3b7dea8af747"'
+      X-Request-Id: 78b1fe9223883f8aeffcb69ea2bf9acc
+      X-Runtime: '0.598796'
+      X-Varnish: '2009416756'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache3; M
+      X-Mh-Cache: appcache1; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 235,
+          "_total": 93,
           "_links": {
             "self": "https://api.twitch.tv/kraken/search/streams?limit=10&offset=0&q=test",
             "next": "https://api.twitch.tv/kraken/search/streams?limit=10&offset=10&q=test"
           },
           "streams": [
             {
-              "_id": 10229828672,
-              "game": "The Testament of Sherlock Holmes",
-              "viewers": 70,
+              "_id": 10206461936,
+              "game": "testgamewithquotes",
+              "viewers": 5,
               "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rikytan-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rikytan-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rikytan-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_rikytan-{width}x{height}.jpg"
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevenonemedia-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevenonemedia-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevenonemedia-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevenonemedia-{width}x{height}.jpg"
               },
               "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/rikytan"
+                "self": "https://api.twitch.tv/kraken/streams/sevenonemedia"
               },
               "channel": {
                 "mature": false,
                 "abuse_reported": null,
-                "status": "eSuba Rikytan playing The Testament of Sherlock Holmes. (Czech commentary)",
-                "display_name": "Rikytan",
-                "game": "The Testament of Sherlock Holmes",
+                "status": null,
+                "display_name": "sevenonemedia",
+                "game": "testgamewithquotes",
                 "delay": 0,
-                "_id": 20503076,
-                "name": "rikytan",
-                "created_at": "2011-02-16T20:25:18Z",
-                "updated_at": "2014-07-12T15:04:19Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/rikytan-profile_image-5f7b55dfebfce39e-300x300.png",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/rikytan-channel_offline_image-97033f3f714b8436-640x360.jpeg",
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/rikytan",
-                "views": 710031,
-                "followers": 3612,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/rikytan",
-                  "follows": "https://api.twitch.tv/kraken/channels/rikytan/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/rikytan/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/rikytan/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/rikytan",
-                  "features": "https://api.twitch.tv/kraken/channels/rikytan/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/rikytan/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/rikytan/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/rikytan/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/rikytan/videos"
-                }
-              }
-            },
-            {
-              "_id": 10231056672,
-              "game": "Team Fortress 2",
-              "viewers": 21,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_powah-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_powah-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_powah-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_powah-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/powah"
-              },
-              "channel": {
-                "mature": null,
-                "abuse_reported": null,
-                "status": "aw ye",
-                "display_name": "powah",
-                "game": "Team Fortress 2",
-                "delay": 0,
-                "_id": 35820361,
-                "name": "powah",
-                "created_at": "2012-08-29T22:35:34Z",
-                "updated_at": "2014-07-12T17:26:04Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/powah-profile_image-8d12af885d758d8e-300x300.jpeg",
-                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/powah-channel_header_image-16866ecb92ca1246-640x125.png",
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/powah-channel_offline_image-319f7bca8675b5aa-640x360.png",
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/powah",
-                "views": 185116,
-                "followers": 2928,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/powah",
-                  "follows": "https://api.twitch.tv/kraken/channels/powah/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/powah/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/powah/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/powah",
-                  "features": "https://api.twitch.tv/kraken/channels/powah/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/powah/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/powah/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/powah/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/powah/videos"
-                }
-              }
-            },
-            {
-              "_id": 10228576960,
-              "game": "Hearthstone: Heroes of Warcraft",
-              "viewers": 7,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testvaipmachine-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testvaipmachine-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testvaipmachine-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testvaipmachine-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/testvaipmachine"
-              },
-              "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "[RU] Play Topdeck EU #29 tournament",
-                "display_name": "TestVaipmachine",
-                "game": "Hearthstone: Heroes of Warcraft",
-                "delay": 0,
-                "_id": 53650706,
-                "name": "testvaipmachine",
-                "created_at": "2013-12-22T08:49:25Z",
-                "updated_at": "2014-07-12T16:56:01Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/testvaipmachine-profile_image-54ab2f6d55dd1424-300x300.jpeg",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testvaipmachine-channel_offline_image-0cc327d15337853a-640x360.jpeg",
-                "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testvaipmachine-profile_banner-c55ee62f91296450-480.jpeg",
-                "profile_banner_background_color": "#2b2926",
-                "url": "http://www.twitch.tv/testvaipmachine",
-                "views": 12727,
-                "followers": 132,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/testvaipmachine",
-                  "follows": "https://api.twitch.tv/kraken/channels/testvaipmachine/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/testvaipmachine/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/testvaipmachine/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/testvaipmachine",
-                  "features": "https://api.twitch.tv/kraken/channels/testvaipmachine/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/testvaipmachine/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/testvaipmachine/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/testvaipmachine/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/testvaipmachine/videos"
-                }
-              }
-            },
-            {
-              "_id": 10230165856,
-              "game": "The Elder Scrolls V: Skyrim",
-              "viewers": 2,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tester120-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tester120-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tester120-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tester120-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/tester120"
-              },
-              "channel": {
-                "mature": true,
-                "abuse_reported": null,
-                "status": "Skyrim 上古卷軸 lore friendly,no",
-                "display_name": "tester120",
-                "game": "The Elder Scrolls V: Skyrim",
-                "delay": 0,
-                "_id": 24469714,
-                "name": "tester120",
-                "created_at": "2011-08-30T07:14:36Z",
-                "updated_at": "2014-07-12T15:40:38Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/tester120-profile_image-5eabc17210417795-300x300.jpeg",
+                "_id": 37826723,
+                "name": "sevenonemedia",
+                "created_at": "2012-11-19T19:48:58Z",
+                "updated_at": "2014-07-15T01:46:30Z",
+                "logo": null,
                 "banner": null,
                 "video_banner": null,
                 "background": null,
                 "profile_banner": null,
                 "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/tester120",
-                "views": 58956,
-                "followers": 421,
+                "url": "http://www.twitch.tv/sevenonemedia",
+                "views": 340,
+                "followers": 12,
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/tester120",
-                  "follows": "https://api.twitch.tv/kraken/channels/tester120/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/tester120/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/tester120/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/tester120",
-                  "features": "https://api.twitch.tv/kraken/channels/tester120/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/tester120/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/tester120/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/tester120/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/tester120/videos"
+                  "self": "https://api.twitch.tv/kraken/channels/sevenonemedia",
+                  "follows": "https://api.twitch.tv/kraken/channels/sevenonemedia/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/sevenonemedia/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/sevenonemedia/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/sevenonemedia",
+                  "features": "https://api.twitch.tv/kraken/channels/sevenonemedia/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/sevenonemedia/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/sevenonemedia/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/sevenonemedia/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/sevenonemedia/videos"
                 }
               }
             },
             {
-              "_id": 10231186496,
-              "game": "Testing",
-              "viewers": 1,
+              "_id": 10263497008,
+              "game": "ArmA III",
+              "viewers": 4,
               "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_zom_15th-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_zom_15th-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_zom_15th-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_zom_15th-{width}x{height}.jpg"
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_draco-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_draco-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_draco-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_draco-{width}x{height}.jpg"
               },
               "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/zom_15th"
+                "self": "https://api.twitch.tv/kraken/streams/draco"
               },
               "channel": {
                 "mature": false,
                 "abuse_reported": null,
-                "status": "ZoMGaming's Livestream\n",
-                "display_name": "ZoM_15Th",
-                "game": "Testing",
+                "status": "Testing ARMA for laggishness",
+                "display_name": "Draco",
+                "game": "ArmA III",
                 "delay": 0,
-                "_id": 55446427,
-                "name": "zom_15th",
-                "created_at": "2014-01-23T06:58:56Z",
-                "updated_at": "2014-07-12T17:25:21Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/zom_15th-profile_image-4366d4535c06ed08-300x300.jpeg",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/zom_15th-channel_offline_image-3dac0c0408cd7e9d-640x360.jpeg",
+                "_id": 493553,
+                "name": "draco",
+                "created_at": "2008-04-26T21:33:41Z",
+                "updated_at": "2014-07-15T10:27:48Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/draco-profile_image-c242d526c9eb584e-300x300.jpeg",
+                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/draco-channel_header_image-c0de9b01255824f5-640x125.png",
+                "video_banner": null,
                 "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/zom_15th-profile_banner-35387945a7240516-480.jpeg",
-                "profile_banner_background_color": "#ffffff",
-                "url": "http://www.twitch.tv/zom_15th",
-                "views": 577,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/draco-profile_banner-568831fcb0fb9ed3-480.jpeg",
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/draco",
+                "views": 211828,
+                "followers": 1799,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/draco",
+                  "follows": "https://api.twitch.tv/kraken/channels/draco/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/draco/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/draco/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/draco",
+                  "features": "https://api.twitch.tv/kraken/channels/draco/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/draco/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/draco/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/draco/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/draco/videos"
+                }
+              }
+            },
+            {
+              "_id": 10263999872,
+              "game": "Age of Empires II: HD Edition",
+              "viewers": 2,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_2pacthegod-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_2pacthegod-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_2pacthegod-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_2pacthegod-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/2pacthegod"
+              },
+              "channel": {
+                "mature": null,
+                "abuse_reported": null,
+                "status": "test#\r\n\r\n",
+                "display_name": "2pacthegod",
+                "game": "Age of Empires II: HD Edition",
+                "delay": 0,
+                "_id": 52554497,
+                "name": "2pacthegod",
+                "created_at": "2013-12-02T15:46:41Z",
+                "updated_at": "2014-07-15T11:24:20Z",
+                "logo": null,
+                "banner": null,
+                "video_banner": null,
+                "background": null,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/2pacthegod",
+                "views": 163,
                 "followers": 9,
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/zom_15th",
-                  "follows": "https://api.twitch.tv/kraken/channels/zom_15th/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/zom_15th/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/zom_15th/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/zom_15th",
-                  "features": "https://api.twitch.tv/kraken/channels/zom_15th/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/zom_15th/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/zom_15th/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/zom_15th/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/zom_15th/videos"
+                  "self": "https://api.twitch.tv/kraken/channels/2pacthegod",
+                  "follows": "https://api.twitch.tv/kraken/channels/2pacthegod/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/2pacthegod/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/2pacthegod/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/2pacthegod",
+                  "features": "https://api.twitch.tv/kraken/channels/2pacthegod/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/2pacthegod/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/2pacthegod/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/2pacthegod/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/2pacthegod/videos"
                 }
               }
             },
             {
-              "_id": 10231059008,
-              "game": "Final Fantasy VII",
-              "viewers": 1,
+              "_id": 10263991840,
+              "game": "DC Universe Online",
+              "viewers": 2,
               "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testifius-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testifius-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testifius-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_testifius-{width}x{height}.jpg"
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_darkjolteon23-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_darkjolteon23-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_darkjolteon23-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_darkjolteon23-{width}x{height}.jpg"
               },
               "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/testifius"
+                "self": "https://api.twitch.tv/kraken/streams/darkjolteon23"
               },
               "channel": {
                 "mature": false,
                 "abuse_reported": null,
-                "status": "Final Fantasy VII - Segmented Speedrun. Segs #13, Zolom Skip practice & #14!",
-                "display_name": "Testifius",
-                "game": "Final Fantasy VII",
+                "status": "DC Universe Online w/ Jolteon",
+                "display_name": "DarkJolteon23",
+                "game": "DC Universe Online",
                 "delay": 0,
-                "_id": 31332941,
-                "name": "testifius",
-                "created_at": "2012-06-15T00:49:26Z",
-                "updated_at": "2014-07-12T17:12:40Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/testifius-profile_image-0dc199ec0af184c1-300x300.jpeg",
+                "_id": 24304679,
+                "name": "darkjolteon23",
+                "created_at": "2011-08-23T13:43:51Z",
+                "updated_at": "2014-07-15T11:24:28Z",
+                "logo": null,
                 "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testifius-channel_offline_image-287b8976ad81a2b0-640x360.png",
+                "video_banner": null,
                 "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/testifius-profile_banner-7332d3b7a364f9b9-480.png",
-                "profile_banner_background_color": "null",
-                "url": "http://www.twitch.tv/testifius",
-                "views": 985,
-                "followers": 20,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/darkjolteon23",
+                "views": 1442,
+                "followers": 61,
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/testifius",
-                  "follows": "https://api.twitch.tv/kraken/channels/testifius/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/testifius/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/testifius/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/testifius",
-                  "features": "https://api.twitch.tv/kraken/channels/testifius/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/testifius/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/testifius/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/testifius/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/testifius/videos"
+                  "self": "https://api.twitch.tv/kraken/channels/darkjolteon23",
+                  "follows": "https://api.twitch.tv/kraken/channels/darkjolteon23/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/darkjolteon23/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/darkjolteon23/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/darkjolteon23",
+                  "features": "https://api.twitch.tv/kraken/channels/darkjolteon23/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/darkjolteon23/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/darkjolteon23/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/darkjolteon23/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/darkjolteon23/videos"
+                }
+              }
+            },
+            {
+              "_id": 10263938320,
+              "game": "Call of Duty: Black Ops II",
+              "viewers": 2,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_edlac71-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_edlac71-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_edlac71-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_edlac71-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/edlac71"
+              },
+              "channel": {
+                "mature": false,
+                "abuse_reported": null,
+                "status": "Zombie |testing stream messing around|\n",
+                "display_name": "EDLAC71",
+                "game": "Call of Duty: Black Ops II",
+                "delay": 0,
+                "_id": 48131068,
+                "name": "edlac71",
+                "created_at": "2013-08-25T22:59:06Z",
+                "updated_at": "2014-07-15T11:14:39Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/edlac71-profile_image-0e8cd50d300cbce1-300x300.jpeg",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/edlac71-channel_offline_image-943df20db6bcff4e-640x360.png",
+                "background": null,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/edlac71-profile_banner-993f519a9c3613d8-480.png",
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/edlac71",
+                "views": 26436,
+                "followers": 1224,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/edlac71",
+                  "follows": "https://api.twitch.tv/kraken/channels/edlac71/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/edlac71/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/edlac71/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/edlac71",
+                  "features": "https://api.twitch.tv/kraken/channels/edlac71/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/edlac71/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/edlac71/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/edlac71/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/edlac71/videos"
+                }
+              }
+            },
+            {
+              "_id": 10264006832,
+              "game": null,
+              "viewers": 0,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_inverified-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_inverified-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_inverified-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_inverified-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/inverified"
+              },
+              "channel": {
+                "mature": true,
+                "abuse_reported": null,
+                "status": "Testing.",
+                "display_name": "Inverified",
+                "game": null,
+                "delay": 0,
+                "_id": 28044541,
+                "name": "inverified",
+                "created_at": "2012-02-07T06:12:21Z",
+                "updated_at": "2014-07-15T11:25:20Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/inverified-profile_image-78b30b7282644d5c-300x300.png",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/inverified-channel_offline_image-c6a3f864daebf4fe-640x360.png",
+                "background": null,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "url": "http://www.twitch.tv/inverified",
+                "views": 13357,
+                "followers": 532,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/inverified",
+                  "follows": "https://api.twitch.tv/kraken/channels/inverified/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/inverified/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/inverified/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/inverified",
+                  "features": "https://api.twitch.tv/kraken/channels/inverified/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/inverified/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/inverified/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/inverified/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/inverified/videos"
+                }
+              }
+            },
+            {
+              "_id": 10264002512,
+              "game": "The Elder Scrolls V: Skyrim",
+              "viewers": 0,
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_policman-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_policman-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_policman-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_policman-{width}x{height}.jpg"
+              },
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/streams/policman"
+              },
+              "channel": {
+                "mature": true,
+                "abuse_reported": null,
+                "status": "TEST",
+                "display_name": "policman",
+                "game": "The Elder Scrolls V: Skyrim",
+                "delay": 0,
+                "_id": 25647533,
+                "name": "policman",
+                "created_at": "2011-10-23T08:17:04Z",
+                "updated_at": "2014-07-15T11:24:41Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/policman-profile_image-9d11d16e83171c3a-300x300.jpeg",
+                "banner": null,
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/policman-channel_offline_image-d85d73d8bd6a019c-640x360.jpeg",
+                "background": null,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/policman-profile_banner-7a3b4e28b08fc343-480.jpeg",
+                "profile_banner_background_color": "null",
+                "url": "http://www.twitch.tv/policman",
+                "views": 2944,
+                "followers": 59,
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/channels/policman",
+                  "follows": "https://api.twitch.tv/kraken/channels/policman/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/policman/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/policman/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/policman",
+                  "features": "https://api.twitch.tv/kraken/channels/policman/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/policman/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/policman/editors",
+                  "teams": "https://api.twitch.tv/kraken/channels/policman/teams",
+                  "videos": "https://api.twitch.tv/kraken/channels/policman/videos"
                 }
               }
             }
           ]
         }
     http_version: 
-  recorded_at: Sat, 12 Jul 2014 17:29:40 GMT
+  recorded_at: Tue, 15 Jul 2014 11:26:51 GMT
 recorded_with: VCR 2.9.2

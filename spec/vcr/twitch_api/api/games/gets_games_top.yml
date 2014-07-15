@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Sat, 12 Jul 2014 17:29:34 GMT
+      Date: Tue, 15 Jul 2014 11:26:45 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -21,50 +21,27 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: ! '"8810737cc4646bb60f2ae1796fd94d4f"'
-      X-Request-Id: 15b76b7dbfc8379305503d3414145239
-      X-Runtime: '0.052370'
-      X-Varnish: '798053391'
+      Etag: '"ced65ffae4718d13712c95b32b66b88b"'
+      X-Request-Id: 72dbd331b050676675bda76794b10df7
+      X-Runtime: '0.045317'
+      X-Varnish: '467892714'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache4; M
+      X-Mh-Cache: appcache3; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 819,
+          "_total": 553,
           "_links": {
             "self": "https://api.twitch.tv/kraken/games/top?limit=10&offset=0",
             "next": "https://api.twitch.tv/kraken/games/top?limit=10&offset=10"
           },
           "top": [
             {
-              "viewers": 231350,
-              "channels": 212,
-              "game": {
-                "name": "Dota 2",
-                "_id": 29595,
-                "giantbomb_id": 32887,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 111156,
-              "channels": 1297,
+              "viewers": 62552,
+              "channels": 773,
               "game": {
                 "name": "League of Legends",
                 "_id": 21779,
@@ -86,54 +63,77 @@ http_interactions:
               }
             },
             {
-              "viewers": 39823,
-              "channels": 6,
+              "viewers": 21446,
+              "channels": 157,
               "game": {
-                "name": "Ultimate Marvel vs. Capcom 3",
-                "_id": 32245,
-                "giantbomb_id": 35938,
+                "name": "Hearthstone: Heroes of Warcraft",
+                "_id": 138585,
+                "giantbomb_id": 42033,
                 "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Ultimate%20Marvel%20vs.%20Capcom%203-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Ultimate%20Marvel%20vs.%20Capcom%203-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Ultimate%20Marvel%20vs.%20Capcom%203-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Ultimate%20Marvel%20vs.%20Capcom%203-272x380.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-272x380.jpg"
                 },
                 "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Ultimate%20Marvel%20vs.%20Capcom%203-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Ultimate%20Marvel%20vs.%20Capcom%203-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Ultimate%20Marvel%20vs.%20Capcom%203-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Ultimate%20Marvel%20vs.%20Capcom%203-240x144.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-240x144.jpg"
                 },
                 "_links": {
                 }
               }
             },
             {
-              "viewers": 25417,
-              "channels": 14,
+              "viewers": 16017,
+              "channels": 176,
               "game": {
-                "name": "The Forest",
-                "_id": 7022,
-                "giantbomb_id": 7675,
+                "name": "Dota 2",
+                "_id": 29595,
+                "giantbomb_id": 32887,
                 "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Forest-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Forest-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Forest-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Forest-272x380.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Dota%202-272x380.jpg"
                 },
                 "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Forest-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Forest-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Forest-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Forest-240x144.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Dota%202-240x144.jpg"
                 },
                 "_links": {
                 }
               }
             },
             {
-              "viewers": 24919,
-              "channels": 491,
+              "viewers": 9877,
+              "channels": 230,
+              "game": {
+                "name": "Counter-Strike: Global Offensive",
+                "_id": 32399,
+                "giantbomb_id": 36113,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 7658,
+              "channels": 230,
               "game": {
                 "name": "Minecraft",
                 "_id": 27471,
@@ -155,77 +155,8 @@ http_interactions:
               }
             },
             {
-              "viewers": 24230,
-              "channels": 95,
-              "game": {
-                "name": "StarCraft II: Heart of the Swarm",
-                "_id": 21818,
-                "giantbomb_id": 24078,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 19771,
-              "channels": 137,
-              "game": {
-                "name": "DayZ",
-                "_id": 65632,
-                "giantbomb_id": 39256,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/DayZ-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/DayZ-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/DayZ-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/DayZ-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/DayZ-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/DayZ-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/DayZ-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/DayZ-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 19142,
-              "channels": 10,
-              "game": {
-                "name": "Super Smash Bros. Melee",
-                "_id": 16282,
-                "giantbomb_id": 17743,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Super%20Smash%20Bros.%20Melee-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Super%20Smash%20Bros.%20Melee-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Super%20Smash%20Bros.%20Melee-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Super%20Smash%20Bros.%20Melee-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Super%20Smash%20Bros.%20Melee-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Super%20Smash%20Bros.%20Melee-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Super%20Smash%20Bros.%20Melee-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Super%20Smash%20Bros.%20Melee-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 18508,
-              "channels": 339,
+              "viewers": 7230,
+              "channels": 162,
               "game": {
                 "name": "World of Warcraft: Mists of Pandaria",
                 "_id": 32954,
@@ -247,23 +178,92 @@ http_interactions:
               }
             },
             {
-              "viewers": 17488,
-              "channels": 221,
+              "viewers": 5916,
+              "channels": 38,
               "game": {
-                "name": "Hearthstone: Heroes of Warcraft",
-                "_id": 138585,
-                "giantbomb_id": 42033,
+                "name": "Dark Souls II",
+                "_id": 91423,
+                "giantbomb_id": 40798,
                 "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Hearthstone%3A%20Heroes%20of%20Warcraft-272x380.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-272x380.jpg"
                 },
                 "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Hearthstone%3A%20Heroes%20of%20Warcraft-240x144.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 5570,
+              "channels": 129,
+              "game": {
+                "name": "FIFA 14",
+                "_id": 369095,
+                "giantbomb_id": 42410,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 5171,
+              "channels": 56,
+              "game": {
+                "name": "StarCraft II: Heart of the Swarm",
+                "_id": 21818,
+                "giantbomb_id": 24078,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 5100,
+              "channels": 201,
+              "game": {
+                "name": "Battlefield 4",
+                "_id": 66402,
+                "giantbomb_id": 39035,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Battlefield%204-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Battlefield%204-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Battlefield%204-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Battlefield%204-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Battlefield%204-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Battlefield%204-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Battlefield%204-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Battlefield%204-240x144.jpg"
                 },
                 "_links": {
                 }
@@ -272,5 +272,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Sat, 12 Jul 2014 17:29:38 GMT
+  recorded_at: Tue, 15 Jul 2014 11:26:50 GMT
 recorded_with: VCR 2.9.2

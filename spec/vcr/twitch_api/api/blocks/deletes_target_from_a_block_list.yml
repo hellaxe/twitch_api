@@ -1,0 +1,35 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://api.twitch.tv/kraken/users/Dodgello/blocks/SomeUser
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth <ACCESS_TOKEN>
+  response:
+    status: {code: 204, message: No Content}
+    headers:
+      Server: nginx
+      Date: Tue, 15 Jul 2014 11:26:42 GMT
+      Connection: keep-alive
+      Status: 204 No Content
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      X-Ua-Compatible: IE=Edge,chrome=1
+      X-Request-Id: eae6a83c48de9f5fa78abd09c3534195
+      X-Runtime: '0.035569'
+      Accept-Ranges: bytes
+      X-Varnish: '437189567'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache2; M
+      Front-End-Https: 'on'
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    http_version: 
+  recorded_at: Tue, 15 Jul 2014 11:26:47 GMT
+recorded_with: VCR 2.9.2
