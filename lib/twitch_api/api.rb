@@ -8,5 +8,6 @@ module TwitchApi
     require 'twitch_api/api/search'
     require 'twitch_api/api/blocks'
     require 'twitch_api/api/follows'
+    require 'twitch_api/api/chat'
   end
 end
