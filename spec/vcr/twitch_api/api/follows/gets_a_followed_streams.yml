@@ -13,130 +13,83 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 19:24:21 GMT
+      Date: Tue, 22 Jul 2014 16:14:37 GMT
       Content-Type: application/json; charset=utf-8
-      Content-Length: '4926'
+      Content-Length: '2571'
       Connection: keep-alive
       Status: 200 OK
       X-Api-Version: '3'
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"c3dee49e11ed0a675ba84ea828e03df8"'
-      X-Request-Id: b1e9ec4028364cf488feeb3b7fbd518f
-      X-Runtime: '0.069552'
+      Etag: '"5dc5898cc8187dc5e6cf669768d82558"'
+      X-Request-Id: 79f1eada0fbfab1f6247387c62072d7f
+      X-Runtime: '0.065102'
       Accept-Ranges: bytes
-      X-Varnish: '2102913735'
+      X-Varnish: '1792997455'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache4; M
+      X-Mh-Cache: appcache1; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 2,
+          "streams": [
+            {
+              "_id": 10350604864,
+              "game": "Diablo III: Reaper of Souls",
+              "viewers": 487,
+              "_links": {
+                "self": "http://api.twitch.tv/kraken/streams/mannercookie"
+              },
+              "preview": {
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mannercookie-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mannercookie-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mannercookie-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mannercookie-{width}x{height}.jpg"
+              },
+              "channel": {
+                "_links": {
+                  "self": "http://api.twitch.tv/kraken/channels/mannercookie",
+                  "follows": "http://api.twitch.tv/kraken/channels/mannercookie/follows",
+                  "commercial": "http://api.twitch.tv/kraken/channels/mannercookie/commercial",
+                  "stream_key": "http://api.twitch.tv/kraken/channels/mannercookie/stream_key",
+                  "chat": "http://api.twitch.tv/kraken/chat/mannercookie",
+                  "features": "http://api.twitch.tv/kraken/channels/mannercookie/features",
+                  "subscriptions": "http://api.twitch.tv/kraken/channels/mannercookie/subscriptions",
+                  "editors": "http://api.twitch.tv/kraken/channels/mannercookie/editors",
+                  "videos": "http://api.twitch.tv/kraken/channels/mannercookie/videos",
+                  "teams": "http://api.twitch.tv/kraken/channels/mannercookie/teams"
+                },
+                "background": null,
+                "banner": null,
+                "display_name": "MannerCookie",
+                "game": "Diablo III: Reaper of Souls",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mannercookie-profile_image-c09e428951249000-300x300.png",
+                "mature": true,
+                "status": "HC-Seasons Crus, PTR Testing.",
+                "url": "http://www.twitch.tv/mannercookie",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mannercookie-channel_offline_image-f3dfa31a5cd45837-640x360.jpeg",
+                "_id": 39607327,
+                "name": "mannercookie",
+                "created_at": "2013-01-23T07:40:54Z",
+                "updated_at": "2014-07-22T13:35:35Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 12494,
+                "profile_banner": null,
+                "profile_banner_background_color": "#000000",
+                "views": 1412006
+              }
+            }
+          ],
+          "_total": 1,
           "_links": {
             "self": "https://api.twitch.tv/kraken/streams/followed?limit=25&offset=0",
             "next": "https://api.twitch.tv/kraken/streams/followed?limit=25&offset=25"
-          },
-          "streams": [
-            {
-              "_id": 10266001344,
-              "game": "League of Legends",
-              "viewers": 343,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mosttoxiceu-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mosttoxiceu-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mosttoxiceu-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mosttoxiceu-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/mosttoxiceu"
-              },
-              "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "BEST JAX EU d1 80lp+ high elo stream, grinding th lp",
-                "display_name": "MOSTTOXICEU",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 42778079,
-                "name": "mosttoxiceu",
-                "created_at": "2013-04-23T11:54:31Z",
-                "updated_at": "2014-07-15T15:44:28Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-profile_image-c18ce29bff14127c-300x300.png",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-channel_offline_image-456b3cef1ad58c22-640x360.png",
-                "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-profile_banner-0a625d4fd5e35f96-480.png",
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/mosttoxiceu",
-                "views": 168413,
-                "followers": 3163,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/mosttoxiceu",
-                  "follows": "https://api.twitch.tv/kraken/channels/mosttoxiceu/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/mosttoxiceu/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/mosttoxiceu/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/mosttoxiceu",
-                  "features": "https://api.twitch.tv/kraken/channels/mosttoxiceu/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/mosttoxiceu/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/mosttoxiceu/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/mosttoxiceu/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/mosttoxiceu/videos"
-                }
-              }
-            },
-            {
-              "_id": 10264437168,
-              "game": "League of Legends",
-              "viewers": 173,
-              "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hashinshin-{width}x{height}.jpg"
-              },
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/hashinshin"
-              },
-              "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "The challenger top lane stream where we try but never quite get challenger because man top lane, man. ",
-                "display_name": "hashinshin",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 29289159,
-                "name": "hashinshin",
-                "created_at": "2012-03-26T04:43:45Z",
-                "updated_at": "2014-07-15T14:13:54Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/hashinshin-profile_image-e0b81ec8015bb733-300x300.jpeg",
-                "banner": null,
-                "video_banner": null,
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/hashinshin",
-                "views": 1101531,
-                "followers": 12598,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/hashinshin",
-                  "follows": "https://api.twitch.tv/kraken/channels/hashinshin/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/hashinshin/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/hashinshin/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/hashinshin",
-                  "features": "https://api.twitch.tv/kraken/channels/hashinshin/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/hashinshin/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/hashinshin/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/hashinshin/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/hashinshin/videos"
-                }
-              }
-            }
-          ]
+          }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 19:24:26 GMT
+  recorded_at: Tue, 22 Jul 2014 16:14:38 GMT
 recorded_with: VCR 2.9.2

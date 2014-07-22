@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Wed, 16 Jul 2014 16:28:44 GMT
+      Date: Tue, 22 Jul 2014 16:14:26 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,10 +22,10 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"42aaa0acbfc9cd2f2b2b7ee0a9cded76"'
-      X-Request-Id: 40498411fce9569d5c5064447f099089
-      X-Runtime: '0.015292'
-      X-Varnish: '857472025'
+      Etag: '"f25acbaa14c627eed02a5c963f6da744"'
+      X-Request-Id: 5d05f1f99e5b103206f95c87873243f5
+      X-Runtime: '0.015766'
+      X-Varnish: '3032016386'
       Age: '0'
       Via: 1.1 varnish
       X-Mh-Cache: appcache2; M
@@ -41,5 +41,5 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Wed, 16 Jul 2014 16:28:44 GMT
+  recorded_at: Tue, 22 Jul 2014 16:14:26 GMT
 recorded_with: VCR 2.9.2

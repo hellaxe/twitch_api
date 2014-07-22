@@ -128,7 +128,7 @@ end
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/vcr'
   c.cassette_serializers[:styled_yaml] = StyledYAML
-  c.default_cassette_options = { serialize_with: :styled_yaml, record: :once }
+  c.default_cassette_options = { serialize_with: :styled_yaml, record: :new_episodes }
   c.hook_into :webmock
   c.default_cassette_options = {
     match_requests_on: [:uri, :headers, :method],

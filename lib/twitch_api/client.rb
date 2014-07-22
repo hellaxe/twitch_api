@@ -9,6 +9,7 @@ module TwitchApi
     include Api::Blocks
     include Api::Follows
     include Api::Chat
+    include Api::Streams
 
     attr_reader :secret_key, :client_id, :connected, :access_token, :scopes
     # TODO: make options hash in params

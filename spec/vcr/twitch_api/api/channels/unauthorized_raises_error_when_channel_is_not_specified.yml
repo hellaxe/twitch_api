@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 401, message: Unauthorized}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 19:24:18 GMT
+      Date: Tue, 22 Jul 2014 16:14:25 GMT
       Content-Type: application/json; charset=utf-8
       Content-Length: '102'
       Connection: keep-alive
@@ -22,13 +22,13 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      X-Request-Id: 8ed8ffadf815bd9445c480f06f6af55d
-      X-Runtime: '0.005327'
+      X-Request-Id: 8928c1c5ff5134384ef26fcdff2e63e7
+      X-Runtime: '0.006083'
       Accept-Ranges: bytes
-      X-Varnish: '565880129'
+      X-Varnish: '1792951008'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache2; M
+      X-Mh-Cache: appcache1; M
     body:
       encoding: UTF-8
       string: |-
@@ -38,5 +38,5 @@ http_interactions:
           "message": "Token invalid or missing required scope"
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 19:24:22 GMT
+  recorded_at: Tue, 22 Jul 2014 16:14:25 GMT
 recorded_with: VCR 2.9.2

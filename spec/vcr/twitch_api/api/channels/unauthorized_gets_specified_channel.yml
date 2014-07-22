@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 19:24:18 GMT
+      Date: Tue, 22 Jul 2014 16:14:26 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -21,13 +21,13 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"dca69bb565ac0c84f99befe35d1b6188"'
-      X-Request-Id: 882db1fd4adc4bee45459baa68a00f77
-      X-Runtime: '0.019579'
-      X-Varnish: '2138055620'
+      Etag: '"ea32522040709d2633d25827cba4eac3"'
+      X-Request-Id: 3e03e3c574b3fbca7991f286bb6e24df
+      X-Runtime: '0.021390'
+      X-Varnish: '3079111560'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache1; M
+      X-Mh-Cache: appcache3; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
@@ -42,7 +42,7 @@ http_interactions:
           "_id": 54057928,
           "name": "dodgello",
           "created_at": "2013-12-29T17:09:16Z",
-          "updated_at": "2014-07-15T19:24:17Z",
+          "updated_at": "2014-07-22T16:14:24Z",
           "logo": null,
           "banner": null,
           "video_banner": null,
@@ -50,7 +50,7 @@ http_interactions:
           "profile_banner": null,
           "profile_banner_background_color": null,
           "url": "http://www.twitch.tv/dodgello",
-          "views": 0,
+          "views": 4,
           "followers": 0,
           "_links": {
             "self": "https://api.twitch.tv/kraken/channels/dodgello",
@@ -66,5 +66,5 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 19:24:23 GMT
+  recorded_at: Tue, 22 Jul 2014 16:14:26 GMT
 recorded_with: VCR 2.9.2

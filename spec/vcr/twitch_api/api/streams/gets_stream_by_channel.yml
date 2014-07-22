@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.twitch.tv/kraken/channels/dodgello/editors
+    uri: https://api.twitch.tv/kraken/streams/dexter_bl
     body:
       encoding: US-ASCII
       string: ''
@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 22 Jul 2014 16:14:22 GMT
+      Date: Tue, 22 Jul 2014 16:20:52 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,10 +22,10 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"dc13d6f8780016d35019e99272a0f9e8"'
-      X-Request-Id: 97b0da7dd136e115cf759fc409138607
-      X-Runtime: '0.072513'
-      X-Varnish: '3079097201'
+      Etag: '"78ce5314c483c8e5386368a84f8a7c8e"'
+      X-Request-Id: e20304616444b1ba0e2db39d09d4885e
+      X-Runtime: '0.028310'
+      X-Varnish: '3080828173'
       Age: '0'
       Via: 1.1 varnish
       X-Mh-Cache: appcache3; M
@@ -35,12 +35,11 @@ http_interactions:
       string: |-
         {
           "_links": {
-            "self": "https://api.twitch.tv/kraken/channels/dodgello/editors"
+            "self": "https://api.twitch.tv/kraken/streams/dexter_bl",
+            "channel": "https://api.twitch.tv/kraken/channels/dexter_bl"
           },
-          "users": [
-
-          ]
+          "stream": null
         }
     http_version: 
-  recorded_at: Tue, 22 Jul 2014 16:14:22 GMT
+  recorded_at: Tue, 22 Jul 2014 16:20:52 GMT
 recorded_with: VCR 2.9.2

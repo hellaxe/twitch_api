@@ -9,5 +9,6 @@ module TwitchApi
     require 'twitch_api/api/blocks'
     require 'twitch_api/api/follows'
     require 'twitch_api/api/chat'
+    require 'twitch_api/api/streams'
   end
 end

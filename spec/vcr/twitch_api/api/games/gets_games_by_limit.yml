@@ -12,7 +12,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 19:24:22 GMT
+      Date: Tue, 22 Jul 2014 16:14:40 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -21,27 +21,27 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"b4d7556db2469d2428e2e62f2a2d7d6c"'
-      X-Request-Id: fc861c70f5840642b84499b6eab4180b
-      X-Runtime: '0.060144'
-      X-Varnish: '2138078066'
+      Etag: '"6ca28fd20022adbeab4580bf32f98238"'
+      X-Request-Id: 9b735b1701d1f984740bb8b6f31c682c
+      X-Runtime: '0.035124'
+      X-Varnish: '265637630'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache1; M
+      X-Mh-Cache: appcache4; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 842,
+          "_total": 710,
           "_links": {
             "self": "https://api.twitch.tv/kraken/games/top?limit=10&offset=0",
             "next": "https://api.twitch.tv/kraken/games/top?limit=10&offset=10"
           },
           "top": [
             {
-              "viewers": 102110,
-              "channels": 1523,
+              "viewers": 93373,
+              "channels": 1263,
               "game": {
                 "name": "League of Legends",
                 "_id": 21779,
@@ -63,54 +63,8 @@ http_interactions:
               }
             },
             {
-              "viewers": 55511,
-              "channels": 457,
-              "game": {
-                "name": "Counter-Strike: Global Offensive",
-                "_id": 32399,
-                "giantbomb_id": 36113,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 47624,
-              "channels": 606,
-              "game": {
-                "name": "Minecraft",
-                "_id": 27471,
-                "giantbomb_id": 30475,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 38288,
-              "channels": 276,
+              "viewers": 41028,
+              "channels": 252,
               "game": {
                 "name": "Hearthstone: Heroes of Warcraft",
                 "_id": 138585,
@@ -132,31 +86,31 @@ http_interactions:
               }
             },
             {
-              "viewers": 20852,
-              "channels": 97,
+              "viewers": 20209,
+              "channels": 328,
               "game": {
-                "name": "Unturned",
-                "_id": 417932,
-                "giantbomb_id": null,
+                "name": "Counter-Strike: Global Offensive",
+                "_id": 32399,
+                "giantbomb_id": 36113,
                 "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Unturned-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Unturned-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Unturned-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Unturned-272x380.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike%3A%20Global%20Offensive-272x380.jpg"
                 },
                 "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Unturned-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Unturned-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Unturned-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Unturned-240x144.jpg"
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Counter-Strike%3A%20Global%20Offensive-240x144.jpg"
                 },
                 "_links": {
                 }
               }
             },
             {
-              "viewers": 16212,
-              "channels": 310,
+              "viewers": 19056,
+              "channels": 262,
               "game": {
                 "name": "Dota 2",
                 "_id": 29595,
@@ -178,8 +132,8 @@ http_interactions:
               }
             },
             {
-              "viewers": 15127,
-              "channels": 464,
+              "viewers": 13351,
+              "channels": 253,
               "game": {
                 "name": "World of Warcraft: Mists of Pandaria",
                 "_id": 32954,
@@ -201,8 +155,100 @@ http_interactions:
               }
             },
             {
-              "viewers": 14036,
-              "channels": 130,
+              "viewers": 12521,
+              "channels": 486,
+              "game": {
+                "name": "Minecraft",
+                "_id": 27471,
+                "giantbomb_id": 30475,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Minecraft-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Minecraft-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 10555,
+              "channels": 142,
+              "game": {
+                "name": "Dark Souls II",
+                "_id": 91423,
+                "giantbomb_id": 40798,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Dark%20Souls%20II-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Dark%20Souls%20II-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 10346,
+              "channels": 189,
+              "game": {
+                "name": "FIFA 14",
+                "_id": 369095,
+                "giantbomb_id": 42410,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/FIFA%2014-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/FIFA%2014-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 9414,
+              "channels": 116,
+              "game": {
+                "name": "DayZ",
+                "_id": 65632,
+                "giantbomb_id": 39256,
+                "box": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/DayZ-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/DayZ-52x72.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/DayZ-136x190.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/DayZ-272x380.jpg"
+                },
+                "logo": {
+                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/DayZ-{width}x{height}.jpg",
+                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/DayZ-60x36.jpg",
+                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/DayZ-120x72.jpg",
+                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/DayZ-240x144.jpg"
+                },
+                "_links": {
+                }
+              }
+            },
+            {
+              "viewers": 8880,
+              "channels": 95,
               "game": {
                 "name": "StarCraft II: Heart of the Swarm",
                 "_id": 21818,
@@ -222,55 +268,9 @@ http_interactions:
                 "_links": {
                 }
               }
-            },
-            {
-              "viewers": 13389,
-              "channels": 5,
-              "game": {
-                "name": "The Bridge Project",
-                "_id": 126212,
-                "giantbomb_id": 41558,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Bridge%20Project-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Bridge%20Project-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Bridge%20Project-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/The%20Bridge%20Project-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Bridge%20Project-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Bridge%20Project-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Bridge%20Project-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/The%20Bridge%20Project-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
-            },
-            {
-              "viewers": 13175,
-              "channels": 344,
-              "game": {
-                "name": "Call of Duty: Ghosts",
-                "_id": 118200,
-                "giantbomb_id": 41520,
-                "box": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty%3A%20Ghosts-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty%3A%20Ghosts-52x72.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty%3A%20Ghosts-136x190.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty%3A%20Ghosts-272x380.jpg"
-                },
-                "logo": {
-                  "template": "http://static-cdn.jtvnw.net/ttv-logoart/Call%20of%20Duty%3A%20Ghosts-{width}x{height}.jpg",
-                  "small": "http://static-cdn.jtvnw.net/ttv-logoart/Call%20of%20Duty%3A%20Ghosts-60x36.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Call%20of%20Duty%3A%20Ghosts-120x72.jpg",
-                  "large": "http://static-cdn.jtvnw.net/ttv-logoart/Call%20of%20Duty%3A%20Ghosts-240x144.jpg"
-                },
-                "_links": {
-                }
-              }
             }
           ]
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 19:24:27 GMT
+  recorded_at: Tue, 22 Jul 2014 16:14:42 GMT
 recorded_with: VCR 2.9.2

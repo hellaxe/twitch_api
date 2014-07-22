@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 19:24:19 GMT
+      Date: Tue, 22 Jul 2014 16:14:32 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,13 +22,13 @@ http_interactions:
       Cache-Control: max-age=300, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"7ddd6367d1123c38565d01d1d799f7fc"'
-      X-Request-Id: 3394d13d055744d9b9ac473de3c4e64d
-      X-Runtime: '0.089688'
-      X-Varnish: '565885545'
+      Etag: '"e269d9aa700fa3a8d9405d2e9f5820b9"'
+      X-Request-Id: e3732eaaee4e9b6264479ac386532b4d
+      X-Runtime: '0.088639'
+      X-Varnish: '3079136876'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache2; M
+      X-Mh-Cache: appcache3; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
@@ -36,487 +36,487 @@ http_interactions:
         {
           "follows": [
             {
-              "created_at": "2014-07-15T14:27:18Z",
+              "created_at": "2014-07-21T11:34:15Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/rilidcz/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/cjkentus/follows/channels/edynlol"
               },
               "user": {
-                "_id": 32997967,
-                "name": "rilidcz",
-                "created_at": "2012-08-12T16:44:55Z",
-                "updated_at": "2014-07-13T10:49:30Z",
+                "_id": 59975011,
+                "name": "cjkentus",
+                "created_at": "2014-03-31T16:51:50Z",
+                "updated_at": "2014-07-22T09:50:01Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/rilidcz"
+                  "self": "https://api.twitch.tv/kraken/users/cjkentus"
                 },
-                "display_name": "RiLiDCZ",
+                "display_name": "CJKentus",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-15T14:27:07Z",
+              "created_at": "2014-07-21T11:31:15Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/kanolilol/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/spagymatalent/follows/channels/edynlol"
               },
               "user": {
-                "_id": 45510223,
-                "name": "kanolilol",
-                "created_at": "2013-07-02T11:34:10Z",
-                "updated_at": "2014-07-15T17:03:03Z",
+                "_id": 46602042,
+                "name": "spagymatalent",
+                "created_at": "2013-07-25T16:24:33Z",
+                "updated_at": "2014-07-21T11:31:16Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/kanolilol"
+                  "self": "https://api.twitch.tv/kraken/users/spagymatalent"
                 },
-                "display_name": "Kanolilol",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/kanolilol-profile_image-74628d3aed32398a-300x300.jpeg",
-                "bio": null,
-                "type": "user"
-              }
-            },
-            {
-              "created_at": "2014-07-15T14:26:04Z",
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/users/r0flma0mg/follows/channels/edynlol"
-              },
-              "user": {
-                "_id": 45339554,
-                "name": "r0flma0mg",
-                "created_at": "2013-06-28T22:30:18Z",
-                "updated_at": "2014-07-15T14:26:04Z",
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/r0flma0mg"
-                },
-                "display_name": "r0flma0mg",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/r0flma0mg-profile_image-7e4b77445bdbad12-300x300.png",
-                "bio": null,
-                "type": "user"
-              }
-            },
-            {
-              "created_at": "2014-07-15T13:42:24Z",
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/users/cikula/follows/channels/edynlol"
-              },
-              "user": {
-                "_id": 41038640,
-                "name": "cikula",
-                "created_at": "2013-03-06T09:58:24Z",
-                "updated_at": "2014-07-05T19:49:08Z",
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/cikula"
-                },
-                "display_name": "cikula",
+                "display_name": "SpagyMaTalent",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-15T13:40:25Z",
+              "created_at": "2014-07-20T17:09:33Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/ondrewtieu/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/m4d3m4n/follows/channels/edynlol"
               },
               "user": {
-                "_id": 56279501,
-                "name": "ondrewtieu",
-                "created_at": "2014-02-06T05:21:17Z",
-                "updated_at": "2014-07-15T01:43:41Z",
+                "_id": 32882625,
+                "name": "m4d3m4n",
+                "created_at": "2012-08-09T17:58:45Z",
+                "updated_at": "2014-07-18T16:33:11Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/ondrewtieu"
+                  "self": "https://api.twitch.tv/kraken/users/m4d3m4n"
                 },
-                "display_name": "ondrewtieu",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/ondrewtieu-profile_image-1e4db6390ebfe5a4-300x300.jpeg",
-                "bio": null,
-                "type": "user"
-              }
-            },
-            {
-              "created_at": "2014-07-15T12:32:41Z",
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/users/neuroace/follows/channels/edynlol"
-              },
-              "user": {
-                "_id": 28536120,
-                "name": "neuroace",
-                "created_at": "2012-02-26T15:21:42Z",
-                "updated_at": "2014-07-15T12:32:41Z",
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/neuroace"
-                },
-                "display_name": "NeuroAce",
+                "display_name": "M4D3M4N",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-15T12:19:01Z",
+              "created_at": "2014-07-20T16:59:33Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/bigbobliha1/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/tdg_cronos/follows/channels/edynlol"
               },
               "user": {
-                "_id": 64092140,
-                "name": "bigbobliha1",
-                "created_at": "2014-06-10T17:26:20Z",
-                "updated_at": "2014-07-01T10:59:39Z",
+                "_id": 49895175,
+                "name": "tdg_cronos",
+                "created_at": "2013-10-07T07:03:22Z",
+                "updated_at": "2014-07-09T16:32:34Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/bigbobliha1"
+                  "self": "https://api.twitch.tv/kraken/users/tdg_cronos"
                 },
-                "display_name": "Bigbobliha1",
-                "logo": null,
-                "bio": "Hi i am PRO nOOb Troll Gamer, i play LoL, sit down and enjoy my Trollplay Madafakaaaaaaaaas! (and don't dare to hit my follow button!)",
+                "display_name": "TDG_Cronos",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/tdg_cronos-profile_image-ad72f3ffdc602ddb-300x300.png",
+                "bio": "TeamDemigods JUNGLER",
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-15T11:59:18Z",
+              "created_at": "2014-07-20T16:09:13Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/fozino/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/dzusik/follows/channels/edynlol"
               },
               "user": {
-                "_id": 39517076,
-                "name": "fozino",
-                "created_at": "2013-01-20T13:38:34Z",
-                "updated_at": "2014-07-15T12:38:35Z",
+                "_id": 40344152,
+                "name": "dzusik",
+                "created_at": "2013-02-15T17:00:35Z",
+                "updated_at": "2014-07-15T11:24:01Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/fozino"
+                  "self": "https://api.twitch.tv/kraken/users/dzusik"
                 },
-                "display_name": "Fozino",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/fozino-profile_image-2d9465404c62458e-300x300.jpeg",
+                "display_name": "Dzusik",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/dzusik-profile_image-ab4d0cfe7337dcfb-300x300.jpeg",
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-15T11:58:37Z",
+              "created_at": "2014-07-18T13:53:14Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/frederikfedorko56/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/redyqqq/follows/channels/edynlol"
               },
               "user": {
-                "_id": 65956162,
-                "name": "frederikfedorko56",
-                "created_at": "2014-07-09T18:49:52Z",
-                "updated_at": "2014-07-15T11:55:45Z",
+                "_id": 37292889,
+                "name": "redyqqq",
+                "created_at": "2012-10-30T03:59:49Z",
+                "updated_at": "2014-07-20T06:35:19Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/frederikfedorko56"
+                  "self": "https://api.twitch.tv/kraken/users/redyqqq"
                 },
-                "display_name": "FrederikFedorko56",
-                "logo": null,
-                "bio": null,
-                "type": "user"
-              }
-            },
-            {
-              "created_at": "2014-07-15T11:41:50Z",
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/users/snupi9/follows/channels/edynlol"
-              },
-              "user": {
-                "_id": 42539433,
-                "name": "snupi9",
-                "created_at": "2013-04-16T19:20:07Z",
-                "updated_at": "2014-07-03T20:03:14Z",
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/snupi9"
-                },
-                "display_name": "Snupi9",
+                "display_name": "redyQQQ",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-15T11:33:34Z",
+              "created_at": "2014-07-18T13:35:53Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/jardik774/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/petrrider/follows/channels/edynlol"
               },
               "user": {
-                "_id": 47000042,
-                "name": "jardik774",
-                "created_at": "2013-08-02T19:07:16Z",
-                "updated_at": "2014-07-14T09:08:23Z",
+                "_id": 44631950,
+                "name": "petrrider",
+                "created_at": "2013-06-11T16:18:30Z",
+                "updated_at": "2014-07-19T23:04:14Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/jardik774"
+                  "self": "https://api.twitch.tv/kraken/users/petrrider"
                 },
-                "display_name": "jardik774",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/jardik774-profile_image-67281e3601d99626-300x300.jpeg",
+                "display_name": "PetrRider",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/petrrider-profile_image-e5297a6d74a196af-300x300.jpeg",
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-14T13:12:25Z",
+              "created_at": "2014-07-18T13:30:18Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/ondrasek101/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/magmalife11/follows/channels/edynlol"
               },
               "user": {
-                "_id": 57978624,
-                "name": "ondrasek101",
-                "created_at": "2014-03-01T17:15:28Z",
-                "updated_at": "2014-03-02T04:46:28Z",
+                "_id": 54249990,
+                "name": "magmalife11",
+                "created_at": "2014-01-01T21:35:54Z",
+                "updated_at": "2014-07-12T10:51:30Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/ondrasek101"
+                  "self": "https://api.twitch.tv/kraken/users/magmalife11"
                 },
-                "display_name": "Ondrasek101",
+                "display_name": "Magmalife11",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-14T13:10:13Z",
+              "created_at": "2014-07-18T13:29:44Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/dubsterino/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/daenek/follows/channels/edynlol"
               },
               "user": {
-                "_id": 60584395,
-                "name": "dubsterino",
-                "created_at": "2014-04-10T18:20:26Z",
-                "updated_at": "2014-07-08T21:01:26Z",
+                "_id": 50070841,
+                "name": "daenek",
+                "created_at": "2013-10-12T15:11:42Z",
+                "updated_at": "2014-07-16T07:42:45Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/dubsterino"
+                  "self": "https://api.twitch.tv/kraken/users/daenek"
                 },
-                "display_name": "Dubsterino",
+                "display_name": "Daenek",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-14T12:41:53Z",
+              "created_at": "2014-07-18T13:27:09Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/nakii3/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/slipanek/follows/channels/edynlol"
               },
               "user": {
-                "_id": 64488483,
-                "name": "nakii3",
-                "created_at": "2014-06-16T14:40:09Z",
-                "updated_at": "2014-07-10T19:50:02Z",
+                "_id": 2038958,
+                "name": "slipanek",
+                "created_at": "2008-10-05T16:52:35Z",
+                "updated_at": "2014-07-18T13:27:09Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/nakii3"
+                  "self": "https://api.twitch.tv/kraken/users/slipanek"
                 },
-                "display_name": "Nakii3",
+                "display_name": "Slipanek",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-14T12:24:49Z",
+              "created_at": "2014-07-18T12:51:06Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/sarisak/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/extremecraft35/follows/channels/edynlol"
               },
               "user": {
-                "_id": 51481144,
-                "name": "sarisak",
-                "created_at": "2013-11-13T18:25:17Z",
-                "updated_at": "2014-07-14T12:24:50Z",
+                "_id": 42941916,
+                "name": "extremecraft35",
+                "created_at": "2013-04-27T19:08:17Z",
+                "updated_at": "2014-07-22T02:47:03Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/sarisak"
+                  "self": "https://api.twitch.tv/kraken/users/extremecraft35"
                 },
-                "display_name": "sarisak",
+                "display_name": "Extremecraft35",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/extremecraft35-profile_image-06fbf934d168bd5f-300x300.png",
+                "bio": "Play League of legends",
+                "type": "user"
+              }
+            },
+            {
+              "created_at": "2014-07-18T12:14:09Z",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/users/5554555/follows/channels/edynlol"
+              },
+              "user": {
+                "_id": 66625823,
+                "name": "5554555",
+                "created_at": "2014-07-18T12:14:08Z",
+                "updated_at": "2014-07-18T12:14:11Z",
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/users/5554555"
+                },
+                "display_name": "5554555",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-14T12:20:19Z",
+              "created_at": "2014-07-18T12:13:24Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/jidasek/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/toxman123/follows/channels/edynlol"
               },
               "user": {
-                "_id": 50058313,
-                "name": "jidasek",
-                "created_at": "2013-10-12T08:08:01Z",
-                "updated_at": "2014-06-30T19:06:19Z",
+                "_id": 38751839,
+                "name": "toxman123",
+                "created_at": "2012-12-25T16:38:51Z",
+                "updated_at": "2014-07-12T14:17:16Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/jidasek"
+                  "self": "https://api.twitch.tv/kraken/users/toxman123"
                 },
-                "display_name": "Jidasek",
+                "display_name": "Toxman123",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-13T17:59:02Z",
+              "created_at": "2014-07-18T10:24:31Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/whitrtigercze/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/foxaksvk/follows/channels/edynlol"
               },
               "user": {
-                "_id": 59843587,
-                "name": "whitrtigercze",
-                "created_at": "2014-03-29T15:50:31Z",
-                "updated_at": "2014-07-02T16:03:41Z",
+                "_id": 60923590,
+                "name": "foxaksvk",
+                "created_at": "2014-04-15T14:02:55Z",
+                "updated_at": "2014-04-15T14:02:58Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/whitrtigercze"
+                  "self": "https://api.twitch.tv/kraken/users/foxaksvk"
                 },
-                "display_name": "WhitrTigerCZE",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/whitrtigercze-profile_image-d2de728ccf22777d-300x300.jpeg",
-                "bio": null,
-                "type": "user"
-              }
-            },
-            {
-              "created_at": "2014-07-13T17:42:18Z",
-              "_links": {
-                "self": "https://api.twitch.tv/kraken/users/matysek77/follows/channels/edynlol"
-              },
-              "user": {
-                "_id": 38769442,
-                "name": "matysek77",
-                "created_at": "2012-12-26T12:09:58Z",
-                "updated_at": "2013-09-30T00:02:58Z",
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/matysek77"
-                },
-                "display_name": "Matysek77",
+                "display_name": "Foxaksvk",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-11T15:00:56Z",
+              "created_at": "2014-07-18T10:22:15Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/d0m1k95/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/fanny420/follows/channels/edynlol"
               },
               "user": {
-                "_id": 27337104,
-                "name": "d0m1k95",
-                "created_at": "2012-01-09T17:54:23Z",
-                "updated_at": "2014-06-28T11:29:49Z",
+                "_id": 51707796,
+                "name": "fanny420",
+                "created_at": "2013-11-17T12:57:02Z",
+                "updated_at": "2014-07-15T15:54:17Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/d0m1k95"
+                  "self": "https://api.twitch.tv/kraken/users/fanny420"
                 },
-                "display_name": "D0M1K95",
+                "display_name": "FanNy420",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/fanny420-profile_image-1d416d0f456192aa-300x300.jpeg",
+                "bio": null,
+                "type": "user"
+              }
+            },
+            {
+              "created_at": "2014-07-17T16:42:15Z",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/users/codername/follows/channels/edynlol"
+              },
+              "user": {
+                "_id": 41448548,
+                "name": "codername",
+                "created_at": "2013-03-17T18:36:38Z",
+                "updated_at": "2014-07-17T16:31:03Z",
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/users/codername"
+                },
+                "display_name": "CoderName",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-11T14:22:10Z",
+              "created_at": "2014-07-16T14:00:47Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/xspirituss/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/kulyhrasek/follows/channels/edynlol"
               },
               "user": {
-                "_id": 45623636,
-                "name": "xspirituss",
-                "created_at": "2013-07-04T17:26:11Z",
-                "updated_at": "2014-06-28T15:08:17Z",
+                "_id": 43044499,
+                "name": "kulyhrasek",
+                "created_at": "2013-04-30T13:48:45Z",
+                "updated_at": "2014-07-13T14:48:26Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/xspirituss"
+                  "self": "https://api.twitch.tv/kraken/users/kulyhrasek"
                 },
-                "display_name": "Xspirituss",
+                "display_name": "kulyhrasek",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-11T13:30:39Z",
+              "created_at": "2014-07-16T13:28:29Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/kikco6321/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/cvengo13/follows/channels/edynlol"
               },
               "user": {
-                "_id": 61308810,
-                "name": "kikco6321",
-                "created_at": "2014-04-20T23:22:50Z",
-                "updated_at": "2014-07-04T00:03:41Z",
+                "_id": 65323805,
+                "name": "cvengo13",
+                "created_at": "2014-06-29T20:54:29Z",
+                "updated_at": "2014-07-16T15:02:39Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/kikco6321"
+                  "self": "https://api.twitch.tv/kraken/users/cvengo13"
                 },
-                "display_name": "Kikco6321",
+                "display_name": "cvengo13",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-11T13:08:02Z",
+              "created_at": "2014-07-16T12:58:38Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/domcascz/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/migelcore/follows/channels/edynlol"
               },
               "user": {
-                "_id": 31549299,
-                "name": "domcascz",
-                "created_at": "2012-06-22T19:42:54Z",
-                "updated_at": "2014-07-15T10:53:03Z",
+                "_id": 62892384,
+                "name": "migelcore",
+                "created_at": "2014-05-20T16:15:47Z",
+                "updated_at": "2014-07-18T01:42:49Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/domcascz"
+                  "self": "https://api.twitch.tv/kraken/users/migelcore"
                 },
-                "display_name": "Domcascz",
+                "display_name": "migelcore",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-11T12:59:49Z",
+              "created_at": "2014-07-16T12:53:22Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/mrfir0x500/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/pgpapicz/follows/channels/edynlol"
               },
               "user": {
-                "_id": 44231635,
-                "name": "mrfir0x500",
-                "created_at": "2013-06-01T17:50:14Z",
-                "updated_at": "2014-07-11T12:59:49Z",
+                "_id": 65619578,
+                "name": "pgpapicz",
+                "created_at": "2014-07-04T16:38:09Z",
+                "updated_at": "2014-07-22T09:56:44Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/mrfir0x500"
+                  "self": "https://api.twitch.tv/kraken/users/pgpapicz"
                 },
-                "display_name": "MrFir0x500",
+                "display_name": "PGPapiCZ",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-11T12:48:28Z",
+              "created_at": "2014-07-16T12:53:16Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/marek28101/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/kovan5291/follows/channels/edynlol"
               },
               "user": {
-                "_id": 30178936,
-                "name": "marek28101",
-                "created_at": "2012-04-30T17:03:05Z",
-                "updated_at": "2014-07-14T22:59:56Z",
+                "_id": 36391257,
+                "name": "kovan5291",
+                "created_at": "2012-09-23T12:01:04Z",
+                "updated_at": "2014-07-14T20:45:41Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/marek28101"
+                  "self": "https://api.twitch.tv/kraken/users/kovan5291"
                 },
-                "display_name": "Marek28101",
+                "display_name": "kovan5291",
                 "logo": null,
                 "bio": null,
                 "type": "user"
               }
             },
             {
-              "created_at": "2014-07-11T12:46:48Z",
+              "created_at": "2014-07-16T12:53:11Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/parazzitcz/follows/channels/edynlol"
+                "self": "https://api.twitch.tv/kraken/users/bisam23/follows/channels/edynlol"
               },
               "user": {
-                "_id": 51255911,
-                "name": "parazzitcz",
-                "created_at": "2013-11-08T20:29:33Z",
-                "updated_at": "2013-11-11T18:58:33Z",
+                "_id": 54393025,
+                "name": "bisam23",
+                "created_at": "2014-01-04T13:05:34Z",
+                "updated_at": "2014-07-12T12:10:15Z",
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/users/parazzitcz"
+                  "self": "https://api.twitch.tv/kraken/users/bisam23"
                 },
-                "display_name": "Parazzitcz",
+                "display_name": "Bisam23",
                 "logo": null,
+                "bio": null,
+                "type": "user"
+              }
+            },
+            {
+              "created_at": "2014-07-16T12:53:02Z",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/users/theteon/follows/channels/edynlol"
+              },
+              "user": {
+                "_id": 49173042,
+                "name": "theteon",
+                "created_at": "2013-09-18T13:51:46Z",
+                "updated_at": "2014-07-16T12:13:05Z",
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/users/theteon"
+                },
+                "display_name": "TheTeon",
+                "logo": null,
+                "bio": "Team Player",
+                "type": "user"
+              }
+            },
+            {
+              "created_at": "2014-07-16T12:53:01Z",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/users/zadeeek/follows/channels/edynlol"
+              },
+              "user": {
+                "_id": 61927999,
+                "name": "zadeeek",
+                "created_at": "2014-05-01T15:25:36Z",
+                "updated_at": "2014-07-17T15:26:15Z",
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/users/zadeeek"
+                },
+                "display_name": "ZADEEEK",
+                "logo": null,
+                "bio": "Hrajeme Lolkoooo ;)",
+                "type": "user"
+              }
+            },
+            {
+              "created_at": "2014-07-16T12:52:42Z",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/users/splintercell35/follows/channels/edynlol"
+              },
+              "user": {
+                "_id": 41354911,
+                "name": "splintercell35",
+                "created_at": "2013-03-15T18:18:13Z",
+                "updated_at": "2014-07-09T19:36:34Z",
+                "_links": {
+                  "self": "https://api.twitch.tv/kraken/users/splintercell35"
+                },
+                "display_name": "SplinterCell35",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/splintercell35-profile_image-5cad09775ca4e975-300x300.jpeg",
                 "bio": null,
                 "type": "user"
               }
             }
           ],
-          "_total": 1020,
+          "_total": 1045,
           "_links": {
             "self": "https://api.twitch.tv/kraken/channels/edynlol/follows?direction=DESC&limit=25&offset=0",
             "next": "https://api.twitch.tv/kraken/channels/edynlol/follows?direction=DESC&limit=25&offset=25"
           }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 19:24:23 GMT
+  recorded_at: Tue, 22 Jul 2014 16:14:33 GMT
 recorded_with: VCR 2.9.2

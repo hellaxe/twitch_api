@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 19:24:17 GMT
+      Date: Tue, 22 Jul 2014 16:14:25 GMT
       Content-Type: application/json; charset=utf-8
       Content-Length: '1311'
       Connection: keep-alive
@@ -22,11 +22,11 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"b95283dfabcc479f91293fe332af1032"'
-      X-Request-Id: fe322095bf4b48c887cb1d78c072d21b
-      X-Runtime: '0.722811'
+      Etag: '"1b469b3f6f7b044826ac3c781519b2a1"'
+      X-Request-Id: 037135f3e711aa2995284c5b8352ec7f
+      X-Runtime: '0.871924'
       Accept-Ranges: bytes
-      X-Varnish: '596878329'
+      X-Varnish: '3079103703'
       Age: '0'
       Via: 1.1 varnish
       X-Mh-Cache: appcache3; M
@@ -44,7 +44,7 @@ http_interactions:
           "_id": 54057928,
           "name": "dodgello",
           "created_at": "2013-12-29T17:09:16Z",
-          "updated_at": "2014-07-15T19:24:17Z",
+          "updated_at": "2014-07-22T16:14:24Z",
           "logo": null,
           "banner": null,
           "video_banner": null,
@@ -52,7 +52,7 @@ http_interactions:
           "profile_banner": null,
           "profile_banner_background_color": null,
           "url": "http://www.twitch.tv/dodgello",
-          "views": 0,
+          "views": 4,
           "followers": 0,
           "_links": {
             "self": "https://api.twitch.tv/kraken/channels/dodgello",
@@ -67,8 +67,8 @@ http_interactions:
             "videos": "https://api.twitch.tv/kraken/channels/dodgello/videos"
           },
           "email": "helaxe@gmail.com",
-          "stream_key": "live_54057928_CeFqrQj2TcBffZ5S6CKRdxcOo3cUrv"
+          "stream_key": "live_54057928_gkIXeHGcSvxEBO3JqOBPfrTJVLlssZ"
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 19:24:22 GMT
+  recorded_at: Tue, 22 Jul 2014 16:14:25 GMT
 recorded_with: VCR 2.9.2

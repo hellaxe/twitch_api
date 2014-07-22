@@ -15,7 +15,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 19:24:14 GMT
+      Date: Tue, 22 Jul 2014 16:14:21 GMT
       Content-Type: application/json; charset=utf-8
       Content-Length: '451'
       Connection: keep-alive
@@ -24,11 +24,11 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"c7636c3ff128d59f45e18157e8ca9a7a"'
-      X-Request-Id: e0a428666841ebb546802c27795631ea
-      X-Runtime: '0.071306'
+      Etag: '"cb6ee33c893ad76983d937e2bcb0afae"'
+      X-Request-Id: 8627ded53d1c2d9b746e406063fe26e0
+      X-Runtime: '0.079660'
       Accept-Ranges: bytes
-      X-Varnish: '2102870417'
+      X-Varnish: '265558171'
       Age: '0'
       Via: 1.1 varnish
       X-Mh-Cache: appcache4; M
@@ -37,8 +37,8 @@ http_interactions:
       encoding: UTF-8
       string: |-
         {
-          "_id": 8400493,
-          "updated_at": "2014-07-15T19:24:14Z",
+          "_id": 8498773,
+          "updated_at": "2014-07-22T16:14:21Z",
           "_links": {
             "self": "https://api.twitch.tv/kraken/users/Dodgello/blocks/someuser"
           },
@@ -56,5 +56,5 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 19:24:19 GMT
+  recorded_at: Tue, 22 Jul 2014 16:14:22 GMT
 recorded_with: VCR 2.9.2

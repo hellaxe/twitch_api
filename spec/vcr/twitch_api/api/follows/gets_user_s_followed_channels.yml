@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 19:24:19 GMT
+      Date: Tue, 22 Jul 2014 16:14:33 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,49 +22,25 @@ http_interactions:
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"4b68312624842431e7c84ded9533095a"'
-      X-Request-Id: bfd2915e41b024265994886624b0824a
-      X-Runtime: '0.115718'
-      X-Varnish: '2138061728'
+      Etag: '"669fec906b07965e604f11aab46507ba"'
+      X-Request-Id: 733df44ae010af51043f6129c3cd9943
+      X-Runtime: '0.074781'
+      X-Varnish: '3079140390'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache1; M
+      X-Mh-Cache: appcache3; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "_total": 12,
-          "_links": {
-            "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels?direction=DESC&limit=25&offset=0",
-            "next": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels?direction=DESC&limit=25&offset=25"
-          },
           "follows": [
             {
               "created_at": "2014-05-17T08:52:01Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/mannercookie"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/mannercookie"
               },
               "channel": {
-                "mature": true,
-                "abuse_reported": null,
-                "status": "LEG GEMS - Day 2",
-                "display_name": "MannerCookie",
-                "game": "Diablo III: Reaper of Souls",
-                "delay": 0,
-                "_id": 39607327,
-                "name": "mannercookie",
-                "created_at": "2013-01-23T07:40:54Z",
-                "updated_at": "2014-07-14T23:08:16Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mannercookie-profile_image-c09e428951249000-300x300.png",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mannercookie-channel_offline_image-f3dfa31a5cd45837-640x360.jpeg",
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": "#000000",
-                "url": "http://www.twitch.tv/mannercookie",
-                "views": 1410144,
-                "followers": 12448,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/mannercookie",
                   "follows": "https://api.twitch.tv/kraken/channels/mannercookie/follows",
@@ -74,36 +50,36 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/mannercookie/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/mannercookie/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/mannercookie/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/mannercookie/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/mannercookie/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/mannercookie/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/mannercookie/teams"
+                },
+                "background": null,
+                "banner": null,
+                "display_name": "MannerCookie",
+                "game": "Diablo III: Reaper of Souls",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mannercookie-profile_image-c09e428951249000-300x300.png",
+                "mature": true,
+                "status": "HC-Seasons Crus, PTR Testing.",
+                "url": "http://www.twitch.tv/mannercookie",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mannercookie-channel_offline_image-f3dfa31a5cd45837-640x360.jpeg",
+                "_id": 39607327,
+                "name": "mannercookie",
+                "created_at": "2013-01-23T07:40:54Z",
+                "updated_at": "2014-07-22T13:35:35Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 12507,
+                "profile_banner": null,
+                "profile_banner_background_color": "#000000",
+                "views": 1412006
               }
             },
             {
               "created_at": "2014-03-18T15:34:19Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/mushisgosu"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/mushisgosu"
               },
               "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "hi im Gosu - Challenger AD - Solo Queueing",
-                "display_name": "MushIsGosu",
-                "game": "League of Legends",
-                "delay": 60,
-                "_id": 41939266,
-                "name": "mushisgosu",
-                "created_at": "2013-03-31T21:12:14Z",
-                "updated_at": "2014-07-15T13:21:48Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mushisgosu-profile_image-b1c8bb5fd700025e-300x300.png",
-                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mushisgosu-channel_header_image-c5c08cce281b7be3-640x125.jpeg",
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mushisgosu-channel_offline_image-9b435b00cca4baaa-640x360.jpeg",
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/mushisgosu",
-                "views": 17181297,
-                "followers": 199494,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/mushisgosu",
                   "follows": "https://api.twitch.tv/kraken/channels/mushisgosu/follows",
@@ -113,36 +89,36 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/mushisgosu/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/mushisgosu/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/mushisgosu/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/mushisgosu/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/mushisgosu/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/mushisgosu/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/mushisgosu/teams"
+                },
+                "background": null,
+                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mushisgosu-channel_header_image-c5c08cce281b7be3-640x125.jpeg",
+                "display_name": "MushIsGosu",
+                "game": "League of Legends",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mushisgosu-profile_image-b1c8bb5fd700025e-300x300.png",
+                "mature": false,
+                "status": "hi im Gosu - Solo Queueing - 200k Followers HYPE!",
+                "url": "http://www.twitch.tv/mushisgosu",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mushisgosu-channel_offline_image-9b435b00cca4baaa-640x360.jpeg",
+                "_id": 41939266,
+                "name": "mushisgosu",
+                "created_at": "2013-03-31T21:12:14Z",
+                "updated_at": "2014-07-22T14:01:17Z",
+                "abuse_reported": null,
+                "delay": 60,
+                "followers": 212656,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "views": 17899075
               }
             },
             {
               "created_at": "2014-03-18T12:26:46Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/machinegunnerusmc"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/machinegunnerusmc"
               },
               "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "Gunner| 3 Rp Giveaway's Stream || Ranked 5's",
-                "display_name": "machinegunnerusmc",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 29693067,
-                "name": "machinegunnerusmc",
-                "created_at": "2012-04-11T01:57:27Z",
-                "updated_at": "2014-07-15T14:24:23Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/machinegunnerusmc-profile_image-a18e172e8b59b3a7-300x300.png",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/machinegunnerusmc-channel_offline_image-a194985e31577e4d-640x360.jpeg",
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/machinegunnerusmc",
-                "views": 942773,
-                "followers": 23097,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/machinegunnerusmc",
                   "follows": "https://api.twitch.tv/kraken/channels/machinegunnerusmc/follows",
@@ -152,75 +128,75 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/machinegunnerusmc/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/machinegunnerusmc/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/machinegunnerusmc/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/machinegunnerusmc/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/machinegunnerusmc/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/machinegunnerusmc/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/machinegunnerusmc/teams"
+                },
+                "background": null,
+                "banner": null,
+                "display_name": "machinegunnerusmc",
+                "game": "League of Legends",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/machinegunnerusmc-profile_image-a18e172e8b59b3a7-300x300.png",
+                "mature": false,
+                "status": "Gunner| League game's| come join if you want Thank you all for your support i love each and everyone of you ",
+                "url": "http://www.twitch.tv/machinegunnerusmc",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/machinegunnerusmc-channel_offline_image-43d955e9e12642a3-640x360.png",
+                "_id": 29693067,
+                "name": "machinegunnerusmc",
+                "created_at": "2012-04-11T01:57:27Z",
+                "updated_at": "2014-07-22T11:10:29Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 23385,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "views": 950498
               }
             },
             {
               "created_at": "2014-03-18T10:57:03Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/kingofham"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/kingofham"
               },
               "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "Sorry having technical issues and I'll stream as soon as I can! Ask me on Facebook / twitter if u wonder about anything!",
+                "_links": {
+                  "self": "http://api.twitch.tv/kraken/channels/kingofham",
+                  "follows": "http://api.twitch.tv/kraken/channels/kingofham/follows",
+                  "commercial": "http://api.twitch.tv/kraken/channels/kingofham/commercial",
+                  "stream_key": "http://api.twitch.tv/kraken/channels/kingofham/stream_key",
+                  "chat": "http://api.twitch.tv/kraken/chat/kingofham",
+                  "features": "http://api.twitch.tv/kraken/channels/kingofham/features",
+                  "subscriptions": "http://api.twitch.tv/kraken/channels/kingofham/subscriptions",
+                  "editors": "http://api.twitch.tv/kraken/channels/kingofham/editors",
+                  "videos": "http://api.twitch.tv/kraken/channels/kingofham/videos",
+                  "teams": "http://api.twitch.tv/kraken/channels/kingofham/teams"
+                },
+                "background": null,
+                "banner": null,
                 "display_name": "KINGOFHAM",
                 "game": "League of Legends",
-                "delay": 0,
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/kingofham-profile_image-538837c7229660f1-300x300.png",
+                "mature": false,
+                "status": "Sorry having technical issues and I'll stream as soon as I can! Ask me on Facebook / twitter if u wonder about anything!",
+                "url": "http://www.twitch.tv/kingofham",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kingofham-channel_offline_image-a48e81cc46ce1d92-640x360.jpeg",
                 "_id": 53141417,
                 "name": "kingofham",
                 "created_at": "2013-12-13T14:03:30Z",
-                "updated_at": "2014-07-15T17:29:41Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/kingofham-profile_image-538837c7229660f1-300x300.png",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kingofham-channel_offline_image-a48e81cc46ce1d92-640x360.jpeg",
-                "background": null,
+                "updated_at": "2014-07-22T02:54:02Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 8707,
                 "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/kingofham-profile_banner-e924c0dd33b1c207-480.jpeg",
                 "profile_banner_background_color": "#20364f",
-                "url": "http://www.twitch.tv/kingofham",
-                "views": 306666,
-                "followers": 8720,
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/kingofham",
-                  "follows": "https://api.twitch.tv/kraken/channels/kingofham/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/kingofham/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/kingofham/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/kingofham",
-                  "features": "https://api.twitch.tv/kraken/channels/kingofham/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/kingofham/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/kingofham/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/kingofham/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/kingofham/videos"
-                }
+                "views": 306775
               }
             },
             {
               "created_at": "2014-03-15T21:04:49Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/sllverlady1"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/sllverlady1"
               },
               "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "[ENG/FR]    ᔕLᒪⅤᗴᖇᒪᗩᕍᎩ1 白金 ",
-                "display_name": "Sllverlady1",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 47515032,
-                "name": "sllverlady1",
-                "created_at": "2013-08-12T21:42:25Z",
-                "updated_at": "2014-07-15T04:55:20Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sllverlady1-profile_image-9c607e81320c9ffa-300x300.png",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sllverlady1-channel_offline_image-8887048011c16a54-640x360.jpeg",
-                "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sllverlady1-profile_banner-670789d22ed40cee-480.jpeg",
-                "profile_banner_background_color": "#423342",
-                "url": "http://www.twitch.tv/sllverlady1",
-                "views": 5156127,
-                "followers": 92048,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/sllverlady1",
                   "follows": "https://api.twitch.tv/kraken/channels/sllverlady1/follows",
@@ -230,36 +206,36 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/sllverlady1/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/sllverlady1/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/sllverlady1/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/sllverlady1/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/sllverlady1/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/sllverlady1/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/sllverlady1/teams"
+                },
+                "background": null,
+                "banner": null,
+                "display_name": "Sllverlady1",
+                "game": "League of Legends",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sllverlady1-profile_image-9c607e81320c9ffa-300x300.png",
+                "mature": false,
+                "status": "[ENG/FR]    ᔕLᒪⅤᗴᖇᒪᗩᕍᎩ1 白金 ",
+                "url": "http://www.twitch.tv/sllverlady1",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sllverlady1-channel_offline_image-8887048011c16a54-640x360.jpeg",
+                "_id": 47515032,
+                "name": "sllverlady1",
+                "created_at": "2013-08-12T21:42:25Z",
+                "updated_at": "2014-07-22T09:42:33Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 92396,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sllverlady1-profile_banner-670789d22ed40cee-480.jpeg",
+                "profile_banner_background_color": "#423342",
+                "views": 5197134
               }
             },
             {
               "created_at": "2014-03-13T14:57:35Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/sky_mp3"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/sky_mp3"
               },
               "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "GETTING DIAMOND IV TONIGHT",
-                "display_name": "Sky_mp3",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 38876314,
-                "name": "sky_mp3",
-                "created_at": "2012-12-30T03:07:17Z",
-                "updated_at": "2014-07-15T10:20:41Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sky_mp3-profile_image-d841ffd9c9ef7b9a-300x300.png",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sky_mp3-channel_offline_image-1480247f2eef0edc-640x360.png",
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/sky_mp3",
-                "views": 8688926,
-                "followers": 167499,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/sky_mp3",
                   "follows": "https://api.twitch.tv/kraken/channels/sky_mp3/follows",
@@ -269,36 +245,36 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/sky_mp3/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/sky_mp3/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/sky_mp3/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/sky_mp3/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/sky_mp3/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/sky_mp3/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/sky_mp3/teams"
+                },
+                "background": null,
+                "banner": null,
+                "display_name": "Sky_mp3",
+                "game": "League of Legends",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sky_mp3-profile_image-d841ffd9c9ef7b9a-300x300.png",
+                "mature": false,
+                "status": "KOREAN MASTER 27 IN THE HOUSE!!",
+                "url": "http://www.twitch.tv/sky_mp3",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sky_mp3-channel_offline_image-1480247f2eef0edc-640x360.png",
+                "_id": 38876314,
+                "name": "sky_mp3",
+                "created_at": "2012-12-30T03:07:17Z",
+                "updated_at": "2014-07-22T10:27:46Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 168831,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "views": 8738947
               }
             },
             {
               "created_at": "2014-03-12T16:37:01Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/mosttoxiceu"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/mosttoxiceu"
               },
               "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "BEST JAX EU d1 80lp+ high elo stream, grinding th lp",
-                "display_name": "MOSTTOXICEU",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 42778079,
-                "name": "mosttoxiceu",
-                "created_at": "2013-04-23T11:54:31Z",
-                "updated_at": "2014-07-15T15:44:28Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-profile_image-c18ce29bff14127c-300x300.png",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-channel_offline_image-456b3cef1ad58c22-640x360.png",
-                "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-profile_banner-0a625d4fd5e35f96-480.png",
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/mosttoxiceu",
-                "views": 168413,
-                "followers": 3167,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/mosttoxiceu",
                   "follows": "https://api.twitch.tv/kraken/channels/mosttoxiceu/follows",
@@ -308,36 +284,36 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/mosttoxiceu/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/mosttoxiceu/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/mosttoxiceu/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/mosttoxiceu/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/mosttoxiceu/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/mosttoxiceu/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/mosttoxiceu/teams"
+                },
+                "background": null,
+                "banner": null,
+                "display_name": "MOSTTOXICEU",
+                "game": "League of Legends",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-profile_image-c18ce29bff14127c-300x300.png",
+                "mature": false,
+                "status": "BEST JAX EU smurf grinding smurf to challenger ez",
+                "url": "http://www.twitch.tv/mosttoxiceu",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-channel_offline_image-456b3cef1ad58c22-640x360.png",
+                "_id": 42778079,
+                "name": "mosttoxiceu",
+                "created_at": "2013-04-23T11:54:31Z",
+                "updated_at": "2014-07-22T15:18:13Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 3280,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mosttoxiceu-profile_banner-0a625d4fd5e35f96-480.png",
+                "profile_banner_background_color": null,
+                "views": 177411
               }
             },
             {
               "created_at": "2014-03-11T17:09:25Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/sp4zie"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/sp4zie"
               },
               "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "♥  Sp4zie - Fun Games + Skin Giveaways on Twitter! ",
-                "display_name": "Sp4zie",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 28565473,
-                "name": "sp4zie",
-                "created_at": "2012-02-27T12:26:41Z",
-                "updated_at": "2014-07-15T17:49:08Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-profile_image-94c7d70156561e7a-300x300.png",
-                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-channel_header_image-26e6e281bf3cab1e-640x125.jpeg",
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-channel_offline_image-56949f32a4ba299d-640x360.png",
-                "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-profile_banner-44884bde791809a4-480.png",
-                "profile_banner_background_color": "#0c395e",
-                "url": "http://www.twitch.tv/sp4zie",
-                "views": 8875235,
-                "followers": 136202,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/sp4zie",
                   "follows": "https://api.twitch.tv/kraken/channels/sp4zie/follows",
@@ -347,36 +323,36 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/sp4zie/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/sp4zie/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/sp4zie/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/sp4zie/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/sp4zie/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/sp4zie/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/sp4zie/teams"
+                },
+                "background": null,
+                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-channel_header_image-26e6e281bf3cab1e-640x125.jpeg",
+                "display_name": "Sp4zie",
+                "game": "League of Legends",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-profile_image-94c7d70156561e7a-300x300.png",
+                "mature": false,
+                "status": "♥  Sp4zie - Fun Games + Skin Giveaways on Twitter! ",
+                "url": "http://www.twitch.tv/sp4zie",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-channel_offline_image-56949f32a4ba299d-640x360.png",
+                "_id": 28565473,
+                "name": "sp4zie",
+                "created_at": "2012-02-27T12:26:41Z",
+                "updated_at": "2014-07-22T03:01:57Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 137985,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sp4zie-profile_banner-44884bde791809a4-480.png",
+                "profile_banner_background_color": "#0c395e",
+                "views": 8995061
               }
             },
             {
               "created_at": "2014-03-11T16:07:51Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/hashinshin"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/hashinshin"
               },
               "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "The challenger top lane stream where we try but never quite get challenger because man top lane, man. ",
-                "display_name": "hashinshin",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 29289159,
-                "name": "hashinshin",
-                "created_at": "2012-03-26T04:43:45Z",
-                "updated_at": "2014-07-15T14:13:54Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/hashinshin-profile_image-e0b81ec8015bb733-300x300.jpeg",
-                "banner": null,
-                "video_banner": null,
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/hashinshin",
-                "views": 1101531,
-                "followers": 12602,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/hashinshin",
                   "follows": "https://api.twitch.tv/kraken/channels/hashinshin/follows",
@@ -386,36 +362,36 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/hashinshin/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/hashinshin/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/hashinshin/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/hashinshin/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/hashinshin/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/hashinshin/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/hashinshin/teams"
+                },
+                "background": null,
+                "banner": null,
+                "display_name": "hashinshin",
+                "game": "League of Legends",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/hashinshin-profile_image-e0b81ec8015bb733-300x300.jpeg",
+                "mature": false,
+                "status": "Hashinshin Ryzing to the top because I hate my opponent having fun. ",
+                "url": "http://www.twitch.tv/hashinshin",
+                "video_banner": null,
+                "_id": 29289159,
+                "name": "hashinshin",
+                "created_at": "2012-03-26T04:43:45Z",
+                "updated_at": "2014-07-22T14:51:02Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 12588,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "views": 1110444
               }
             },
             {
               "created_at": "2014-03-11T13:46:57Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/shadybunny"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/shadybunny"
               },
               "channel": {
-                "mature": true,
-                "abuse_reported": null,
-                "status": "No stream untill wrist has healed, check facebook for further explanation",
-                "display_name": "Shadybunny",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 21418793,
-                "name": "shadybunny",
-                "created_at": "2011-03-30T06:03:50Z",
-                "updated_at": "2014-07-15T00:49:15Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/shadybunny-profile_image-f4f459f076628df9-300x300.png",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/shadybunny-channel_offline_image-4b71f25a70763608-640x360.jpeg",
-                "background": null,
-                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/shadybunny-profile_banner-be183536ed6e1118-480.png",
-                "profile_banner_background_color": "null",
-                "url": "http://www.twitch.tv/shadybunny",
-                "views": 523447,
-                "followers": 10432,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/shadybunny",
                   "follows": "https://api.twitch.tv/kraken/channels/shadybunny/follows",
@@ -425,36 +401,36 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/shadybunny/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/shadybunny/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/shadybunny/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/shadybunny/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/shadybunny/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/shadybunny/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/shadybunny/teams"
+                },
+                "background": null,
+                "banner": null,
+                "display_name": "Shadybunny",
+                "game": "League of Legends",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/shadybunny-profile_image-f4f459f076628df9-300x300.png",
+                "mature": true,
+                "status": "No stream untill wrist has healed, check facebook for further explanation",
+                "url": "http://www.twitch.tv/shadybunny",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/shadybunny-channel_offline_image-4b71f25a70763608-640x360.jpeg",
+                "_id": 21418793,
+                "name": "shadybunny",
+                "created_at": "2011-03-30T06:03:50Z",
+                "updated_at": "2014-07-22T02:49:40Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 10414,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/shadybunny-profile_banner-be183536ed6e1118-480.png",
+                "profile_banner_background_color": "null",
+                "views": 523867
               }
             },
             {
               "created_at": "2014-03-11T12:34:49Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/gamezet_show"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/gamezet_show"
               },
               "channel": {
-                "mature": null,
-                "abuse_reported": null,
-                "status": "Pashka League of Legends  Ranked SOLOQ",
-                "display_name": "gamezet_show",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 25104208,
-                "name": "gamezet_show",
-                "created_at": "2011-09-27T08:29:19Z",
-                "updated_at": "2014-07-15T18:38:49Z",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/gamezet_show-profile_image-cb40cb5d043a11f4-300x300.png",
-                "banner": null,
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/gamezet_show-channel_offline_image-27d8b5c0f4dbff02-640x360.png",
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/gamezet_show",
-                "views": 8674154,
-                "followers": 6154,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/gamezet_show",
                   "follows": "https://api.twitch.tv/kraken/channels/gamezet_show/follows",
@@ -464,36 +440,36 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/gamezet_show/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/gamezet_show/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/gamezet_show/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/gamezet_show/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/gamezet_show/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/gamezet_show/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/gamezet_show/teams"
+                },
+                "background": null,
+                "banner": null,
+                "display_name": "gamezet_show",
+                "game": "League of Legends",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/gamezet_show-profile_image-cb40cb5d043a11f4-300x300.png",
+                "mature": null,
+                "status": "Pashka League of Legends  Ranked SOLOQ",
+                "url": "http://www.twitch.tv/gamezet_show",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/gamezet_show-channel_offline_image-27d8b5c0f4dbff02-640x360.png",
+                "_id": 25104208,
+                "name": "gamezet_show",
+                "created_at": "2011-09-27T08:29:19Z",
+                "updated_at": "2014-07-22T14:21:10Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 6276,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "views": 8705511
               }
             },
             {
               "created_at": "2013-12-29T17:17:54Z",
               "_links": {
-                "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/tyraelise"
+                "self": "https://api.twitch.tv/kraken/users/dodgello/follows/channels/tyraelise"
               },
               "channel": {
-                "mature": false,
-                "abuse_reported": null,
-                "status": "DERP",
-                "display_name": "TyraELise",
-                "game": "League of Legends",
-                "delay": 0,
-                "_id": 39217843,
-                "name": "tyraelise",
-                "created_at": "2013-01-10T22:52:22Z",
-                "updated_at": "2014-07-15T17:01:51Z",
-                "logo": null,
-                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/tyraelise-channel_header_image-9c7258e04028568a-640x125.jpeg",
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/tyraelise-channel_offline_image-64ffafd4bc0fb1aa-640x360.png",
-                "background": null,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "url": "http://www.twitch.tv/tyraelise",
-                "views": 309083,
-                "followers": 2079,
                 "_links": {
                   "self": "https://api.twitch.tv/kraken/channels/tyraelise",
                   "follows": "https://api.twitch.tv/kraken/channels/tyraelise/follows",
@@ -503,13 +479,37 @@ http_interactions:
                   "features": "https://api.twitch.tv/kraken/channels/tyraelise/features",
                   "subscriptions": "https://api.twitch.tv/kraken/channels/tyraelise/subscriptions",
                   "editors": "https://api.twitch.tv/kraken/channels/tyraelise/editors",
-                  "teams": "https://api.twitch.tv/kraken/channels/tyraelise/teams",
-                  "videos": "https://api.twitch.tv/kraken/channels/tyraelise/videos"
-                }
+                  "videos": "https://api.twitch.tv/kraken/channels/tyraelise/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/tyraelise/teams"
+                },
+                "background": null,
+                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/tyraelise-channel_header_image-9c7258e04028568a-640x125.jpeg",
+                "display_name": "TyraELise",
+                "game": "League of Legends",
+                "logo": null,
+                "mature": false,
+                "status": "Bot challenge",
+                "url": "http://www.twitch.tv/tyraelise",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/tyraelise-channel_offline_image-64ffafd4bc0fb1aa-640x360.png",
+                "_id": 39217843,
+                "name": "tyraelise",
+                "created_at": "2013-01-10T22:52:22Z",
+                "updated_at": "2014-07-22T02:53:39Z",
+                "abuse_reported": null,
+                "delay": 0,
+                "followers": 2106,
+                "profile_banner": null,
+                "profile_banner_background_color": null,
+                "views": 310809
               }
             }
-          ]
+          ],
+          "_total": 12,
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels?direction=DESC&limit=25&offset=0&sortby=created_at",
+            "next": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels?direction=DESC&limit=25&offset=25&sortby=created_at"
+          }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 19:24:24 GMT
+  recorded_at: Tue, 22 Jul 2014 16:14:35 GMT
 recorded_with: VCR 2.9.2

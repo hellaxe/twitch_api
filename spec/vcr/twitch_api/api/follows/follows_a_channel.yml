@@ -15,43 +15,43 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 15 Jul 2014 19:24:20 GMT
+      Date: Tue, 22 Jul 2014 16:14:36 GMT
       Content-Type: application/json; charset=utf-8
-      Content-Length: '1635'
+      Content-Length: '1641'
       Connection: keep-alive
       Status: 200 OK
       X-Api-Version: '3'
       Cache-Control: max-age=0, private, must-revalidate
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"8ab5445a2977c22f9790c17d45d22a98"'
-      X-Request-Id: 54eace51b5e76522f48d56647bebf81e
-      X-Runtime: '0.321050'
+      Etag: '"3a0d5adb5cad15180adc826b8ac50f95"'
+      X-Request-Id: a1878157ad92955a590623bffd8c1d99
+      X-Runtime: '0.309554'
       Accept-Ranges: bytes
-      X-Varnish: '2138067440'
+      X-Varnish: '265618088'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache1; M
+      X-Mh-Cache: appcache4; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
-          "created_at": "2014-07-15T19:24:20Z",
+          "created_at": "2014-07-22T16:14:36Z",
           "_links": {
             "self": "https://api.twitch.tv/kraken/users/Dodgello/follows/channels/czaru"
           },
           "channel": {
             "mature": false,
             "abuse_reported": null,
-            "status": "Czaru - s2 TOP1 player ! \r\n",
+            "status": "Czaru - D1/Challenger Midlaner \r\n",
             "display_name": "Czaru",
             "game": "League of Legends",
             "delay": 0,
             "_id": 27577887,
             "name": "czaru",
             "created_at": "2012-01-19T15:54:48Z",
-            "updated_at": "2014-07-15T17:56:31Z",
+            "updated_at": "2014-07-22T14:27:13Z",
             "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/czaru-profile_image-dd33cf3bb4e0cf54-300x300.png",
             "banner": null,
             "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/czaru-channel_offline_image-d0f77dcd92063d3b-640x360.png",
@@ -59,8 +59,8 @@ http_interactions:
             "profile_banner": null,
             "profile_banner_background_color": null,
             "url": "http://www.twitch.tv/czaru",
-            "views": 556486,
-            "followers": 6656,
+            "views": 577312,
+            "followers": 7132,
             "_links": {
               "self": "https://api.twitch.tv/kraken/channels/czaru",
               "follows": "https://api.twitch.tv/kraken/channels/czaru/follows",
@@ -76,5 +76,5 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Tue, 15 Jul 2014 19:24:25 GMT
+  recorded_at: Tue, 22 Jul 2014 16:14:36 GMT
 recorded_with: VCR 2.9.2
