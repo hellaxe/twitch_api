@@ -1,0 +1,395 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/teams/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Wed, 06 Aug 2014 09:11:30 GMT
+      Content-Type: application/json; charset=utf-8
+      Transfer-Encoding: chunked
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: '"174d46a288487dfbee2e20abd407c18b"'
+      X-Request-Id: d8653596cae18c29f95dd3aaa4494cef
+      X-Runtime: '0.084670'
+      X-Varnish: '4254636906'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache2; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/teams?limit=25&offset=0",
+            "next": "https://api.twitch.tv/kraken/teams?limit=25&offset=25"
+          },
+          "teams": [
+            {
+              "_id": 1,
+              "name": "testteam",
+              "info": "I love working for Twitch!\n\n\n\n",
+              "display_name": "test",
+              "created_at": "2011-10-11T22:49:05Z",
+              "updated_at": "2013-10-17T23:29:42Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-testteam-team_logo_image-46943237490be5e7-300x300.jpeg",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-testteam-banner_image-bf27b5786c6bc60b-640x125.jpeg",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-testteam-background_image-c72e038f428c9c7d.png",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/testteam"
+              }
+            },
+            {
+              "_id": 2,
+              "name": "eg",
+              "info": "Team Info\n\n",
+              "display_name": "Evil Geniuses",
+              "created_at": "2011-10-11T23:59:43Z",
+              "updated_at": "2014-01-13T21:00:49Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-eg-team_logo_image-70b7ba4b49b53750-300x300.jpeg",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-eg-banner_image-de444d058fd2cfde-640x125.jpeg",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-eg-background_image-22b1b13774a85da0.jpeg",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/eg"
+              }
+            },
+            {
+              "_id": 5,
+              "name": "betagamers",
+              "info": "<img src=\"http://i.imgur.com/O19hf.png\" />\r\n\r\n",
+              "display_name": "BETAgamers",
+              "created_at": "2011-10-25T23:28:33Z",
+              "updated_at": "2013-06-01T11:54:23Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-betagamers-team_logo_image-0dd971652eab2f69-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-betagamers-banner_image-002e2e17db12b08f-640x125.png",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-betagamers-background_image-6f5d368df794ee12.png",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/betagamers"
+              }
+            },
+            {
+              "_id": 7,
+              "name": "carbon",
+              "info": "Team Carbon - Gears of War 3",
+              "display_name": "Carbon",
+              "created_at": "2011-10-25T23:32:49Z",
+              "updated_at": "2013-05-24T00:17:10Z",
+              "logo": null,
+              "banner": null,
+              "background": null,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/carbon"
+              }
+            },
+            {
+              "_id": 8,
+              "name": "boundbyhonor",
+              "info": "http://www.bbhgaming.com",
+              "display_name": "Bound by Honor",
+              "created_at": "2011-10-25T23:34:14Z",
+              "updated_at": "2013-05-24T00:17:11Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-boundbyhonor-team_logo_image-5ec520281a5fe6e1-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-boundbyhonor-banner_image-5ee2cd2fac212614-640x125.jpeg",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-boundbyhonor-background_image-387ed140242da61c.jpeg",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/boundbyhonor"
+              }
+            },
+            {
+              "_id": 9,
+              "name": "mafia",
+              "info": "The Mafia is live 24/7 @ http://live.lordkat.com | Wanna join us? Just hit up the chatroom at the live site and ask us!\n",
+              "display_name": "LordKaT Mafia",
+              "created_at": "2011-10-25T23:35:07Z",
+              "updated_at": "2013-08-16T04:02:24Z",
+              "logo": null,
+              "banner": null,
+              "background": null,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/mafia"
+              }
+            },
+            {
+              "_id": 10,
+              "name": "staff",
+              "info": "We save the world..\n\n\n",
+              "display_name": "Twitch Staff",
+              "created_at": "2011-10-25T23:55:47Z",
+              "updated_at": "2013-05-24T00:17:12Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-staff-team_logo_image-e26f89ac4f424216-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-staff-banner_image-c81e25b281c06e8f-640x125.png",
+              "background": null,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/staff"
+              }
+            },
+            {
+              "_id": 11,
+              "name": "channelawesome",
+              "info": " Streamers from Thatguywiththeglasses.com and BlisteredThumbs.net!",
+              "display_name": "Channel Awesome",
+              "created_at": "2011-10-26T16:34:17Z",
+              "updated_at": "2013-05-24T00:17:10Z",
+              "logo": null,
+              "banner": null,
+              "background": null,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/channelawesome"
+              }
+            },
+            {
+              "_id": 12,
+              "name": "teamliquid",
+              "info": "The life of a pro-gaming team.\r\n\r\nTeamLiquidPro.com\r\n@TeamLiquidPro\r\n/TeamLiquidPro\r\n\r\nThanks to\r\nHyperX\r\nRazer\r\nTwitch\r\nNeedForSeat\r\nShinyThings",
+              "display_name": "Team Liquid",
+              "created_at": "2011-10-27T01:00:44Z",
+              "updated_at": "2014-06-30T14:58:14Z",
+              "logo": null,
+              "banner": null,
+              "background": null,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/teamliquid"
+              }
+            },
+            {
+              "_id": 13,
+              "name": "lividlobster",
+              "info": "",
+              "display_name": "LividLobster",
+              "created_at": "2011-10-27T18:50:49Z",
+              "updated_at": "2013-05-24T00:17:09Z",
+              "logo": null,
+              "banner": null,
+              "background": null,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/lividlobster"
+              }
+            },
+            {
+              "_id": 14,
+              "name": "crosscountertv",
+              "info": "Cross Counter TV",
+              "display_name": "CrossCounterTV",
+              "created_at": "2011-10-31T23:08:52Z",
+              "updated_at": "2013-05-24T00:17:10Z",
+              "logo": null,
+              "banner": null,
+              "background": null,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/crosscountertv"
+              }
+            },
+            {
+              "_id": 16,
+              "name": "pmsclan",
+              "info": "PMS Clan\n\n\n",
+              "display_name": "PMS Clan",
+              "created_at": "2011-11-01T21:07:23Z",
+              "updated_at": "2013-11-12T02:33:31Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-pmsclan-team_logo_image-71767823a662a79d-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-pmsclan-banner_image-db92b4247cde809a-640x125.jpeg",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-pmsclan-background_image-cee5513017d92b9e.jpeg",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/pmsclan"
+              }
+            },
+            {
+              "_id": 17,
+              "name": "esl",
+              "info": "",
+              "display_name": "ESL",
+              "created_at": "2011-11-02T19:31:52Z",
+              "updated_at": "2014-04-01T14:45:28Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-esl-team_logo_image-1fa6f66993073bed-300x300.jpeg",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-esl-banner_image-4b4a0c3a3314461e-640x125.jpeg",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-esl-background_image-82b4658530968413.jpeg",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/esl"
+              }
+            },
+            {
+              "_id": 18,
+              "name": "ez",
+              "info": "http://teamez.com\r\neSports Made EZ",
+              "display_name": "Team EZ",
+              "created_at": "2011-11-03T18:07:17Z",
+              "updated_at": "2013-05-24T00:17:10Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-ez-team_logo_image-d166a7b1ce38b343-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-ez-banner_image-5d29767a6b86b2fb-640x125.png",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-ez-background_image-a3b1e828864d583c.jpeg",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/ez"
+              }
+            },
+            {
+              "_id": 19,
+              "name": "mobacast",
+              "info": "http://mobacast.com",
+              "display_name": "MOBACAST",
+              "created_at": "2011-11-03T18:20:52Z",
+              "updated_at": "2013-05-24T00:17:10Z",
+              "logo": null,
+              "banner": null,
+              "background": null,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/mobacast"
+              }
+            },
+            {
+              "_id": 20,
+              "name": "gameon",
+              "info": "Welcome to the '<b>GameOn</b>' Team Page; your window into the GameOn community!\n<br /><br />\nGameOn prides itself on being a fun and friendly place for gamers of all ages to hang out. With many years of experiences &amp; fond memories, GameOn now boasts over 70,000 registered members, and we're growing every day!\n<br /><br />\nGameOn currently sports over 30 representative video game broadcasters, and they are all awesome! You should check them out! You can do that here, or over at our awesome &quot;Live Page&quot;. Take a look: <a rel=\"nofollow\" href=\"http://swiftor.com/live.php\" target=\"_blank\">http://swiftor.com/live.php</a>\n<br /><br />\nSpeaking of which, the GameOn community has an amazing forum. Signing up is free and easy, and we'd love to see you there. Become a part of the family! <a rel=\"nofollow\" href=\"http://swiftor.com/forum.php\" target=\"_blank\">http://swiftor.com/forum.php</a>\n",
+              "display_name": "GameOn",
+              "created_at": "2011-11-03T18:31:54Z",
+              "updated_at": "2013-12-17T13:53:40Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-gameon-team_logo_image-a8771b7983d9aa97-300x300.jpeg",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-gameon-banner_image-805ad5d4173c0323-640x125.jpeg",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-gameon-background_image-7ca7c27cf49f3b09.jpeg",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/gameon"
+              }
+            },
+            {
+              "_id": 21,
+              "name": "thecrew",
+              "info": "The Crew is an awesome alternative to e-sports and competative gaming, featuring some of the best casual gamers on the interwebs.\n\n<a rel=\"nofollow\" href=\"http://crewlounge.org\" target=\"_blank\"><img src=\"http://crewlounge.org/badge/crewBadge.png\" border=\"0\" alt=\"The Crew Lounge\" /></a>\n",
+              "display_name": "The Crew",
+              "created_at": "2011-11-03T19:14:47Z",
+              "updated_at": "2013-05-24T00:17:11Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-thecrew-team_logo_image-6164c7ba6b1ffee1-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-thecrew-banner_image-22b56101c5ab13ac-640x125.png",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-thecrew-background_image-25f51c617cd8a3a8.jpeg",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/thecrew"
+              }
+            },
+            {
+              "_id": 22,
+              "name": "ogk",
+              "info": "We stream MOBA and FGC stuff!\n",
+              "display_name": "OGK",
+              "created_at": "2011-11-03T22:15:21Z",
+              "updated_at": "2013-05-24T00:17:11Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-ogk-team_logo_image-31b4c09381e11498-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-ogk-banner_image-09ff38d1d65e3d49-640x125.png",
+              "background": null,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/ogk"
+              }
+            },
+            {
+              "_id": 23,
+              "name": "lthan3",
+              "info": "",
+              "display_name": "LThan3",
+              "created_at": "2011-11-03T22:51:00Z",
+              "updated_at": "2013-05-24T00:17:11Z",
+              "logo": null,
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-lthan3-banner_image-13f9a7b86f534854-640x125.jpeg",
+              "background": null,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/lthan3"
+              }
+            },
+            {
+              "_id": 24,
+              "name": "reignsc2",
+              "info": "StarCraft 2 Team ReIGN |\r\nwww.reignsc2.com |\r\nwww.twitter.com/reignsc2 |\r\nwww.facebook.com/reignsc2",
+              "display_name": "Team ReIGN",
+              "created_at": "2011-11-03T22:52:25Z",
+              "updated_at": "2013-05-24T00:17:10Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-reignsc2-team_logo_image-d28eb3665f176903-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-reignsc2-banner_image-a80d471565d1b634-640x125.png",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-reignsc2-background_image-197a6c8fa4c8c018.jpeg",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/reignsc2"
+              }
+            },
+            {
+              "_id": 25,
+              "name": "kbmod",
+              "info": "www.kbmod.com\nTwitter: http://twitter.com/KBMODGaming\nFacebook: http://facebook.com/KBMOD\nYouTube: http://youtube.com/KBMODGaming\n\n\n\n\n",
+              "display_name": "Keyboard + Mouse or Die",
+              "created_at": "2011-11-03T23:08:13Z",
+              "updated_at": "2013-11-21T22:53:05Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-kbmod-team_logo_image-0f24f89d2e360c82-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-kbmod-banner_image-6f2068830d7c60cb-640x125.png",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-kbmod-background_image-99395cf484ce688d.png",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/kbmod"
+              }
+            },
+            {
+              "_id": 26,
+              "name": "esea",
+              "info": "<div>\r\n<a href=\"https://twitter.com/eseanet\" rel=\"nofollow\" target=\"_blank\">Follow @eseanet</a>\r\n</div>\r\n\r\n<br><b>Live broadcasting of the ESEA League Season 16 LAN Finals of  the Counter-Strike: Global Offensive and Team Fortress 2 tournaments live, from Dallas, Texas.</b> <br><br><b>To see the broadcast schedule and what games and matches will be played please look at the <a href=\"https://play.esea.net/index.php?s=esports&amp;d=comments&amp;id=13514\" rel=\"nofollow\" target=\"_blank\">broadcast guide</a> on ESEA. <br><br><b>For more information visit:</b><br><b><a href=\"http://news.esea.net/\" rel=\"nofollow\" target=\"_blank\">ESEA News</a><br><a href=\"http://play.esea.net/\" rel=\"nofollow\" target=\"_blank\">ESEA Premium</a><b></b></b> <br><br><b><i>If you experience any \"lagging\" then you will need to lower the resolution in the bottom right corner of the player to match your internet bandwidth.</i></b></b>",
+              "display_name": "ESEA Season 16 Coverage Hub",
+              "created_at": "2011-11-03T23:23:09Z",
+              "updated_at": "2014-06-27T19:05:06Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-esea-team_logo_image-115cc73764957e41-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-esea-banner_image-cb5d3118f510b629-640x125.jpeg",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-esea-background_image-3470b46b8bae3ad4.jpeg",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/esea"
+              }
+            },
+            {
+              "_id": 59,
+              "name": "quantic",
+              "info": "Premier North American #eSports and media production company. The people's team of pro-gaming!\n",
+              "display_name": "Quantic Gaming",
+              "created_at": "2011-11-04T00:28:03Z",
+              "updated_at": "2013-11-21T10:59:32Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-quantic-team_logo_image-b47c76af24f01d37-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-quantic-banner_image-fae7275eefe8c3c8-640x125.jpeg",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-quantic-background_image-a1637d1e4f438f15.png",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/quantic"
+              }
+            },
+            {
+              "_id": 60,
+              "name": "teamsp00ky",
+              "info": "We are a group devoted primarily to the Fighting Game scene.",
+              "display_name": "Team Sp00ky",
+              "created_at": "2011-11-04T20:01:56Z",
+              "updated_at": "2013-05-24T00:17:10Z",
+              "logo": null,
+              "banner": null,
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-teamsp00ky-background_image-753c982eaaf7eb12.jpeg",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/teamsp00ky"
+              }
+            },
+            {
+              "_id": 61,
+              "name": "vvvgaming",
+              "info": "<i>In everything we do, we believe that all gamers with a passion for competition need an engaging outlet to share and express their passions. Competitive gamers thrive in a diverse environment that is social, empowering, supportive and informative, and all gamers, regardless of skill, have a place in competitive gaming. Competitive gaming should entertain, be educational and make you feel a sense of domination, whether you’re the top player or simply a fan. The way we do this is called vVv Gaming, and we just happen to be the best competitive gaming community in the world. Wanna join?</i><br /><br />vVv Gaming is a competitive video game organization with a dynamic and vibrant community. Top players and upcoming talent from numerous video games flock to vVv to have an experience best summed up by our motto: Entertain.Educate.Dominate.<br /><br />With entertaining podcasts, educational articles about teamwork, competition and strategy and dominating finishes at major tournaments around the world, we deliver unparalleled value to anyone interested in competitive video gaming.\r\n\r\n\r\n\r\n<center><a rel=\"nofollow\" href=\"http://www.vvv-gaming.com/\" target=\"_blank\"><img src=\"http://vvv-gaming.com/forum/uploads/gallery/album_839/gallery_17235_839_51231.png\" alt=\"vVv Gaming\" /></a><a rel=\"nofollow\" href=\"http://www.facebook.com/pages/vVv-Gaming/39667060978\" target=\"_blank\"><img src=\"http://vvv-gaming.com/forum/uploads/gallery/album_839/gallery_17235_839_11484.png\" alt=\"Facebook\" /></a><a rel=\"nofollow\" href=\"http://twitter.com/#!/vvv_gaming\" target=\"_blank\"><img src=\"http://vvv-gaming.com/forum/uploads/gallery/album_839/gallery_17235_839_45307.png\" alt=\"Twitter\" /></a><a rel=\"nofollow\" href=\"http://www.youtube.com/thevvvgaming\" target=\"_blank\"><img src=\"http://vvv-gaming.com/forum/uploads/gallery/album_839/gallery_17235_839_12914.png\" alt=\"YouTube\" /></a></center>",
+              "display_name": "vVv Gaming",
+              "created_at": "2011-11-04T20:57:07Z",
+              "updated_at": "2013-05-24T00:18:02Z",
+              "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-vvvgaming-team_logo_image-3ba9022f1ad578e2-300x300.png",
+              "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-vvvgaming-banner_image-e2930967acbd2a98-640x125.png",
+              "background": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-vvvgaming-background_image-3e9295f29aef5082.png",
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/teams/vvvgaming"
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Wed, 06 Aug 2014 09:11:33 GMT
+recorded_with: VCR 2.9.2

@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 22 Jul 2014 16:20:53 GMT
+      Date: Wed, 06 Aug 2014 07:16:48 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,13 +22,13 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"c64298d4ec1a09f2767d0fd4a067ce6d"'
-      X-Request-Id: 8fc5703f41972ba7c8a3f361e20d6412
-      X-Runtime: '0.049464'
-      X-Varnish: '1794666045'
+      Etag: ! '"087fde48acfaf2769f306f731a12af05"'
+      X-Request-Id: 0492253909c26013b30d73f729bcd0f6
+      X-Runtime: '0.058502'
+      X-Varnish: '1481036246'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache1; M
+      X-Mh-Cache: appcache4; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
@@ -36,101 +36,101 @@ http_interactions:
         {
           "streams": [
             {
-              "_id": 10355439408,
+              "_id": 10553181008,
               "game": "Minecraft",
-              "viewers": 4365,
+              "viewers": 7281,
               "_links": {
-                "self": "http://api.twitch.tv/kraken/streams/sevadus"
+                "self": "https://api.twitch.tv/kraken/streams/bacon_donut"
               },
               "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-{width}x{height}.jpg"
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bacon_donut-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bacon_donut-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bacon_donut-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_bacon_donut-{width}x{height}.jpg"
               },
               "channel": {
                 "_links": {
-                  "self": "https://api.twitch.tv/kraken/channels/sevadus",
-                  "follows": "https://api.twitch.tv/kraken/channels/sevadus/follows",
-                  "commercial": "https://api.twitch.tv/kraken/channels/sevadus/commercial",
-                  "stream_key": "https://api.twitch.tv/kraken/channels/sevadus/stream_key",
-                  "chat": "https://api.twitch.tv/kraken/chat/sevadus",
-                  "features": "https://api.twitch.tv/kraken/channels/sevadus/features",
-                  "subscriptions": "https://api.twitch.tv/kraken/channels/sevadus/subscriptions",
-                  "editors": "https://api.twitch.tv/kraken/channels/sevadus/editors",
-                  "videos": "https://api.twitch.tv/kraken/channels/sevadus/videos",
-                  "teams": "https://api.twitch.tv/kraken/channels/sevadus/teams"
+                  "self": "http://api.twitch.tv/kraken/channels/bacon_donut",
+                  "follows": "http://api.twitch.tv/kraken/channels/bacon_donut/follows",
+                  "commercial": "http://api.twitch.tv/kraken/channels/bacon_donut/commercial",
+                  "stream_key": "http://api.twitch.tv/kraken/channels/bacon_donut/stream_key",
+                  "chat": "http://api.twitch.tv/kraken/chat/bacon_donut",
+                  "features": "http://api.twitch.tv/kraken/channels/bacon_donut/features",
+                  "subscriptions": "http://api.twitch.tv/kraken/channels/bacon_donut/subscriptions",
+                  "editors": "http://api.twitch.tv/kraken/channels/bacon_donut/editors",
+                  "videos": "http://api.twitch.tv/kraken/channels/bacon_donut/videos",
+                  "teams": "http://api.twitch.tv/kraken/channels/bacon_donut/teams"
                 },
                 "background": null,
-                "banner": null,
-                "display_name": "Sevadus",
+                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/bacon_donut-channel_header_image-85809e3381b9380b-640x125.png",
+                "display_name": "Bacon_Donut",
                 "game": "Minecraft",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sevadus-profile_image-e9b729a29422327c-300x300.png",
-                "mature": true,
-                "status": "My Birthday! Captive Minecraft 2 Adventure Map! .:. @sevadus .:. sevadus.tv",
-                "url": "http://www.twitch.tv/sevadus",
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sevadus-channel_offline_image-a24c411982078268-640x360.png",
-                "_id": 25553391,
-                "name": "sevadus",
-                "created_at": "2011-10-18T19:17:47Z",
-                "updated_at": "2014-07-22T14:48:01Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/bacon_donut-profile_image-4c7853beb3247b30-300x300.png",
+                "mature": false,
+                "status": "[Bacon] Build Guild Season 5! FTB Unstable Private Server! WITH BACON!!!!!!",
+                "url": "http://www.twitch.tv/bacon_donut",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/bacon_donut-channel_offline_image-054855daba7ea79c-640x360.png",
+                "_id": 36155872,
+                "name": "bacon_donut",
+                "created_at": "2012-09-13T22:11:28Z",
+                "updated_at": "2014-08-06T02:00:13Z",
                 "abuse_reported": null,
                 "delay": 0,
-                "followers": 194638,
-                "profile_banner": null,
+                "followers": 216848,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/bacon_donut-profile_banner-b4376e703de7e67b-480.jpeg",
                 "profile_banner_background_color": null,
-                "views": 16927568
+                "views": 11674399
               }
             },
             {
-              "_id": 10356270928,
+              "_id": 10551241664,
               "game": "Minecraft",
-              "viewers": 1363,
+              "viewers": 1024,
               "_links": {
-                "self": "https://api.twitch.tv/kraken/streams/jonbams"
+                "self": "https://api.twitch.tv/kraken/streams/soaryn"
               },
               "preview": {
-                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_jonbams-80x50.jpg",
-                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_jonbams-320x200.jpg",
-                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_jonbams-640x400.jpg",
-                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_jonbams-{width}x{height}.jpg"
+                "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_soaryn-80x50.jpg",
+                "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_soaryn-320x200.jpg",
+                "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_soaryn-640x400.jpg",
+                "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_soaryn-{width}x{height}.jpg"
               },
               "channel": {
                 "_links": {
-                  "self": "http://api.twitch.tv/kraken/channels/jonbams",
-                  "follows": "http://api.twitch.tv/kraken/channels/jonbams/follows",
-                  "commercial": "http://api.twitch.tv/kraken/channels/jonbams/commercial",
-                  "stream_key": "http://api.twitch.tv/kraken/channels/jonbams/stream_key",
-                  "chat": "http://api.twitch.tv/kraken/chat/jonbams",
-                  "features": "http://api.twitch.tv/kraken/channels/jonbams/features",
-                  "subscriptions": "http://api.twitch.tv/kraken/channels/jonbams/subscriptions",
-                  "editors": "http://api.twitch.tv/kraken/channels/jonbams/editors",
-                  "videos": "http://api.twitch.tv/kraken/channels/jonbams/videos",
-                  "teams": "http://api.twitch.tv/kraken/channels/jonbams/teams"
+                  "self": "https://api.twitch.tv/kraken/channels/soaryn",
+                  "follows": "https://api.twitch.tv/kraken/channels/soaryn/follows",
+                  "commercial": "https://api.twitch.tv/kraken/channels/soaryn/commercial",
+                  "stream_key": "https://api.twitch.tv/kraken/channels/soaryn/stream_key",
+                  "chat": "https://api.twitch.tv/kraken/chat/soaryn",
+                  "features": "https://api.twitch.tv/kraken/channels/soaryn/features",
+                  "subscriptions": "https://api.twitch.tv/kraken/channels/soaryn/subscriptions",
+                  "editors": "https://api.twitch.tv/kraken/channels/soaryn/editors",
+                  "videos": "https://api.twitch.tv/kraken/channels/soaryn/videos",
+                  "teams": "https://api.twitch.tv/kraken/channels/soaryn/teams"
                 },
                 "background": null,
-                "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/jonbams-channel_header_image-282090aac550e0d2-640x125.png",
-                "display_name": "JonBams",
+                "banner": null,
+                "display_name": "Soaryn",
                 "game": "Minecraft",
-                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/jonbams-profile_image-6bce7d3cdba02c36-300x300.png",
-                "mature": true,
-                "status": " ᕦ(ò_óˇ)ᕤ MADPACK Hardcore! #BeardlessBams",
-                "url": "http://www.twitch.tv/jonbams",
-                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/jonbams-channel_offline_image-0bc22d29b0681c0e-640x360.png",
-                "_id": 28252159,
-                "name": "jonbams",
-                "created_at": "2012-02-16T07:34:11Z",
-                "updated_at": "2014-07-22T16:00:32Z",
+                "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/soaryn-profile_image-2a375032cc7d1bed-300x300.jpeg",
+                "mature": false,
+                "status": "Forgecraft 1 is back up with Shenanigans!!",
+                "url": "http://www.twitch.tv/soaryn",
+                "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/soaryn-channel_offline_image-652803d3722f7d78-640x360.jpeg",
+                "_id": 36043238,
+                "name": "soaryn",
+                "created_at": "2012-09-08T20:09:10Z",
+                "updated_at": "2014-08-06T03:19:36Z",
                 "abuse_reported": null,
                 "delay": 0,
-                "followers": 100428,
-                "profile_banner": null,
-                "profile_banner_background_color": null,
-                "views": 5450591
+                "followers": 51571,
+                "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/soaryn-profile_banner-912c7c2fcd291de3-480.png",
+                "profile_banner_background_color": "#000000",
+                "views": 2140325
               }
             }
           ],
-          "_total": 483,
+          "_total": 325,
           "_links": {
             "self": "https://api.twitch.tv/kraken/streams?game=Minecraft&limit=2&offset=0",
             "next": "https://api.twitch.tv/kraken/streams?game=Minecraft&limit=2&offset=2",
@@ -140,5 +140,5 @@ http_interactions:
           }
         }
     http_version: 
-  recorded_at: Tue, 22 Jul 2014 16:20:53 GMT
+  recorded_at: Wed, 06 Aug 2014 07:16:49 GMT
 recorded_with: VCR 2.9.2

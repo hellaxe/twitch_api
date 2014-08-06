@@ -1,0 +1,143 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/ingests
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Wed, 06 Aug 2014 07:52:38 GMT
+      Content-Type: application/json; charset=utf-8
+      Content-Length: '2683'
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: '"7ab7698d20e9af2a55a996f4c4dc8b76"'
+      X-Request-Id: 988bb42e8952e4fcbe8d672ff051b566
+      X-Runtime: '0.037366'
+      Accept-Ranges: bytes
+      X-Varnish: '2997989750'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache1; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/ingests"
+          },
+          "ingests": [
+            {
+              "name": "EU: Amsterdam, NL",
+              "availability": 1.0,
+              "_id": 24,
+              "default": false,
+              "url_template": "rtmp://live-ams.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "EU: Stockholm, SE",
+              "availability": 1.0,
+              "_id": 57,
+              "default": false,
+              "url_template": "rtmp://live-arn.justin.tv/app/{stream_key}"
+            },
+            {
+              "name": "EU: Paris, FR",
+              "availability": 1.0,
+              "_id": 61,
+              "default": false,
+              "url_template": "rtmp://live-cdg.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "US Central: Dallas, TX",
+              "availability": 1.0,
+              "_id": 26,
+              "default": false,
+              "url_template": "rtmp://live-dfw.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "EU: Frankfurt, Germany",
+              "availability": 1.0,
+              "_id": 27,
+              "default": false,
+              "url_template": "rtmp://live-fra.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "US East: Ashburn, VA",
+              "availability": 1.0,
+              "_id": 29,
+              "default": false,
+              "url_template": "rtmp://live-iad.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "US East: New York, NY",
+              "availability": 1.0,
+              "_id": 30,
+              "default": false,
+              "url_template": "rtmp://live-jfk.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "US West: Los Angeles, CA",
+              "availability": 1.0,
+              "_id": 32,
+              "default": false,
+              "url_template": "rtmp://live-lax.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "EU: London, UK",
+              "availability": 1.0,
+              "_id": 34,
+              "default": false,
+              "url_template": "rtmp://live-lhr.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "US East: Miami, FL",
+              "availability": 1.0,
+              "_id": 35,
+              "default": false,
+              "url_template": "rtmp://live-mia.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "US Midwest: Chicago, IL",
+              "availability": 1.0,
+              "_id": 36,
+              "default": false,
+              "url_template": "rtmp://live-ord.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "EU: Prague, CZ",
+              "availability": 1.0,
+              "_id": 60,
+              "default": false,
+              "url_template": "rtmp://live-prg.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "Asia: Singapore",
+              "availability": 1.0,
+              "_id": 37,
+              "default": false,
+              "url_template": "rtmp://live-sin-backup.twitch.tv/app/{stream_key}"
+            },
+            {
+              "name": "US West: San Francisco, CA",
+              "availability": 1.0,
+              "_id": 23,
+              "default": true,
+              "url_template": "rtmp://live.twitch.tv/app/{stream_key}"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Wed, 06 Aug 2014 07:52:38 GMT
+recorded_with: VCR 2.9.2

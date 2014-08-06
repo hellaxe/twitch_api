@@ -13,7 +13,7 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 22 Jul 2014 16:20:54 GMT
+      Date: Tue, 22 Jul 2014 16:14:47 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
@@ -22,10 +22,10 @@ http_interactions:
       Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"f749f1b8a8fedd856a58ffcaa340ab41"'
-      X-Request-Id: 8e6d39c4607dea64c83073f10f29f8da
-      X-Runtime: '0.622007'
-      X-Varnish: '3033729435'
+      Etag: '"2abfb590083d557ec20dccd107aebebc"'
+      X-Request-Id: f4ebedf4817dd31d322c94e79359eae4
+      X-Runtime: '0.040811'
+      X-Varnish: '3032103842'
       Age: '0'
       Via: 1.1 varnish
       X-Mh-Cache: appcache2; M
@@ -35,1287 +35,411 @@ http_interactions:
       string: |-
         {
           "_links": {
-            "self": "https://api.twitch.tv/kraken/streams/featured?limit=25&offset=0",
-            "next": "https://api.twitch.tv/kraken/streams/featured?limit=25&offset=25"
+            "self": "https://api.twitch.tv/kraken/search/games?q=star&type=suggest"
           },
-          "featured": [
+          "games": [
             {
-              "text": "<p>Live everyday, you'll see everything on this channel from new releases, nostalgic Playstation 2 streams, and even closed betas. Brotatoe maintains 100% chat interaction at all times, so you'll never feel left out.</p>\n\n<br>\n\n\n<p><a href=\"/brotatoe\">Click here</a> to join Bro and say hello!</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/testthumbnail.png",
-              "stream": {
-                "_id": 10356184880,
-                "game": "Fallout: New Vegas",
-                "viewers": 714,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_brotatoe-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_brotatoe-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_brotatoe-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_brotatoe-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/brotatoe"
-                },
-                "channel": {
-                  "mature": true,
-                  "abuse_reported": null,
-                  "status": "BroPlays: Fallout: New Vegas",
-                  "display_name": "Brotatoe",
-                  "game": "Fallout: New Vegas",
-                  "delay": 0,
-                  "_id": 22344826,
-                  "name": "brotatoe",
-                  "created_at": "2011-05-11T04:53:03Z",
-                  "updated_at": "2014-07-22T15:50:35Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/brotatoe-profile_image-d06820980034716a-300x300.jpeg",
-                  "banner": null,
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/brotatoe-channel_offline_image-36c2094710b6a138-640x360.png",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/brotatoe-profile_banner-562b57a7a34f64fe-480.png",
-                  "profile_banner_background_color": "null",
-                  "url": "http://www.twitch.tv/brotatoe",
-                  "views": 5705665,
-                  "followers": 43406,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/brotatoe",
-                    "follows": "https://api.twitch.tv/kraken/channels/brotatoe/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/brotatoe/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/brotatoe/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/brotatoe",
-                    "features": "https://api.twitch.tv/kraken/channels/brotatoe/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/brotatoe/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/brotatoe/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/brotatoe/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/brotatoe/videos"
-                  }
-                }
+              "name": "Star Trek Online",
+              "popularity": 4,
+              "_id": 19858,
+              "giantbomb_id": 21810,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%20Online-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%20Online-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%20Online-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%20Online-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%20Online-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%20Online-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%20Online-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%20Online-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>MiSTakE, the support player of S2 World Champion, usually streams solo Q on KR server, NA server and TW server.</p>\n\n<br>\n\n\n<p>MISTAKE，S2世界冠軍，擅長輔助位置，平常直播單排韓服、美服、臺服。</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/mistake_lol.jpg",
-              "stream": {
-                "_id": 10354201488,
-                "game": "League of Legends",
-                "viewers": 2669,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mistakelolz-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mistakelolz-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mistakelolz-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mistakelolz-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/mistakelolz"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "MiSTakE - Diamond I Solo Q on KR server. 韓服天梯 (中文/Eng)",
-                  "display_name": "MiSTakElolz",
-                  "game": "League of Legends",
-                  "delay": 0,
-                  "_id": 29825457,
-                  "name": "mistakelolz",
-                  "created_at": "2012-04-16T06:17:53Z",
-                  "updated_at": "2014-07-22T12:02:51Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mistakelolz-profile_image-abcc02b93cd6fce7-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mistakelolz-channel_header_image-01d40650688c6d64-640x125.jpeg",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mistakelolz-channel_offline_image-4a8407f5e819a535-640x360.jpeg",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/mistakelolz",
-                  "views": 9652964,
-                  "followers": 84048,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/mistakelolz",
-                    "follows": "https://api.twitch.tv/kraken/channels/mistakelolz/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/mistakelolz/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/mistakelolz/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/mistakelolz",
-                    "features": "https://api.twitch.tv/kraken/channels/mistakelolz/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/mistakelolz/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/mistakelolz/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/mistakelolz/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/mistakelolz/videos"
-                  }
-                }
+              "name": "StarCraft II: Heart of the Swarm",
+              "popularity": 4,
+              "_id": 21818,
+              "giantbomb_id": 24078,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>大家好我是殺梗。主要專精於LOL或射擊遊戲，但基本上什麼遊戲都會試著開實況，希望大家會喜歡我的頻道!</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/Xargon0731.png",
-              "stream": {
-                "_id": 10355359504,
-                "game": "League of Legends",
-                "viewers": 593,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_xargon0731-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_xargon0731-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_xargon0731-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_xargon0731-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/xargon0731"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "Xargon實況台【7/22恭喜ahq AVA世界冠軍】",
-                  "display_name": "Xargon0731",
-                  "game": "League of Legends",
-                  "delay": 0,
-                  "_id": 47250099,
-                  "name": "xargon0731",
-                  "created_at": "2013-08-07T18:46:29Z",
-                  "updated_at": "2014-07-22T16:00:19Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/xargon0731-profile_image-4eda4dc86e93e0e0-300x300.jpeg",
-                  "banner": null,
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/xargon0731-channel_offline_image-8bd399811e556726-640x360.jpeg",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/xargon0731",
-                  "views": 4833528,
-                  "followers": 24530,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/xargon0731",
-                    "follows": "https://api.twitch.tv/kraken/channels/xargon0731/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/xargon0731/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/xargon0731/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/xargon0731",
-                    "features": "https://api.twitch.tv/kraken/channels/xargon0731/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/xargon0731/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/xargon0731/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/xargon0731/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/xargon0731/videos"
-                  }
-                }
+              "name": "Starbound",
+              "popularity": 3,
+              "_id": 33945,
+              "giantbomb_id": 37839,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Starbound-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Starbound-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Starbound-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Starbound-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Starbound-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Starbound-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Starbound-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Starbound-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Welcome to the Controlled Burn where Fire Hose Games' Sean Baptiste plays some of the best, strangest, and smallest games on the planet. From prototypes, to flash games, to mobile, to the patently strange you'll get a quick look at the greatest little games there are. Goes great with your lunch!</p>\n\n<br>\n\n\n<p><a href=\"/firehosegames\">Click here</a> to watch and chat!</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/ControlBurn_140px.png",
-              "stream": {
-                "_id": 10356282528,
-                "game": "Let's Quip",
-                "viewers": 382,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_firehosegames-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_firehosegames-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_firehosegames-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_firehosegames-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/firehosegames"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "CONTROLLED BURN: w/ Guest Comedian @JimMcCue",
-                  "display_name": "FireHoseGames",
-                  "game": "Let's Quip",
-                  "delay": 0,
-                  "_id": 40131655,
-                  "name": "firehosegames",
-                  "created_at": "2013-02-08T14:11:04Z",
-                  "updated_at": "2014-07-22T16:00:08Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/firehosegames-profile_image-439c545c85bfa087-300x300.jpeg",
-                  "banner": null,
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/firehosegames-channel_offline_image-9887e11bc693b065-640x360.png",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/firehosegames-profile_banner-00191028fcc0ccf8-480.png",
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/firehosegames",
-                  "views": 3335979,
-                  "followers": 1034,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/firehosegames",
-                    "follows": "https://api.twitch.tv/kraken/channels/firehosegames/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/firehosegames/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/firehosegames/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/firehosegames",
-                    "features": "https://api.twitch.tv/kraken/channels/firehosegames/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/firehosegames/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/firehosegames/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/firehosegames/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/firehosegames/videos"
-                  }
-                }
+              "name": "StarTropics",
+              "popularity": 2,
+              "_id": 2193,
+              "giantbomb_id": 2388,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/StarTropics-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/StarTropics-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/StarTropics-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/StarTropics-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/StarTropics-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/StarTropics-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/StarTropics-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/StarTropics-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Every day, the AppSpy + Pocket Gamer team plays a selection of iPhone and iPad games which we believe are worthy of your attention. Whether it's an iOS classic or a brand new release, we'll show you the ropes, answer your questions, and even get the developers involved to give you some exclusive behind-the-scenes info.</p>\n\n<br>\n\n\n<p><a href=\"/appspy\">Click here</a> to watch and chat!</p>\n\n<p><a href=\"mobile,%20show,%20variety,%20dev\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/AppSpy PG Twitch promo thumb.jpg",
-              "stream": {
-                "_id": 10356302400,
-                "game": "Modern Combat 5: Blackout",
-                "viewers": 317,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_appspy-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_appspy-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_appspy-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_appspy-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/appspy"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "Modern Combat 5: Blackout - Exclusive Preview Stream",
-                  "display_name": "AppSpy",
-                  "game": "Modern Combat 5: Blackout",
-                  "delay": 0,
-                  "_id": 56286425,
-                  "name": "appspy",
-                  "created_at": "2014-02-06T09:26:06Z",
-                  "updated_at": "2014-07-22T16:01:55Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/appspy-profile_image-901192837a549015-300x300.jpeg",
-                  "banner": null,
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/appspy-channel_offline_image-c056d829cf5bd9c4-640x360.jpeg",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/appspy-profile_banner-795b0785caf3fcd2-480.jpeg",
-                  "profile_banner_background_color": "#000000",
-                  "url": "http://www.twitch.tv/appspy",
-                  "views": 1081782,
-                  "followers": 1032,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/appspy",
-                    "follows": "https://api.twitch.tv/kraken/channels/appspy/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/appspy/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/appspy/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/appspy",
-                    "features": "https://api.twitch.tv/kraken/channels/appspy/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/appspy/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/appspy/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/appspy/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/appspy/videos"
-                  }
-                }
+              "name": "Star Fox Adventures",
+              "popularity": 2,
+              "_id": 17424,
+              "giantbomb_id": 19026,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%20Adventures-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%20Adventures-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%20Adventures-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%20Adventures-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%20Adventures-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%20Adventures-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%20Adventures-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%20Adventures-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Welcome to Team Tangent; a brotherhood and\nsisterhood of casual and hardcore gamers alike. High energy and high viewer\ninteractivity is Tangent's creed as he tackles rage inducing challenges\nwhile taking on some of the best (and worst) games from yesterday and\ntoday! If you like Persian kittens, beards and a tightly knit community\nthen Tangentgaming is for you!</p>\n\n<br>\n\n\n<p><a href=\"/tangentgaming\">Click here</a> to watch and chat!</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/TangRageBanner 140x78.png",
-              "stream": {
-                "_id": 10354769216,
-                "game": "Dark Souls II",
-                "viewers": 296,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_tangentgaming-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/tangentgaming"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "(PC Max Settings) DS2 DLC - NO SPOILERS - Let the Pain begin!",
-                  "display_name": "TangentGaming",
-                  "game": "Dark Souls II",
-                  "delay": 0,
-                  "_id": 40314423,
-                  "name": "tangentgaming",
-                  "created_at": "2013-02-14T15:19:05Z",
-                  "updated_at": "2014-07-22T13:15:36Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-profile_image-56b76facd1d8f57b-300x300.png",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-channel_header_image-53d129808f206bd6-640x125.png",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-channel_offline_image-3a480ee87d6c367a-640x360.png",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/tangentgaming-profile_banner-0ca2e5010c14968c-480.png",
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/tangentgaming",
-                  "views": 699755,
-                  "followers": 21554,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/tangentgaming",
-                    "follows": "https://api.twitch.tv/kraken/channels/tangentgaming/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/tangentgaming/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/tangentgaming/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/tangentgaming",
-                    "features": "https://api.twitch.tv/kraken/channels/tangentgaming/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/tangentgaming/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/tangentgaming/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/tangentgaming/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/tangentgaming/videos"
-                  }
-                }
+              "name": "Star Wolves 3: Civil War",
+              "popularity": 1,
+              "_id": 27467,
+              "giantbomb_id": 30476,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wolves%203%3A%20Civil%20War-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wolves%203%3A%20Civil%20War-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wolves%203%3A%20Civil%20War-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wolves%203%3A%20Civil%20War-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wolves%203%3A%20Civil%20War-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wolves%203%3A%20Civil%20War-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wolves%203%3A%20Civil%20War-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wolves%203%3A%20Civil%20War-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>With a voice of gold, Ducksauce parts ways with the traditional, promoting a stream with a talk show like sit down alongside viewers. In addition to his daily morning news segment, most gameplay is featured with an emphasis on content with viewers.</p>\n\n<br>\n\n\n<p><a href=\"/ducksauce\">Click here to watch and chat live!</a></p>\n\n<p><a href=\"personality,%20community,%20variety\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/ducksauce.png",
-              "stream": {
-                "_id": 10355184512,
-                "game": "Hearthstone: Heroes of Warcraft",
-                "viewers": 3865,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_ducksauce-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_ducksauce-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_ducksauce-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_ducksauce-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/ducksauce"
-                },
-                "channel": {
-                  "mature": true,
-                  "abuse_reported": null,
-                  "status": "Morning Coffee with Ducksauce",
-                  "display_name": "Ducksauce",
-                  "game": "Hearthstone: Heroes of Warcraft",
-                  "delay": 0,
-                  "_id": 31606651,
-                  "name": "ducksauce",
-                  "created_at": "2012-06-24T19:42:55Z",
-                  "updated_at": "2014-07-22T14:33:21Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/ducksauce-profile_image-138b45bc34144d91-300x300.png",
-                  "banner": null,
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/ducksauce-channel_offline_image-a9b847362cdf2f19-640x360.png",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/ducksauce-profile_banner-076560c4e235c5e2-480.png",
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/ducksauce",
-                  "views": 14025801,
-                  "followers": 143391,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/ducksauce",
-                    "follows": "https://api.twitch.tv/kraken/channels/ducksauce/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/ducksauce/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/ducksauce/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/ducksauce",
-                    "features": "https://api.twitch.tv/kraken/channels/ducksauce/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/ducksauce/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/ducksauce/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/ducksauce/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/ducksauce/videos"
-                  }
-                }
+              "name": "Starsiege",
+              "popularity": 1,
+              "_id": 12684,
+              "giantbomb_id": 13820,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Starsiege-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Starsiege-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Starsiege-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Starsiege-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Starsiege-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Starsiege-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Starsiege-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Starsiege-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Watch premium speedrunner \"Clutch Daddy\" Iateyourpie as he blindly plays through a huge variety of games- and maybe does a few runs of Paper Mario, MegaMan X2, and Super Mario 64.</p>\n\n<br>\n\n\n<p><a href=\"/iateyourpie\">Click here</a> to watch and chat!</p>\n\n<p><a href=\"speedrunner,%20personality\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/Iateyourpie FP Thumbnail (Normal).png",
-              "stream": {
-                "_id": 10356212784,
-                "game": "Super Mario RPG: Legend of the Seven Stars",
-                "viewers": 313,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_iateyourpie-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_iateyourpie-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_iateyourpie-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_iateyourpie-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/iateyourpie"
-                },
-                "channel": {
-                  "mature": null,
-                  "abuse_reported": null,
-                  "status": "SMRPG LOW LEVEL RUN! FAQ: http://pastebin.com/MaCUtHZX",
-                  "display_name": "iateyourpie",
-                  "game": "Super Mario RPG: Legend of the Seven Stars",
-                  "delay": 0,
-                  "_id": 27787567,
-                  "name": "iateyourpie",
-                  "created_at": "2012-01-27T23:33:10Z",
-                  "updated_at": "2014-07-22T15:53:21Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/iateyourpie-profile_image-9670b23c2ceb3a01-300x300.png",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/iateyourpie-channel_header_image-b9a3f4daddd9f894-640x125.jpeg",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/iateyourpie-channel_offline_image-2667e4b5ac7feef3-640x360.png",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/iateyourpie",
-                  "views": 5096607,
-                  "followers": 26021,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/iateyourpie",
-                    "follows": "https://api.twitch.tv/kraken/channels/iateyourpie/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/iateyourpie/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/iateyourpie/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/iateyourpie",
-                    "features": "https://api.twitch.tv/kraken/channels/iateyourpie/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/iateyourpie/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/iateyourpie/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/iateyourpie/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/iateyourpie/videos"
-                  }
-                }
+              "name": "Starsector",
+              "popularity": 1,
+              "_id": 33416,
+              "giantbomb_id": 37533,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Starsector-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Starsector-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Starsector-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Starsector-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Starsector-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Starsector-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Starsector-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Starsector-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Hotted has achieved several rank 1 titles over his gaming history. A creator of instructional content for the Razer Academy and broadcaster of high rated arenas, competitive PvP and PvE, so feel free to check him out!</p>\n\n<br>\n\n\n<p>Join Hotted live by <a href=\"/hotted89\">clicking here!</a></p>\n\n<p><a href=\"personality,%20pro\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/icon(1).jpg",
-              "stream": {
-                "_id": 10354324688,
-                "game": "World of Warcraft: Mists of Pandaria",
-                "viewers": 740,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hotted89-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hotted89-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hotted89-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hotted89-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/hotted89"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "<HOTTED>  At Soda's  // WoD Beta level 100 PvP/PVE",
-                  "display_name": "Hotted89",
-                  "game": "World of Warcraft: Mists of Pandaria",
-                  "delay": 0,
-                  "_id": 20260659,
-                  "name": "hotted89",
-                  "created_at": "2011-02-07T23:07:13Z",
-                  "updated_at": "2014-07-22T12:11:38Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/hotted89-profile_image-1c131e69219c1f75-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/hotted89-channel_header_image-7a6c3166e300b434-640x125.png",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/hotted89-channel_offline_image-abc2ce9c6e9cd67c-640x360.png",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/hotted89",
-                  "views": 2556698,
-                  "followers": 44872,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/hotted89",
-                    "follows": "https://api.twitch.tv/kraken/channels/hotted89/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/hotted89/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/hotted89/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/hotted89",
-                    "features": "https://api.twitch.tv/kraken/channels/hotted89/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/hotted89/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/hotted89/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/hotted89/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/hotted89/videos"
-                  }
-                }
+              "name": "Star Wars: Empire at War - Forces of Corruption",
+              "popularity": 1,
+              "_id": 8435,
+              "giantbomb_id": 9197,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Watch out for that Creeper! Join Sevadus–one of the nicest broadcasters around. As he doges lava, killer sheep and of course Creepers. Sevadus must be a marathon man, with his impromptu 72 hour streams that literally come out of nowhere. You're not going to want to miss any of this Minecraft insanity.</p>\n\n<br>\n\n\n<p><a href=\"/Sevadus\">Click here to creep on Sevadus live!</a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/Sevadus.png",
-              "stream": {
-                "_id": 10355439408,
-                "game": "Minecraft",
-                "viewers": 4365,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_sevadus-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/sevadus"
-                },
-                "channel": {
-                  "mature": true,
-                  "abuse_reported": null,
-                  "status": "My Birthday! Captive Minecraft 2 Adventure Map! .:. @sevadus .:. sevadus.tv",
-                  "display_name": "Sevadus",
-                  "game": "Minecraft",
-                  "delay": 0,
-                  "_id": 25553391,
-                  "name": "sevadus",
-                  "created_at": "2011-10-18T19:17:47Z",
-                  "updated_at": "2014-07-22T14:48:01Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/sevadus-profile_image-e9b729a29422327c-300x300.png",
-                  "banner": null,
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/sevadus-channel_offline_image-a24c411982078268-640x360.png",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/sevadus",
-                  "views": 16927568,
-                  "followers": 194939,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/sevadus",
-                    "follows": "https://api.twitch.tv/kraken/channels/sevadus/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/sevadus/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/sevadus/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/sevadus",
-                    "features": "https://api.twitch.tv/kraken/channels/sevadus/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/sevadus/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/sevadus/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/sevadus/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/sevadus/videos"
-                  }
-                }
+              "name": "Starforge",
+              "popularity": 1,
+              "_id": 66044,
+              "giantbomb_id": 38649,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Starforge-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Starforge-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Starforge-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Starforge-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Starforge-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Starforge-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Starforge-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Starforge-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Welcome to the tatmanarmy... the place where fun will be had and long days forgotten! I hope you enjoy the stream and find a home here! Feel free to get more connected below!</p>\n\n<br>\n\n\n<p><a href=\"/timthetatman\">Click here</a> to watch and chat!</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/tatman-front-page.jpg",
-              "stream": {
-                "_id": 10355265552,
-                "game": "Counter-Strike: Global Offensive",
-                "viewers": 2475,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_timthetatman-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/timthetatman"
-                },
-                "channel": {
-                  "mature": true,
-                  "abuse_reported": null,
-                  "status": "last morning stream till next Monday...",
-                  "display_name": "TimTheTatman",
-                  "game": "Counter-Strike: Global Offensive",
-                  "delay": 0,
-                  "_id": 36769016,
-                  "name": "timthetatman",
-                  "created_at": "2012-10-08T18:13:50Z",
-                  "updated_at": "2014-07-22T14:10:36Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/timthetatman-profile_image-35bdf9d7b751789e-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/timthetatman-channel_header_image-40515528f80c1d29-640x125.jpeg",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/timthetatman-channel_offline_image-b7a9b70515d92630-640x360.png",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/timthetatman",
-                  "views": 10029489,
-                  "followers": 131418,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/timthetatman",
-                    "follows": "https://api.twitch.tv/kraken/channels/timthetatman/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/timthetatman/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/timthetatman/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/timthetatman",
-                    "features": "https://api.twitch.tv/kraken/channels/timthetatman/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/timthetatman/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/timthetatman/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/timthetatman/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/timthetatman/videos"
-                  }
-                }
+              "name": "StarCraft II: Wings of Liberty",
+              "popularity": 1,
+              "_id": 18901,
+              "giantbomb_id": 20674,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Wings%20of%20Liberty-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Wings%20of%20Liberty-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Wings%20of%20Liberty-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Wings%20of%20Liberty-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Wings%20of%20Liberty-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Wings%20of%20Liberty-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Wings%20of%20Liberty-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Wings%20of%20Liberty-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Want intense viewer interaction? Towelliee and his Hammer Squad are here! Towelliee represents a community of gamers who want to see uncut nonstop action. Be a part the Hammer Squad and join Towelliee as he plays an impressive variety of games. All live, all real and all from the voice of a true gamer.</p>\n\n<br>\n\n\n<p>Join the Hammer Squad by <a href=\"/towelliee\">clicking here!</a></p>\n\n<p><a href=\"player,%20personality,%20variety,%20community,%20WoW\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/towelliee.png",
-              "stream": {
-                "_id": 10355578928,
-                "game": "World of Warcraft: Mists of Pandaria",
-                "viewers": 3432,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_towelliee-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_towelliee-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_towelliee-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_towelliee-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/towelliee"
-                },
-                "channel": {
-                  "mature": true,
-                  "abuse_reported": null,
-                  "status": "[60FPS] WoD Beta Key Giveaway x 40 | Hearthstone NAXX Heroic! [?] | WoD Beta",
-                  "display_name": "Towelliee",
-                  "game": "World of Warcraft: Mists of Pandaria",
-                  "delay": 0,
-                  "_id": 20694610,
-                  "name": "towelliee",
-                  "created_at": "2011-02-24T01:38:43Z",
-                  "updated_at": "2014-07-22T15:16:21Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-profile_image-132b0a9ee44a5185-300x300.png",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-channel_header_image-e41789206229fb08-640x125.png",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-channel_offline_image-aba04f01f0c33470-640x360.png",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/towelliee-profile_banner-8515d281c544c845-480.png",
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/towelliee",
-                  "views": 64793071,
-                  "followers": 258091,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/towelliee",
-                    "follows": "https://api.twitch.tv/kraken/channels/towelliee/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/towelliee/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/towelliee/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/towelliee",
-                    "features": "https://api.twitch.tv/kraken/channels/towelliee/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/towelliee/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/towelliee/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/towelliee/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/towelliee/videos"
-                  }
-                }
+              "name": "Star Trek: Starfleet Academy",
+              "popularity": 1,
+              "_id": 15941,
+              "giantbomb_id": 17383,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%3A%20Starfleet%20Academy-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%3A%20Starfleet%20Academy-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%3A%20Starfleet%20Academy-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%3A%20Starfleet%20Academy-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%3A%20Starfleet%20Academy-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%3A%20Starfleet%20Academy-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%3A%20Starfleet%20Academy-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%3A%20Starfleet%20Academy-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>The one and only Dan Dinh brings you League of Legends live! Watch and be entertained alongside with other LoL enthusiasts. With Dan at the wheel, you never know where you'll end up, or what you'll be talking about!</p>\n\n<br>\n\n\n<p><a href=\"/dandinh\">Click here</a> to watch and chat live!</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/mandinh.png",
-              "stream": {
-                "_id": 10354549504,
-                "game": "League of Legends",
-                "viewers": 381,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_dandinh-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_dandinh-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_dandinh-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_dandinh-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/dandinh"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "Dan Dinh  D1 Fun!",
-                  "display_name": "DanDinh",
-                  "game": "League of Legends",
-                  "delay": 0,
-                  "_id": 30080660,
-                  "name": "dandinh",
-                  "created_at": "2012-04-27T01:30:37Z",
-                  "updated_at": "2014-07-22T15:53:17Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/dandinh-profile_image-1cb317b6af2ec350-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/dandinh-channel_header_image-6ed84a95b530665c-640x125.png",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/dandinh-channel_offline_image-7718dd4f5fab6871-640x360.png",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/dandinh",
-                  "views": 32124037,
-                  "followers": 89944,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/dandinh",
-                    "follows": "https://api.twitch.tv/kraken/channels/dandinh/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/dandinh/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/dandinh/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/dandinh",
-                    "features": "https://api.twitch.tv/kraken/channels/dandinh/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/dandinh/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/dandinh/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/dandinh/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/dandinh/videos"
-                  }
-                }
+              "name": "Starship Troopers",
+              "popularity": 1,
+              "_id": 10297,
+              "giantbomb_id": 31071,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Starship%20Troopers-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Starship%20Troopers-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Starship%20Troopers-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Starship%20Troopers-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Starship%20Troopers-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Starship%20Troopers-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Starship%20Troopers-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Starship%20Troopers-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Maciej \"Shushei\" Ratuszniak, the League of Legends Season 1 MVP, always plays something more or less innovative that often becomes the new meta. He was the first to play AP Alistar, AP Eve, and more at the mid lane.</p>\n\n<br>\n\n\n<p><a href=\"/dbshushei\">Click here</a> to watch and chat!</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/ShusheiWall.jpg",
-              "stream": {
-                "_id": 10354721696,
-                "game": "League of Legends",
-                "viewers": 513,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_dbshushei-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_dbshushei-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_dbshushei-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_dbshushei-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/dbshushei"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": " Season1 MVP Shushei STream On PL/ ENG\r\nDiamon I 35 \r\nSmurfing\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-                  "display_name": "DBShushei",
-                  "game": "League of Legends",
-                  "delay": 60,
-                  "_id": 38212553,
-                  "name": "dbshushei",
-                  "created_at": "2012-12-04T13:55:15Z",
-                  "updated_at": "2014-07-22T13:03:16Z",
-                  "logo": null,
-                  "banner": null,
-                  "video_banner": null,
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/dbshushei",
-                  "views": 3019533,
-                  "followers": 19367,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/dbshushei",
-                    "follows": "https://api.twitch.tv/kraken/channels/dbshushei/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/dbshushei/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/dbshushei/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/dbshushei",
-                    "features": "https://api.twitch.tv/kraken/channels/dbshushei/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/dbshushei/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/dbshushei/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/dbshushei/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/dbshushei/videos"
-                  }
-                }
+              "name": "Star Ruler",
+              "popularity": 1,
+              "_id": 29174,
+              "giantbomb_id": 32412,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ruler-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ruler-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ruler-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ruler-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ruler-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ruler-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ruler-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ruler-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Come enjoy a high level of viewer interaction as Limpy plays games WITH the community. Streaming 6 days a week, at least 8 hours a day, playing a wide variety of games, including many indie titles.\nWant to pick the games played? Check out Follower's Choice Fridays, where you pick the games that are played. Come hang out and chat with Limpy and the OLimpyans today.</p>\n\n<br>\n\n\n<p><a href=\"/mmoden\">Click Here</a> to watch and chat live!</p>\n\n<p><a href=\"community\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/twitch-front-page-banner.png",
-              "stream": {
-                "_id": 10355278784,
-                "game": "WildStar",
-                "viewers": 602,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mmoden-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mmoden-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mmoden-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_mmoden-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/mmoden"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "★★ Eng Tanking/DPS ★★ Vet Dungeon Runs -Walking Dead & Divinity Original Sin Later - !divine for $10 off!!! ",
-                  "display_name": "MMODen",
-                  "game": "WildStar",
-                  "delay": 0,
-                  "_id": 36464665,
-                  "name": "mmoden",
-                  "created_at": "2012-09-26T12:40:54Z",
-                  "updated_at": "2014-07-22T14:10:35Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/mmoden-profile_image-7dadd1fd4d9c8ac2-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mmoden-channel_header_image-796bc467ad383a6a-640x125.jpeg",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mmoden-channel_offline_image-0953010db78b56df-640x360.jpeg",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/mmoden-profile_banner-000919addb622b93-480.png",
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/mmoden",
-                  "views": 1716223,
-                  "followers": 16053,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/mmoden",
-                    "follows": "https://api.twitch.tv/kraken/channels/mmoden/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/mmoden/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/mmoden/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/mmoden",
-                    "features": "https://api.twitch.tv/kraken/channels/mmoden/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/mmoden/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/mmoden/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/mmoden/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/mmoden/videos"
-                  }
-                }
+              "name": "Star Control 3",
+              "popularity": 1,
+              "_id": 1568,
+              "giantbomb_id": 1719,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Control%203-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Control%203-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Control%203-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Control%203-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Control%203-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Control%203-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Control%203-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Control%203-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>The official channel for all things SMITE, the DOTA-inspired Battleground of the Gods from Hi-Rez Studios.  The Smitegame channel brings you some of the top competitive Smite players and the most fun Smite streamers, all around the clock. Join in amazing Smite gameplay, weekend tournament coverage, and exclusive content reveals all right here!</p>\n\n<br>\n\n\n<p> <a href=\"/hirezstudios\">Click here</a> to get in touch with everything SMITE.</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/SMITE_thumbnail.jpg",
-              "stream": {
-                "_id": 10355178768,
-                "game": "Smite",
-                "viewers": 2062,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_smitegame-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_smitegame-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_smitegame-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_smitegame-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/smitegame"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "Smite /w PonPon - Best Player Mars",
-                  "display_name": "Smitegame",
-                  "game": "Smite",
-                  "delay": 0,
-                  "_id": 31500812,
-                  "name": "smitegame",
-                  "created_at": "2012-06-20T21:05:55Z",
-                  "updated_at": "2014-07-22T15:04:09Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/smitegame-profile_image-597d800b3d40e19f-300x300.png",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/smitegame-channel_header_image-0bd76e5eb1ad0ca9-640x125.png",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/smitegame-channel_offline_image-74e6fc4496e8b91a-640x360.jpeg",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/smitegame-profile_banner-836ce0a2c03f0c5e-480.png",
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/smitegame",
-                  "views": 82116269,
-                  "followers": 136076,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/smitegame",
-                    "follows": "https://api.twitch.tv/kraken/channels/smitegame/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/smitegame/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/smitegame/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/smitegame",
-                    "features": "https://api.twitch.tv/kraken/channels/smitegame/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/smitegame/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/smitegame/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/smitegame/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/smitegame/videos"
-                  }
-                }
+              "name": "Star Fox 64 3D",
+              "popularity": 1,
+              "_id": 28594,
+              "giantbomb_id": 31757,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064%203D-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064%203D-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064%203D-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064%203D-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064%203D-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064%203D-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064%203D-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064%203D-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Welcome to one of the largest League of Legends communities! Nightblue's Livestream teaches players how they can also reach the top ranks of League of Legends by theory craft, strategy, and explanation of the game while having fun doing so!</p>\n\n<br>\n\n\n<p><a href=\"/nightblue3\">Click here</a> to watch and chat!</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/nightblue3_thumbnail.png",
-              "stream": {
-                "_id": 10353126096,
-                "game": "League of Legends",
-                "viewers": 24921,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_nightblue3-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_nightblue3-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_nightblue3-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_nightblue3-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/nightblue3"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "EUW>NA? | UNRANKED TO CHALLENGER EUW | S4/S3 NA Challenger | Q&A During Queue Times | Teaching the Game Seriously | Jungle Main |",
-                  "display_name": "Nightblue3",
-                  "game": "League of Legends",
-                  "delay": 0,
-                  "_id": 26946000,
-                  "name": "nightblue3",
-                  "created_at": "2011-12-21T18:18:40Z",
-                  "updated_at": "2014-07-22T13:34:40Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/nightblue3-profile_image-a6db8f8ffdb84a8c-300x300.png",
-                  "banner": null,
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/nightblue3-channel_offline_image-1a3a375d7d94e0c1-640x360.png",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/nightblue3-profile_banner-1d7d926bdc159d8b-480.png",
-                  "profile_banner_background_color": "null",
-                  "url": "http://www.twitch.tv/nightblue3",
-                  "views": 55764104,
-                  "followers": 448451,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/nightblue3",
-                    "follows": "https://api.twitch.tv/kraken/channels/nightblue3/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/nightblue3/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/nightblue3/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/nightblue3",
-                    "features": "https://api.twitch.tv/kraken/channels/nightblue3/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/nightblue3/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/nightblue3/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/nightblue3/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/nightblue3/videos"
-                  }
-                }
+              "name": "StarCraft II: Legacy of the Void",
+              "popularity": 1,
+              "_id": 21816,
+              "giantbomb_id": 24079,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Cohh is a streamer with a focus on high viewer interactivity and a goal to always bring out the best in people. A guild leader of over a decade with a history of world firsts, Cohh is a gamer with a bottomless thirst for completion. With a focus on new MMO/general releases and streaming every day, Cohh continues forward with his community while maintaining a respectful and cheerful environment to make sure those watching have a great time. Stop by and say hello!</p>\n\n<br>\n\n\n<p><a href=\"/CohhCarnage\">Click here to watch and chat live!</a></p>\n\n<p><a href=\"variety,%20player,%20community,%20personality\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/cohcarnage.png",
-              "stream": {
-                "_id": 10354250720,
-                "game": "RimWorld",
-                "viewers": 1823,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_cohhcarnage-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/cohhcarnage"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "[Vote @ !intel <- <3] Rimworld! - Looking out for Squirrel Team 6 - !ga for AWESOME GIVEAWAY - [Day 280 of !1year]",
-                  "display_name": "CohhCarnage",
-                  "game": "RimWorld",
-                  "delay": 0,
-                  "_id": 26610234,
-                  "name": "cohhcarnage",
-                  "created_at": "2011-12-06T18:20:34Z",
-                  "updated_at": "2014-07-22T12:02:04Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/cohhcarnage-profile_image-aeccaf3a197f0e1a-300x300.jpeg",
-                  "banner": null,
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/cohhcarnage-channel_offline_image-8479907fa45237d3-640x360.jpeg",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/cohhcarnage",
-                  "views": 10812665,
-                  "followers": 101839,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/cohhcarnage",
-                    "follows": "https://api.twitch.tv/kraken/channels/cohhcarnage/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/cohhcarnage/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/cohhcarnage/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/cohhcarnage",
-                    "features": "https://api.twitch.tv/kraken/channels/cohhcarnage/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/cohhcarnage/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/cohhcarnage/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/cohhcarnage/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/cohhcarnage/videos"
-                  }
-                }
+              "name": "Star Ocean:  Second Evolution",
+              "popularity": 1,
+              "_id": 19547,
+              "giantbomb_id": 21464,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ocean%3A%20%20Second%20Evolution-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ocean%3A%20%20Second%20Evolution-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ocean%3A%20%20Second%20Evolution-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ocean%3A%20%20Second%20Evolution-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ocean%3A%20%20Second%20Evolution-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ocean%3A%20%20Second%20Evolution-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ocean%3A%20%20Second%20Evolution-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ocean%3A%20%20Second%20Evolution-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>David \"MoonMeander\" specializes in high-level Heroes of Newerth play. Join in, learn a few tips from this pro. MoonMeander on occasion may broadcast other titles like Dota2 and other casual play.</p>\n\n<br>\n\n\n<p><a href=\"/moonmeander\">Click here</a> to watch and chat live!</p>\n\n<p><a href=\"esports,%20hon,%20dota,%20personality\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/MoonMeander.jpg",
-              "stream": {
-                "_id": 10354197216,
-                "game": "Dota 2",
-                "viewers": 4528,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_moonmeander-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_moonmeander-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_moonmeander-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_moonmeander-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/moonmeander"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "Wet and Hard",
-                  "display_name": "Moonmeander",
-                  "game": "Dota 2",
-                  "delay": 0,
-                  "_id": 17429923,
-                  "name": "moonmeander",
-                  "created_at": "2010-11-05T18:35:25Z",
-                  "updated_at": "2014-07-22T12:01:56Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/moonmeander-profile_image-f2e7c1356655425b-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/moonmeander-channel_header_image-0b7500f4afcd6cbb-640x125.jpeg",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/moonmeander-channel_offline_image-9049d08849eb6267-640x360.jpeg",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/moonmeander",
-                  "views": 27148253,
-                  "followers": 43987,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/moonmeander",
-                    "follows": "https://api.twitch.tv/kraken/channels/moonmeander/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/moonmeander/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/moonmeander/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/moonmeander",
-                    "features": "https://api.twitch.tv/kraken/channels/moonmeander/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/moonmeander/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/moonmeander/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/moonmeander/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/moonmeander/videos"
-                  }
-                }
+              "name": "Star Wars: Jedi Knight - Jedi Academy",
+              "popularity": 1,
+              "_id": 15512,
+              "giantbomb_id": 16922,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-240x144.jpg"
+              },
+              "_links": {
               }
             },
             {
-              "text": "<p>Watch AdamAK as he blazes through a variety of games in an attempt to set new records. Main focus lies on Grand Theft Auto speedruns, but plenty of other series make an appearance on this stream regularly. Stop by to say hello!</p>\n\n<br>\n\n\n<p><a href=\"/adamAK\">Click here</a> to watch and chat live!</p>\n\n<p><a href=\"speedrunner\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/ThumbnailAdamAK.png",
-              "stream": {
-                "_id": 10354173648,
-                "game": "Grand Theft Auto: Vice City",
-                "viewers": 3266,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_adam_ak-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_adam_ak-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_adam_ak-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_adam_ak-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/adam_ak"
-                },
-                "channel": {
-                  "mature": true,
-                  "abuse_reported": null,
-                  "status": "Grand Theft Auto: Vice City -- Chaos%",
-                  "display_name": "Adam_ak",
-                  "game": "Grand Theft Auto: Vice City",
-                  "delay": 0,
-                  "_id": 21521869,
-                  "name": "adam_ak",
-                  "created_at": "2011-04-04T14:45:19Z",
-                  "updated_at": "2014-07-22T11:50:18Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/adam_ak-profile_image-0c6419fc1dcffb13-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/adam_ak-channel_header_image-58159284973c7068-640x125.png",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/adam_ak-channel_offline_image-8e165413dab0f28f-640x360.jpeg",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/adam_ak",
-                  "views": 7550861,
-                  "followers": 55867,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/adam_ak",
-                    "follows": "https://api.twitch.tv/kraken/channels/adam_ak/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/adam_ak/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/adam_ak/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/adam_ak",
-                    "features": "https://api.twitch.tv/kraken/channels/adam_ak/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/adam_ak/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/adam_ak/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/adam_ak/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/adam_ak/videos"
-                  }
-                }
-              }
-            },
-            {
-              "text": "<p>Come join Aydren, an early morning streamer from California with a dream to succeed. He is currently playing Call of Duty competitive matches with friends and subscribers and even though he is focused on the game, he never fails to focus on the viewers. Interactivity is what Aydren prides himself on so don't be afraid to say hello when you join this channel.</p>\n\n<br>\n\n\n<p>{Click here}(/aydren) to join the grind!</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/aydren_thumbnail.png",
-              "stream": {
-                "_id": 10356073376,
-                "game": "Call of Duty: Ghosts",
-                "viewers": 313,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_aydren-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_aydren-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_aydren-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_aydren-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/aydren"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "3rd Place TL | 4v4 S&D GBs | 746-122 | 1000 Win Challenge",
-                  "display_name": "Aydren",
-                  "game": "Call of Duty: Ghosts",
-                  "delay": 0,
-                  "_id": 23425178,
-                  "name": "aydren",
-                  "created_at": "2011-07-13T06:58:02Z",
-                  "updated_at": "2014-07-22T16:15:16Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/aydren-profile_image-d79984b16788614e-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/aydren-channel_header_image-b98a6f3913179ce4-640x125.png",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/aydren-channel_offline_image-0737b6a99551a6ff-640x360.png",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/aydren-profile_banner-4a90dd9d950e6180-480.jpeg",
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/aydren",
-                  "views": 1829861,
-                  "followers": 38888,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/aydren",
-                    "follows": "https://api.twitch.tv/kraken/channels/aydren/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/aydren/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/aydren/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/aydren",
-                    "features": "https://api.twitch.tv/kraken/channels/aydren/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/aydren/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/aydren/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/aydren/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/aydren/videos"
-                  }
-                }
-              }
-            },
-            {
-              "text": "<p>Spencer \"Hiko\" Martin is a professional American Counter-Strike player for compLexity Gaming. Join the stream to check out his stream giveaways, high-level matchmaking play, and more in CS:GO!</p>\n\n<br>\n\n\n<p><a href=\"/hikotv\">Click here</a> to watch and chat!</p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/coLhiko.png",
-              "stream": {
-                "_id": 10355127888,
-                "game": "Counter-Strike: Global Offensive",
-                "viewers": 6372,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hikotv-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hikotv-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hikotv-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_hikotv-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/hikotv"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "coL Hiko games 720p/60fps",
-                  "display_name": "HikoTV",
-                  "game": "Counter-Strike: Global Offensive",
-                  "delay": 0,
-                  "_id": 26991127,
-                  "name": "hikotv",
-                  "created_at": "2011-12-23T17:36:09Z",
-                  "updated_at": "2014-07-22T13:53:00Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/hikotv-profile_image-d524d5e8e0e3bbcb-300x300.png",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/hikotv-channel_header_image-38945ed3df8ee1ad-640x125.jpeg",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/hikotv-channel_offline_image-7465d6b3c20fe74c-640x360.png",
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/hikotv",
-                  "views": 2825510,
-                  "followers": 59618,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/hikotv",
-                    "follows": "https://api.twitch.tv/kraken/channels/hikotv/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/hikotv/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/hikotv/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/hikotv",
-                    "features": "https://api.twitch.tv/kraken/channels/hikotv/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/hikotv/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/hikotv/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/hikotv/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/hikotv/videos"
-                  }
-                }
-              }
-            },
-            {
-              "text": "<p>Tim aka Spamfish is a long time broadcaster and lover of lurkers. Chill and chat in the Melted Fridge as Spamfish rages and fails at a variety of games. Or in Spamfish's famous words \"LIKE A BAWS!\"</p>\n\n<br>\n\n\n<p>Join in and discover more about the wacky world of Spamfish by <a href=\"/spamfish\">clicking here to watch and chat live!</a></p>\n\n<p><a href=\"personality,%20variety,%20community\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/imagecar.jpg",
-              "stream": {
-                "_id": 10353689136,
-                "game": "Dark Souls II",
-                "viewers": 718,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_spamfish-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_spamfish-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_spamfish-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_spamfish-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/spamfish"
-                },
-                "channel": {
-                  "mature": true,
-                  "abuse_reported": null,
-                  "status": "Dark Souls 2 (PC) DLC - NO shield, NO magic, NO blocking. ONLY SMASH! AND RUN!",
-                  "display_name": "Spamfish",
-                  "game": "Dark Souls II",
-                  "delay": 0,
-                  "_id": 497952,
-                  "name": "spamfish",
-                  "created_at": "2008-04-27T11:40:03Z",
-                  "updated_at": "2014-07-22T10:37:42Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/spamfish-profile_image-ae6d40a3ddf669eb-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/spamfish-channel_header_image-952b6c8dafdf75bf-640x125.jpeg",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/spamfish-channel_offline_image-51542df56a0311d1-640x360.jpeg",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/spamfish-profile_banner-c32b15f46b89099f-480.jpeg",
-                  "profile_banner_background_color": "#000000",
-                  "url": "http://www.twitch.tv/spamfish",
-                  "views": 18777344,
-                  "followers": 65378,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/spamfish",
-                    "follows": "https://api.twitch.tv/kraken/channels/spamfish/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/spamfish/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/spamfish/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/spamfish",
-                    "features": "https://api.twitch.tv/kraken/channels/spamfish/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/spamfish/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/spamfish/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/spamfish/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/spamfish/videos"
-                  }
-                }
-              }
-            },
-            {
-              "text": "<p>Known for his unorthodox, out-there play, TLO has been a fan favorite from the time of the Starcraft 2 Beta. Expect exciting plays and interesting builds from one of Europe's most popular players.</p>\n\n<br>\n\n\n<p><a href=\"/liquidtlo\">Click here</a> to watch and chat live!</p>\n\n<p><a href=\"pro,%20sc2,%20personality\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/tlo.png",
-              "stream": {
-                "_id": 10355752064,
-                "game": "StarCraft II: Heart of the Swarm",
-                "viewers": 1520,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_liquidtlo-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_liquidtlo-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_liquidtlo-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_liquidtlo-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/liquidtlo"
-                },
-                "channel": {
-                  "mature": null,
-                  "abuse_reported": null,
-                  "status": "Be nice to everyone and please don't complain about balance!\r\n\r\nhttp://www.last.fm/user/GameOfDrones\r\n\r\n\r\n",
-                  "display_name": "LiquidTLO",
-                  "game": "StarCraft II: Heart of the Swarm",
-                  "delay": 0,
-                  "_id": 12380241,
-                  "name": "liquidtlo",
-                  "created_at": "2010-05-03T17:07:00Z",
-                  "updated_at": "2014-07-22T15:04:02Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/liquidtlo-profile_image-ec057638e717d3fd-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/liquidtlo-channel_header_image-fb050ad2cdffdd72-640x125.jpeg",
-                  "video_banner": null,
-                  "background": null,
-                  "profile_banner": null,
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/liquidtlo",
-                  "views": 24848301,
-                  "followers": 53559,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/liquidtlo",
-                    "follows": "https://api.twitch.tv/kraken/channels/liquidtlo/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/liquidtlo/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/liquidtlo/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/liquidtlo",
-                    "features": "https://api.twitch.tv/kraken/channels/liquidtlo/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/liquidtlo/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/liquidtlo/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/liquidtlo/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/liquidtlo/videos"
-                  }
-                }
-              }
-            },
-            {
-              "text": "<p>Whether it is Vanilla Minecraft or Modded CyaNideEPiC Channel is the one\nfor you! I am very dedicated to bringing top quality content and an awesome\nchat interaction environment with a great community I like to call\n\"EPiCNATION!\"</p>\n\n<p><a href=\"/cyanideepic\">Come join the chat room</a> and hang out with some awesome members of the\ncommunity!</p>\n\n<p><a href=\"personality,%20minecraft\"></a></p>\n",
-              "image": "http://s.jtvnw.net/jtv_user_pictures/hosted_images/cyanideepicfrontpage.jpg",
-              "stream": {
-                "_id": 10353833712,
-                "game": "Minecraft",
-                "viewers": 980,
-                "preview": {
-                  "small": "http://static-cdn.jtvnw.net/previews-ttv/live_user_cyanideepic-80x50.jpg",
-                  "medium": "http://static-cdn.jtvnw.net/previews-ttv/live_user_cyanideepic-320x200.jpg",
-                  "large": "http://static-cdn.jtvnw.net/previews-ttv/live_user_cyanideepic-640x400.jpg",
-                  "template": "http://static-cdn.jtvnw.net/previews-ttv/live_user_cyanideepic-{width}x{height}.jpg"
-                },
-                "_links": {
-                  "self": "https://api.twitch.tv/kraken/streams/cyanideepic"
-                },
-                "channel": {
-                  "mature": false,
-                  "abuse_reported": null,
-                  "status": "EPiCCRAFT 1.0.7 Power Plant & Power Suit! :D",
-                  "display_name": "CyaNideEPiC",
-                  "game": "Minecraft",
-                  "delay": 0,
-                  "_id": 23082675,
-                  "name": "cyanideepic",
-                  "created_at": "2011-06-23T01:07:38Z",
-                  "updated_at": "2014-07-22T10:58:24Z",
-                  "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/cyanideepic-profile_image-f2cd331890260881-300x300.jpeg",
-                  "banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/cyanideepic-channel_header_image-94624fe6adf88140-640x125.jpeg",
-                  "video_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/cyanideepic-channel_offline_image-6b7e230717fe0d38-640x360.png",
-                  "background": null,
-                  "profile_banner": "http://static-cdn.jtvnw.net/jtv_user_pictures/cyanideepic-profile_banner-4409d3afd3ff3a0d-480.png",
-                  "profile_banner_background_color": null,
-                  "url": "http://www.twitch.tv/cyanideepic",
-                  "views": 7301094,
-                  "followers": 91936,
-                  "_links": {
-                    "self": "https://api.twitch.tv/kraken/channels/cyanideepic",
-                    "follows": "https://api.twitch.tv/kraken/channels/cyanideepic/follows",
-                    "commercial": "https://api.twitch.tv/kraken/channels/cyanideepic/commercial",
-                    "stream_key": "https://api.twitch.tv/kraken/channels/cyanideepic/stream_key",
-                    "chat": "https://api.twitch.tv/kraken/chat/cyanideepic",
-                    "features": "https://api.twitch.tv/kraken/channels/cyanideepic/features",
-                    "subscriptions": "https://api.twitch.tv/kraken/channels/cyanideepic/subscriptions",
-                    "editors": "https://api.twitch.tv/kraken/channels/cyanideepic/editors",
-                    "teams": "https://api.twitch.tv/kraken/channels/cyanideepic/teams",
-                    "videos": "https://api.twitch.tv/kraken/channels/cyanideepic/videos"
-                  }
-                }
+              "name": "Star Fox 64",
+              "popularity": 1,
+              "_id": 17586,
+              "giantbomb_id": 19203,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064-240x144.jpg"
+              },
+              "_links": {
               }
             }
           ]
         }
     http_version: 
-  recorded_at: Tue, 22 Jul 2014 16:21:06 GMT
+  recorded_at: Tue, 22 Jul 2014 19:35:42 GMT
 recorded_with: VCR 2.9.2

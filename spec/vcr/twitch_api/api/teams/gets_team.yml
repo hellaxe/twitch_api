@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/teams/bloodlegion
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Wed, 06 Aug 2014 09:15:24 GMT
+      Content-Type: application/json; charset=utf-8
+      Transfer-Encoding: chunked
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: '"ee84f254bf59f28a025991f397117905"'
+      X-Request-Id: bcbbe38577616ebc1e5344b2a9e3882f
+      X-Runtime: '0.037314'
+      X-Varnish: '1504978252'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache4; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "_id": 167,
+          "name": "bloodlegion",
+          "info": "Only the best Serious Gaming channels on Twitch!\n\n\n\n\n",
+          "display_name": "Serious Gaming",
+          "created_at": "2012-01-26T00:42:24Z",
+          "updated_at": "2014-01-10T23:35:00Z",
+          "logo": "http://static-cdn.jtvnw.net/jtv_user_pictures/team-bloodlegion-team_logo_image-3d86bda4dcc9ecb4-300x300.png",
+          "banner": null,
+          "background": null,
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/teams/bloodlegion"
+          }
+        }
+    http_version: 
+  recorded_at: Wed, 06 Aug 2014 09:15:24 GMT
+recorded_with: VCR 2.9.2

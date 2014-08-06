@@ -10,6 +10,10 @@ module TwitchApi
     include Api::Follows
     include Api::Chat
     include Api::Streams
+    include Api::Ingests
+    include Api::Subscriptions
+    include Api::Users
+    include Api::Teams
 
     attr_reader :secret_key, :client_id, :connected, :access_token, :scopes
     # TODO: make options hash in params

@@ -1,0 +1,246 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/videos/followed
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth <ACCESS_TOKEN>
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Wed, 06 Aug 2014 08:56:47 GMT
+      Content-Type: application/json; charset=utf-8
+      Transfer-Encoding: chunked
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: '"985caa5347af40ecd97eaceb732866a2"'
+      X-Request-Id: 4894d3788a5fc3d4a8ccf8124e527e94
+      X-Runtime: '0.484143'
+      X-Varnish: '4251631071'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache2; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/videos/followed?limit=10&offset=0",
+            "next": "https://api.twitch.tv/kraken/videos/followed?limit=10&offset=10"
+          },
+          "videos": [
+            {
+              "title": "Juke City",
+              "description": "Parkour in summoners rift",
+              "broadcast_id": 10545496816,
+              "_id": "c4829903",
+              "recorded_at": "2014-08-05T15:25:19Z",
+              "game": "League of Legends",
+              "length": 49,
+              "preview": "http://static-cdn.jtvnw.net/jtv.thumbs/archive-554821618-320x240.jpg",
+              "url": "http://www.twitch.tv/sllverlady1/c/4829903",
+              "views": 26,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/c4829903",
+                "channel": "https://api.twitch.tv/kraken/channels/sllverlady1"
+              },
+              "channel": {
+                "name": "sllverlady1",
+                "display_name": "Sllverlady1"
+              }
+            },
+            {
+              "title": "Barb build I'm working on",
+              "description": "Perma WOTB? Yes plz.",
+              "broadcast_id": 10464378288,
+              "_id": "c4789566",
+              "recorded_at": "2014-07-31T00:14:30Z",
+              "game": "Diablo III: Reaper of Souls",
+              "length": 405,
+              "preview": "http://static-cdn.jtvnw.net/jtv.thumbs/archive-552923631-320x240.jpg",
+              "url": "http://www.twitch.tv/mannercookie/c/4789566",
+              "views": 727,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/c4789566",
+                "channel": "https://api.twitch.tv/kraken/channels/mannercookie"
+              },
+              "channel": {
+                "name": "mannercookie",
+                "display_name": "MannerCookie"
+              }
+            },
+            {
+              "title": "Seasonal HC - Day 6",
+              "description": "RISE OPBARB RISE!",
+              "broadcast_id": 10464378288,
+              "_id": "c4787898",
+              "recorded_at": "2014-07-30T17:14:17Z",
+              "game": "Diablo III: Reaper of Souls",
+              "length": 25779,
+              "preview": "http://static-cdn.jtvnw.net/jtv.thumbs/archive-552803687-320x240.jpg",
+              "url": "http://www.twitch.tv/mannercookie/c/4787898",
+              "views": 327,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/c4787898",
+                "channel": "https://api.twitch.tv/kraken/channels/mannercookie"
+              },
+              "channel": {
+                "name": "mannercookie",
+                "display_name": "MannerCookie"
+              }
+            },
+            {
+              "title": "#Culled",
+              "description": "Cuddling.",
+              "broadcast_id": 10460672352,
+              "_id": "c4781923",
+              "recorded_at": "2014-07-30T14:12:13Z",
+              "game": "League of Legends",
+              "length": 15,
+              "preview": "http://static-cdn.jtvnw.net/jtv.thumbs/archive-552760337-320x240.jpg",
+              "url": "http://www.twitch.tv/mushisgosu/c/4781923",
+              "views": 3376,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/c4781923",
+                "channel": "https://api.twitch.tv/kraken/channels/mushisgosu"
+              },
+              "channel": {
+                "name": "mushisgosu",
+                "display_name": "MushIsGosu"
+              }
+            },
+            {
+              "title": "Boom",
+              "description": "Splat",
+              "broadcast_id": 10445647280,
+              "_id": "c4773663",
+              "recorded_at": "2014-07-29T14:44:33Z",
+              "game": "League of Legends",
+              "length": 12,
+              "preview": "http://static-cdn.jtvnw.net/jtv.thumbs/archive-552423396-320x240.jpg",
+              "url": "http://www.twitch.tv/mushisgosu/c/4773663",
+              "views": 3576,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/c4773663",
+                "channel": "https://api.twitch.tv/kraken/channels/mushisgosu"
+              },
+              "channel": {
+                "name": "mushisgosu",
+                "display_name": "MushIsGosu"
+              }
+            },
+            {
+              "title": "GR-33 / HC - First Attempt",
+              "description": "Wow that RG... fuk >.<",
+              "broadcast_id": 10447222352,
+              "_id": "c4775636",
+              "recorded_at": "2014-07-29T14:43:44Z",
+              "game": "Diablo III: Reaper of Souls",
+              "length": 1180,
+              "preview": "http://static-cdn.jtvnw.net/jtv.thumbs/archive-552425431-320x240.jpg",
+              "url": "http://www.twitch.tv/mannercookie/c/4775636",
+              "views": 456,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/c4775636",
+                "channel": "https://api.twitch.tv/kraken/channels/mannercookie"
+              },
+              "channel": {
+                "name": "mannercookie",
+                "display_name": "MannerCookie"
+              }
+            },
+            {
+              "title": "Seasonal HC - Day 5",
+              "description": "Almost died again /w GR 34 attempt lol.",
+              "broadcast_id": 10447222352,
+              "_id": "c4775568",
+              "recorded_at": "2014-07-29T12:10:28Z",
+              "game": "Diablo III: Reaper of Souls",
+              "length": 24002,
+              "preview": "http://static-cdn.jtvnw.net/jtv.thumbs/archive-552398296-320x240.jpg",
+              "url": "http://www.twitch.tv/mannercookie/c/4775568",
+              "views": 129,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/c4775568",
+                "channel": "https://api.twitch.tv/kraken/channels/mannercookie"
+              },
+              "channel": {
+                "name": "mannercookie",
+                "display_name": "MannerCookie"
+              }
+            },
+            {
+              "title": "GR-32 / HC / Crus - First Attempt",
+              "description": "Almost went RIP damn lol.",
+              "broadcast_id": 10430568064,
+              "_id": "c4774604",
+              "recorded_at": "2014-07-28T22:57:01Z",
+              "game": "Diablo III: Reaper of Souls",
+              "length": 1000,
+              "preview": "http://static-cdn.jtvnw.net/jtv.thumbs/archive-552218087-320x240.jpg",
+              "url": "http://www.twitch.tv/mannercookie/c/4774604",
+              "views": 112,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/c4774604",
+                "channel": "https://api.twitch.tv/kraken/channels/mannercookie"
+              },
+              "channel": {
+                "name": "mannercookie",
+                "display_name": "MannerCookie"
+              }
+            },
+            {
+              "title": "Smite gem MAX'd out",
+              "description": "Took a while but got it done",
+              "broadcast_id": 10430568064,
+              "_id": "c4772385",
+              "recorded_at": "2014-07-28T22:48:06Z",
+              "game": "Diablo III: Reaper of Souls",
+              "length": 90,
+              "preview": "http://static-cdn.jtvnw.net/jtv.thumbs/archive-552218087-320x240.jpg",
+              "url": "http://www.twitch.tv/mannercookie/c/4772385",
+              "views": 508,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/c4772385",
+                "channel": "https://api.twitch.tv/kraken/channels/mannercookie"
+              },
+              "channel": {
+                "name": "mannercookie",
+                "display_name": "MannerCookie"
+              }
+            },
+            {
+              "title": "Tristana 1v5 Pentakill",
+              "description": "Kappa",
+              "broadcast_id": 10431665536,
+              "_id": "c4764732",
+              "recorded_at": "2014-07-28T09:36:42Z",
+              "game": "League of Legends",
+              "length": 19,
+              "preview": "http://static-cdn.jtvnw.net/jtv.thumbs/archive-552044690-320x240.jpg",
+              "url": "http://www.twitch.tv/mushisgosu/c/4764732",
+              "views": 7423,
+              "_links": {
+                "self": "https://api.twitch.tv/kraken/videos/c4764732",
+                "channel": "https://api.twitch.tv/kraken/channels/mushisgosu"
+              },
+              "channel": {
+                "name": "mushisgosu",
+                "display_name": "MushIsGosu"
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Wed, 06 Aug 2014 08:56:48 GMT
+recorded_with: VCR 2.9.2

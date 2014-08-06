@@ -6,7 +6,7 @@ module TwitchApi
       }
       def get(path, options = {})
         headers = prepare_headers(options[:headers] || {})
-        c = Curl.get(path + build_query_string(options[:query])) do |curl|
+        c = Curl::Easy.http_get(path + build_query_string(options[:query])) do |curl|
           curl.headers.merge!(headers)
         end
         response = build_response_hash(c)

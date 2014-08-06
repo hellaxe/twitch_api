@@ -13,33 +13,433 @@ http_interactions:
     status: {code: 200, message: OK}
     headers:
       Server: nginx
-      Date: Tue, 22 Jul 2014 16:20:52 GMT
+      Date: Tue, 22 Jul 2014 16:14:47 GMT
       Content-Type: application/json; charset=utf-8
       Transfer-Encoding: chunked
       Connection: keep-alive
       Status: 200 OK
       X-Api-Version: '3'
-      Cache-Control: max-age=0, private, must-revalidate
+      Cache-Control: max-age=60, public
       Vary: Accept-Encoding
       X-Ua-Compatible: IE=Edge,chrome=1
-      Etag: '"78ce5314c483c8e5386368a84f8a7c8e"'
-      X-Request-Id: e20304616444b1ba0e2db39d09d4885e
-      X-Runtime: '0.028310'
-      X-Varnish: '3080828173'
+      Etag: '"2abfb590083d557ec20dccd107aebebc"'
+      X-Request-Id: f4ebedf4817dd31d322c94e79359eae4
+      X-Runtime: '0.040811'
+      X-Varnish: '3032103842'
       Age: '0'
       Via: 1.1 varnish
-      X-Mh-Cache: appcache3; M
+      X-Mh-Cache: appcache2; M
       Front-End-Https: 'on'
     body:
       encoding: UTF-8
       string: |-
         {
           "_links": {
-            "self": "https://api.twitch.tv/kraken/streams/dexter_bl",
-            "channel": "https://api.twitch.tv/kraken/channels/dexter_bl"
+            "self": "https://api.twitch.tv/kraken/search/games?q=star&type=suggest"
           },
-          "stream": null
+          "games": [
+            {
+              "name": "Star Trek Online",
+              "popularity": 4,
+              "_id": 19858,
+              "giantbomb_id": 21810,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%20Online-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%20Online-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%20Online-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%20Online-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%20Online-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%20Online-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%20Online-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%20Online-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "StarCraft II: Heart of the Swarm",
+              "popularity": 4,
+              "_id": 21818,
+              "giantbomb_id": 24078,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Heart%20of%20the%20Swarm-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Starbound",
+              "popularity": 3,
+              "_id": 33945,
+              "giantbomb_id": 37839,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Starbound-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Starbound-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Starbound-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Starbound-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Starbound-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Starbound-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Starbound-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Starbound-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "StarTropics",
+              "popularity": 2,
+              "_id": 2193,
+              "giantbomb_id": 2388,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/StarTropics-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/StarTropics-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/StarTropics-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/StarTropics-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/StarTropics-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/StarTropics-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/StarTropics-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/StarTropics-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Star Fox Adventures",
+              "popularity": 2,
+              "_id": 17424,
+              "giantbomb_id": 19026,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%20Adventures-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%20Adventures-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%20Adventures-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%20Adventures-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%20Adventures-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%20Adventures-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%20Adventures-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%20Adventures-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Star Wolves 3: Civil War",
+              "popularity": 1,
+              "_id": 27467,
+              "giantbomb_id": 30476,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wolves%203%3A%20Civil%20War-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wolves%203%3A%20Civil%20War-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wolves%203%3A%20Civil%20War-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wolves%203%3A%20Civil%20War-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wolves%203%3A%20Civil%20War-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wolves%203%3A%20Civil%20War-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wolves%203%3A%20Civil%20War-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wolves%203%3A%20Civil%20War-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Starsiege",
+              "popularity": 1,
+              "_id": 12684,
+              "giantbomb_id": 13820,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Starsiege-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Starsiege-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Starsiege-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Starsiege-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Starsiege-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Starsiege-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Starsiege-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Starsiege-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Starsector",
+              "popularity": 1,
+              "_id": 33416,
+              "giantbomb_id": 37533,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Starsector-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Starsector-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Starsector-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Starsector-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Starsector-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Starsector-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Starsector-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Starsector-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Star Wars: Empire at War - Forces of Corruption",
+              "popularity": 1,
+              "_id": 8435,
+              "giantbomb_id": 9197,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Empire%20at%20War%20-%20Forces%20of%20Corruption-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Starforge",
+              "popularity": 1,
+              "_id": 66044,
+              "giantbomb_id": 38649,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Starforge-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Starforge-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Starforge-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Starforge-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Starforge-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Starforge-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Starforge-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Starforge-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "StarCraft II: Wings of Liberty",
+              "popularity": 1,
+              "_id": 18901,
+              "giantbomb_id": 20674,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Wings%20of%20Liberty-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Wings%20of%20Liberty-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Wings%20of%20Liberty-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Wings%20of%20Liberty-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Wings%20of%20Liberty-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Wings%20of%20Liberty-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Wings%20of%20Liberty-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Wings%20of%20Liberty-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Star Trek: Starfleet Academy",
+              "popularity": 1,
+              "_id": 15941,
+              "giantbomb_id": 17383,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%3A%20Starfleet%20Academy-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%3A%20Starfleet%20Academy-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%3A%20Starfleet%20Academy-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Trek%3A%20Starfleet%20Academy-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%3A%20Starfleet%20Academy-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%3A%20Starfleet%20Academy-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%3A%20Starfleet%20Academy-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Trek%3A%20Starfleet%20Academy-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Starship Troopers",
+              "popularity": 1,
+              "_id": 10297,
+              "giantbomb_id": 31071,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Starship%20Troopers-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Starship%20Troopers-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Starship%20Troopers-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Starship%20Troopers-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Starship%20Troopers-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Starship%20Troopers-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Starship%20Troopers-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Starship%20Troopers-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Star Ruler",
+              "popularity": 1,
+              "_id": 29174,
+              "giantbomb_id": 32412,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ruler-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ruler-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ruler-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ruler-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ruler-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ruler-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ruler-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ruler-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Star Control 3",
+              "popularity": 1,
+              "_id": 1568,
+              "giantbomb_id": 1719,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Control%203-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Control%203-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Control%203-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Control%203-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Control%203-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Control%203-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Control%203-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Control%203-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Star Fox 64 3D",
+              "popularity": 1,
+              "_id": 28594,
+              "giantbomb_id": 31757,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064%203D-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064%203D-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064%203D-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064%203D-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064%203D-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064%203D-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064%203D-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064%203D-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "StarCraft II: Legacy of the Void",
+              "popularity": 1,
+              "_id": 21816,
+              "giantbomb_id": 24079,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/StarCraft%20II%3A%20Legacy%20of%20the%20Void-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Star Ocean:  Second Evolution",
+              "popularity": 1,
+              "_id": 19547,
+              "giantbomb_id": 21464,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ocean%3A%20%20Second%20Evolution-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ocean%3A%20%20Second%20Evolution-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ocean%3A%20%20Second%20Evolution-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Ocean%3A%20%20Second%20Evolution-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ocean%3A%20%20Second%20Evolution-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ocean%3A%20%20Second%20Evolution-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ocean%3A%20%20Second%20Evolution-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Ocean%3A%20%20Second%20Evolution-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Star Wars: Jedi Knight - Jedi Academy",
+              "popularity": 1,
+              "_id": 15512,
+              "giantbomb_id": 16922,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Wars%3A%20Jedi%20Knight%20-%20Jedi%20Academy-240x144.jpg"
+              },
+              "_links": {
+              }
+            },
+            {
+              "name": "Star Fox 64",
+              "popularity": 1,
+              "_id": 17586,
+              "giantbomb_id": 19203,
+              "box": {
+                "template": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064-52x72.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064-136x190.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-boxart/Star%20Fox%2064-272x380.jpg"
+              },
+              "logo": {
+                "template": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064-{width}x{height}.jpg",
+                "small": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064-60x36.jpg",
+                "medium": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064-120x72.jpg",
+                "large": "http://static-cdn.jtvnw.net/ttv-logoart/Star%20Fox%2064-240x144.jpg"
+              },
+              "_links": {
+              }
+            }
+          ]
         }
     http_version: 
-  recorded_at: Tue, 22 Jul 2014 16:20:52 GMT
+  recorded_at: Tue, 22 Jul 2014 19:35:40 GMT
 recorded_with: VCR 2.9.2

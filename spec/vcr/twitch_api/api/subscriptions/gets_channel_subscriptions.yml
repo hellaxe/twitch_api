@@ -1,0 +1,41 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/channels/dodgello/subscriptions?limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth <ACCESS_TOKEN>
+  response:
+    status: {code: 422, message: Unprocessable Entity}
+    headers:
+      Server: nginx
+      Date: Wed, 06 Aug 2014 08:39:33 GMT
+      Content-Type: application/json; charset=utf-8
+      Transfer-Encoding: chunked
+      Connection: keep-alive
+      Status: 422 Unprocessable Entity
+      X-Api-Version: '3'
+      Cache-Control: max-age=0, private, must-revalidate
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      X-Request-Id: 8019c9a9e171b742837b0f368b16ff6a
+      X-Runtime: '0.043119'
+      X-Varnish: '14394026'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache3; M
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "error": "Unprocessable Entity",
+          "status": 422,
+          "message": "dodgello does not have a subscription program"
+        }
+    http_version: 
+  recorded_at: Wed, 06 Aug 2014 08:39:33 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitch.tv/kraken/users/dodgello
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept: application/vnd.twitchtv.v3+json
+      Authorization: OAuth <ACCESS_TOKEN>
+  response:
+    status: {code: 200, message: OK}
+    headers:
+      Server: nginx
+      Date: Wed, 06 Aug 2014 08:52:10 GMT
+      Content-Type: application/json; charset=utf-8
+      Transfer-Encoding: chunked
+      Connection: keep-alive
+      Status: 200 OK
+      X-Api-Version: '3'
+      Cache-Control: max-age=30, public
+      Vary: Accept-Encoding
+      X-Ua-Compatible: IE=Edge,chrome=1
+      Etag: '"7ea0ea135835dfba336a9a77877c8008"'
+      X-Request-Id: 3ab536655511aacf7a217ccfd74a0bf3
+      X-Runtime: '0.019264'
+      X-Varnish: '3010008468'
+      Age: '0'
+      Via: 1.1 varnish
+      X-Mh-Cache: appcache1; M
+      Front-End-Https: 'on'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "display_name": "Dodgello",
+          "_id": 54057928,
+          "name": "dodgello",
+          "type": "user",
+          "bio": null,
+          "created_at": "2013-12-29T17:09:16Z",
+          "updated_at": "2014-07-22T16:14:24Z",
+          "logo": null,
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/users/dodgello"
+          }
+        }
+    http_version: 
+  recorded_at: Wed, 06 Aug 2014 08:52:10 GMT
+recorded_with: VCR 2.9.2

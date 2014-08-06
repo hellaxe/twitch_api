@@ -10,5 +10,9 @@ module TwitchApi
     require 'twitch_api/api/follows'
     require 'twitch_api/api/chat'
     require 'twitch_api/api/streams'
+    require 'twitch_api/api/ingests'
+    require 'twitch_api/api/subscriptions'
+    require 'twitch_api/api/users'
+    require 'twitch_api/api/teams'
   end
 end
